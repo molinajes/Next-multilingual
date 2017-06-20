@@ -1,0 +1,345 @@
+<div class="entry">
+	<div class="body">
+
+		<div class="main__fullBackground">
+			<div class="header__container">
+				<header>
+					<img src="<%- header.logoSrc %>" alt="<%- header.imgAlt %>">
+					<p class="header__signUp">
+						<a style="color: rgba(35,35,35, 0.64)" href="/app/site/login" class="header__login">
+							<strong>Login&nbsp;&nbsp;</strong>
+						</a>
+						<strong>
+							<span>
+								<a href='/app/user/join'><%-header.title %></a>
+							</span>
+						</strong>
+					</p>
+				</header>
+			</div>
+		</div>
+
+		<div class="main__heroBackground">
+			<div class="main__container" id="main__container">
+
+				<div class="main__content">
+					<!-- Headings -->
+
+					<h1 class="main__headline"><%-headline.title2 %></h1>
+					<p class="main__tagline"><%-headline.subtitle %></p>
+
+					<!-- Sign Up Form -->
+					<div class="cta__container">
+						<h3 class="cta__heading"><%-signUp.title %></h3>
+						<div class="invite__container invite__container--orange">
+							<!-- <form action="https://reqfire.us13.list-manage.com/subscribe/post?u=c2e35a23f5bcaefe3f2657dfc&amp;id=f2a0e8e4c0&amp;LANDPAGE=BETALANDING" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
+								<div class="invite__cta">
+									
+									<input type="text" placeholder="<%- signUp.buttonPlaceholder %>" id="mce-EMAIL" name="EMAIL">
+									 
+									   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c2e35a23f5bcaefe3f2657dfc_<%-listId %>" tabindex="-1" value=""></div>
+
+								</div>
+								<div class="invite__button">
+									<input type="submit" value="<%- signUp.buttonText %>" name="subscribe" id="mc-embedded-subscribe" />
+								</div>
+							</form> -->
+							<a href="/app/user/join" class="invite__link">
+								<div class="invite__button">
+									<div class="invite__text">
+										<%- signUp.buttonText %>										
+									</div>
+								</div>
+							</a>
+						</div>	
+						<!-- /Sign Up Form -->			
+					</div>
+				</div>
+				<div class="screens__row">
+					<div class="screens__image">
+						<img src="/frontend-dev/landingPages/output/beta/assets/gather_screenshot_750.png" />
+						<h3 class="screens__heading--yellow">gather requirements...</h3>
+					</div>
+					<div class="screens__image">
+						<img src="/frontend-dev/landingPages/output/beta/assets/model_screenshot_750.png" />
+						<h3 class="screens__heading--orange">model how it works</h3>
+					</div>
+					<div class="screens__image">
+						<img src="/frontend-dev/landingPages/output/beta/assets/release_screenshot_750.png" />
+						<h3 class="screens__heading--mango">and get it built!</h3>
+					</div>
+				</div>
+			</div>
+			<!-- /Main Container -->
+		</div>
+		<!-- /Main heroBackground -->
+
+		<div class="feature__wrapper">
+			
+			<div class="feature__container">
+				<h2 class="feature__heading">
+					<%-benefits[0].title %>
+				</h2>
+				<div class="feature__content">
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--yellow">
+							<img class="iconic" data-src="<%-benefits[0].firstIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[0].firstHeading %>
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--yellow">
+							<img class="iconic" data-src="<%-benefits[0].secondIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[0].secondHeading %>
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--yellow">
+							<img class="iconic" data-src="<%-benefits[0].thirdIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[0].thirdHeading %>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="feature__gap feature__gap--yellow"></div>
+
+		<div class="feature__wrapper">
+			<div class="feature__container">
+				<h2 class="feature__heading">
+					<%-benefits[1].title %>
+				</h2>
+				<div class="feature__content">
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--orange">
+							<img class="iconic" data-src="<%-benefits[1].firstIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[1].firstHeading %>
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--orange">
+							<img class="iconic" data-src="<%-benefits[1].secondIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[1].secondHeading %>
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--orange">
+							<img class="iconic" data-src="<%-benefits[1].thirdIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[1].thirdHeading %>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="feature__gap feature__gap--orange"></div>
+
+		<div class="feature__wrapper">			
+			<div class="feature__container">
+				<h2 class="feature__heading">
+					<%-benefits[2].title %>
+				</h2>
+				<div class="feature__content">
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--mango">
+							<img class="iconic" data-src="<%-benefits[2].firstIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[2].firstHeading %>
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--mango">
+							<img class="iconic" data-src="<%-benefits[2].secondIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[2].secondHeading %>
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--mango">
+							<img class="iconic" data-src="<%-benefits[2].thirdIcon %>">
+						</div>
+						<p class="feature__description">
+							<%-benefits[2].thirdHeading %>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="feature__gap feature__gap--mango"></div>
+
+		<div class="cta__wrapper">
+			<div class="cta__container">
+				<h2 class="testimonial__quote">
+					<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-left-md.svg">reqfire saved us from making a false start<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-right-md.svg"> - <span class="testimonial__company">DPos</span>
+				</h2>
+				<!-- Sign Up Form -->
+				<div class="invite__container invite__container--mango">
+					<!-- <form action="https://reqfire.us13.list-manage.com/subscribe/post?u=c2e35a23f5bcaefe3f2657dfc&amp;id=f2a0e8e4c0&amp;LANDPAGE=BETALANDING" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
+						<div class="invite__cta">
+							
+							<input type="text" placeholder="<%- signUp.buttonPlaceholder2 %>" id="mce-EMAIL2" name="EMAIL">
+							 real people should not fill this in and expect good things - do not remove this or risk form bot signups
+							   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c2e35a23f5bcaefe3f2657dfc_<%-listId %>" tabindex="-1" value=""></div>
+
+						</div>
+						<div class="invite__button">
+							<input type="submit" value="<%- signUp.buttonText %>" name="subscribe" id="mc-embedded-subscribe" />
+						</div>
+					</form> -->
+					<a href="/app/user/join" class="invite__link">
+						<div class="invite__button">
+							<div class="invite__text">
+								<%- signUp.buttonText %>										
+							</div>
+						</div>
+					</a>
+				</div>	
+				<!-- /Sign Up Form -->				
+			</div>
+		</div>
+		<div class="callOut__container">
+			<div class="callOut__banner">
+				<h1 class="callOut__title"><%-callOut.title %></h1>
+				<div class="callOut__icons">
+					<div class="callOut__icon">
+						<img src="<%-callOut.firstIcon %>">
+					</div>
+					<div class="callOut__icon">
+						<img src="<%-callOut.secondIcon %>">
+					</div>
+					<div class="callOut__icon">
+						<img src="<%-callOut.thirdIcon %>">
+					</div>
+				</div>
+				<p class="callOut__subtitle"><%-callOut.subtitle %></p>
+			</div>
+		</div>
+
+		<!-- //////////////////////////////////////////////////// -->
+			<!-- START CONTENT  -->
+		<!-- //////////////////////////////////////////////////// -->
+
+
+
+		<div class="content__container">
+	
+			<!-- <h3 class="content__howto">
+				How to 
+				<span class="underline--yellow">model</span>
+				 a <span class="underline--orange">social chat bot</span> 
+				 in <span class="underline--mango">5&nbsp;steps</span></h3> -->
+			
+
+			<% for(var i=0; i<steps.length; i++) {%>
+			<div class="step__container step__textContent--color-<%= i %>">
+				<div class="step__mainTitle">
+					<div class="step__number">
+						<%= i+1%>
+					</div>
+					<h2 class="step__title">
+						<%-steps[i].title %>
+					</h2>
+				</div>
+				<div class="step__textImgRow">
+					<div class="step__textContent step__textContent--color-<%= i %>">
+						<p class="step__subpoint1"><%-steps[i].subPoint1 %></p>
+						<!-- <h4 class="step__features">Featuring:</h4>
+						<ul class="step__feature">
+							<% for(var j=0; j<steps[i].features.length; j++) {%>
+								<li><%-steps[i].features[j] %></li>
+							<% } %>
+						</ul> -->
+						<div class="step__img">
+							<!-- <img src="<%-steps[i].imgPath %>" alt="<%-steps[i].imgAlt %>"> -->						
+							<video autoplay muted loop>
+							  <source src="<%-steps[i].imgPath %>" type="video/webm">
+							Your browser does not support the video tag.
+							</video>
+							
+						</div>
+						<p class="step__subpoint2">
+							<%-steps[i].subPoint2 %>
+							<!-- <span class="step__spanUnderline"></span> -->
+						</p>
+					</div>
+				</div>
+				<div class="step__bottomBorder"></div>
+			</div>
+			<% } %>
+		</div>
+
+		<div class="cta__wrapper">
+			<div class="cta__container">
+				<h2 class="testimonial__quote">
+					<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-left-md.svg">reqfire is a key part of our outsourced technology development<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-right-md.svg"> - <span class="testimonial__company">Wine Genius</span>
+				</h2>
+				<!-- Sign Up Form -->
+				<div class="invite__container invite__container--yellow">
+					<!-- <form action="https://reqfire.us13.list-manage.com/subscribe/post?u=c2e35a23f5bcaefe3f2657dfc&amp;id=f2a0e8e4c0&amp;LANDPAGE=BETALANDING" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
+						<div class="invite__cta">
+							
+							<input type="text" placeholder="<%- signUp.buttonPlaceholder %>" id="mce-EMAIL3" name="EMAIL">
+							 real people should not fill this in and expect good things - do not remove this or risk form bot signups
+							   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c2e35a23f5bcaefe3f2657dfc_<%-listId %>" tabindex="-1" value=""></div>
+
+						</div>
+						<div class="invite__button">
+							<input type="submit" value="<%- signUp.buttonText2 %>" name="subscribe" id="mc-embedded-subscribe" />
+						</div>
+					</form> -->
+					<a href="/app/user/join" class="invite__link">
+						<div class="invite__button">
+							<div class="invite__text">
+								<%- signUp.buttonText %>										
+							</div>
+						</div>
+					</a>
+				</div>	
+				<!-- /Sign Up Form -->				
+			</div>
+		</div>
+
+		<div class="footer__fullBackground">
+			<footer>
+				<div class="footer__logo">
+					<img src="<%-header.footerLogoSrc %>" alt="<%- header.imgAlt %>">
+				</div>
+				<div class="footer__social">
+					<a href="https://www.facebook.com/reqfire">
+						<img class="iconic social__icon" data-src="/app/assets/icons/svg/social-facebook-md.svg">
+					</a>
+					<a href="https://www.twitter.com/reqfire">
+						<img class="iconic social__icon" data-src="/app/assets/icons/svg/social-twitter-md.svg">
+					</a>
+					<a href="https://www.linkedin.com/company/reqfire">
+						<img class="iconic social__icon" data-src="/app/assets/icons/svg/social-linkedin-md.svg">
+					</a>
+				</div>
+				<ul class="footer__listSignup">
+					<li><a href="/app/user/join">Sign&nbsp;Up</a></li>					
+					<li><a target="_blank" href="terms">Terms</a></li>
+					<li><a href="mailto:hello@reqfire.com">Contact: hello@reqfire.com</a></li>
+				</ul>
+			</footer>
+		</div>
+		<div class="drag__background"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="/app/themes/react/js/react/iconic.min.js"></script>

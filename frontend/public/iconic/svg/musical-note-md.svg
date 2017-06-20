@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="musical-note" class="iconic iconic-musical-note iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Musical Note</title>
+  </g>
+  <g class="iconic-container" data-width="31" data-height="32">
+    <path d="M7 4v18.422c-.613-.268-1.288-.422-2-.422-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5v-18.52c2.887-1.029 8.299-2.236 18-2.446v14.388c-.613-.268-1.288-.422-2-.422-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5v-25c-20 0-24 4-24 4z" class="iconic-property-fill"
+    />
+  </g>
+</svg>

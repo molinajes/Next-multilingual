@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="location" class="iconic iconic-location iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Location</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path d="M126.658.671l-125.317 62.658c-.741.37-.73.949.024 1.292l41.269 18.759c.754.343 1.643 1.232 1.986 1.986l18.759 41.269c.343.754.921.765 1.292.024l62.658-125.317c.371-.741.07-1.041-.671-.671z" class="iconic-property-fill" />
+  </g>
+</svg>

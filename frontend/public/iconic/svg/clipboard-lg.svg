@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="clipboard" class="iconic iconic-clipboard iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Clipboard</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-clipboard-clip-0">
+      <path d="M75.473 20c1.588 2.27 2.527 5.026 2.527 8v4h-68v-4c0-2.974.94-5.73 2.527-8h-12.527v105h88v-105h-12.527z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="88" data-height="125" transform="translate(20 1)">
+    <path clip-path="url(#iconic-size-lg-clipboard-clip-0)" d="M86.5 125h-85c-.828 0-1.5-.672-1.5-1.5v-102c0-.828.672-1.5 1.5-1.5h85c.828 0 1.5.672 1.5 1.5v102c0 .828-.672 1.5-1.5 1.5z" class="iconic-clipboard-board iconic-property-fill" />
+    <path d="M44 0c-6.617 0-12 5.383-12 12v10l24 .167v-10.166c0-6.617-5.383-12-12-12zm0 12c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z" class="iconic-clipboard-clip iconic-clipboard-clip-loop iconic-property-accent iconic-property-fill"
+    />
+    <path d="M12 28c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v2h-64v-2z" class="iconic-clipboard-clip iconic-clipboard-clip-base iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>

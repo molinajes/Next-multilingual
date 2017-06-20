@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="pointer" class="iconic iconic-pointer iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Pointer</title>
+  </g>
+  <g class="iconic-container" data-width="14" data-height="16" transform="translate(1)">
+    <path d="M.293 9.707c-.391-.391-.391-1.024 0-1.414.391-.391 1.024-.391 1.414 0 0 0 .905.744 1.293 1.063.396.325 1 .097 1-.356v-8c0-.552.448-1 1-1s1 .448 1 1v4.105c0 .51.383.938.89.994l5.362.68c.999.127 1.748.977 1.748 1.984v2.238c0 2.761-2.239 5-5 5-1.288 0-2.45-.5-3.336-1.3l-5.371-4.993z"
+    class="iconic-property-fill" />
+  </g>
+</svg>

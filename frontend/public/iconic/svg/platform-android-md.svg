@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="platform-android" width="32" height="32" class="iconic iconic-platform iconic-size-md iconic-platform-android" viewBox="0 0 32 32">
+  <g>
+    <title>Platform Android</title>
+  </g>
+  <!-- Android -->
+  <!-- Apple -->
+  <!-- Linux -->
+  <!-- Microsoft -->
+  <!-- Android -->
+  <g data-width="28" data-height="32" class="iconic-container iconic-platform-android" transform="scale(1 1 ) translate(2 ) ">
+    <path d="M1.975 10.351c-1.091-.001-1.975.885-1.975 1.975l.001 8.271c0 1.093.885 1.976 1.975 1.976 1.091 0 1.976-.883 1.974-1.976v-8.272c0-1.089-.886-1.975-1.976-1.974" class="iconic-platform-android-arm iconic-platform-android-arm-left iconic-property-fill"></path>
+    <path d="M27.085 12.322c0-1.091-.884-1.975-1.975-1.975-1.091-.001-1.975.885-1.974 1.976l.001 8.271c0 1.092.884 1.974 1.975 1.975 1.091 0 1.974-.883 1.974-1.976l-.002-8.271z" class="iconic-platform-android-arm iconic-platform-android-arm-right iconic-property-fill"></path>
+    <path d="M4.716 10.724l.003 12.817c-.001 1.166.942 2.107 2.107 2.107l1.435.001.002 4.376c0 1.089.885 1.975 1.973 1.975 1.091 0 1.976-.886 1.976-1.977l-.001-4.375 2.666-.001.001 4.376c0 1.089.886 1.976 1.974 1.974 1.091.001 1.976-.886 1.976-1.976l-.001-4.375 1.44-.001c1.163 0 2.108-.942 2.108-2.108l-.002-12.818-17.658.003z"
+    class="iconic-platform-android-body iconic-property-fill"></path>
+    <path d="M17.902 2.924l1.379-2.518c.073-.132.025-.299-.108-.373-.135-.071-.3-.023-.372.11l-1.392 2.544c-1.172-.521-2.483-.814-3.87-.812-1.384-.001-2.694.29-3.861.808l-1.394-2.537c-.072-.134-.239-.182-.371-.109-.134.072-.183.24-.109.371l1.379 2.515c-2.71 1.398-4.541 4.059-4.539 7.114l17.791-.002c.001-3.055-1.827-5.71-4.533-7.111zm-8.41 3.89c-.41-.001-.743-.334-.743-.745 0-.41.333-.747.744-.747.412 0 .746.337.747.747 0 .411-.334.745-.747.745zm8.101-.001c-.411.001-.746-.333-.746-.746.001-.409.334-.746.746-.747.409.001.745.338.744.748.001.412-.333.745-.745.745z"
+    class="iconic-platform-android-head iconic-property-fill"></path>
+  </g>
+  <!-- Apple -->
+  <!-- Linux -->
+  <!-- Microsoft -->
+  <!-- Android -->
+  <!-- Apple -->
+  <!-- Linux -->
+  <!-- Microsoft -->
+</svg>

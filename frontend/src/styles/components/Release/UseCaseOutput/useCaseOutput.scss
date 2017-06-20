@@ -1,0 +1,117 @@
+.flowOutput__container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	@include margin-section($margin-section-medium);
+	
+}
+
+%flowOutput__cell {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.flowOutput__table {
+	box-shadow: $elevation-shadow-0;
+	display: flex;
+	flex-direction: column;
+	@include padding-centered-text($padding-text-large);
+	@include padding-box($padding-box-large);
+	@include margin-section($margin-section-medium);
+}
+
+.flowOutput__tableHead {
+	@extend %text--titleLabel;
+	color: $palette-text-inactive;
+		.flowOutput__cell {
+			border-bottom: 1px dashed $palette-border;
+		}
+}
+
+.flowOutput__tableHead, .stepOutput__tableRow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.stepOutput__tableRow {
+	@include padding-box($padding-box-medium);
+	border-bottom: 1px dashed $palette-border-transparent;
+		.stepOutput__step {
+			@extend %flowOutput__cell;
+			// justify-content: center;
+			// align-items: center;
+			// border-right-color: $palette-border;
+		}
+		.stepOutput__components {
+			@extend %flowOutput__cell;
+		}
+}
+
+.stepOutput__step {
+	margin-right: 1rem;
+}
+
+.stepOutput__activity {
+	display: flex;
+	flex-direction: column;
+	margin-right: 1rem;
+	// @extend %editTable__cell;	
+}
+.stepOutput__components {
+	// @extend %editTable__cell;
+}
+
+.stepOutput__action {
+	@include padding-box($padding-box-x-small);
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+}
+
+.stepOutput__response {
+	@include padding-box($padding-box-x-small);
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+}
+
+.stepOutput__componentItem {
+	@extend %subject__list;
+}
+
+.stepOutput__componentName {
+	@extend %margin--textBlock;
+		a {
+			color: $palette-text-inactive;
+			text-decoration: none;
+		}
+}
+
+.flowOutput__tableHead, .stepOutput__tableRow {
+		.flowOutput__cell:first-child {
+			width: 2.5rem;
+			text-align: center;
+		}
+		.flowOutput__cell:nth-child(2) {
+			width: 55%;
+			// width: 8rem;
+		}
+		.flowOutput__cell:nth-child(3) {
+			flex-grow: 1;
+		}
+}
+
+.stepOutput__componentType {
+	// font-size: 1.25em;
+}
+
+.stepOutput__component {
+	padding-left: 1em;
+}

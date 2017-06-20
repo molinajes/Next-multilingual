@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="carriage-return" class="iconic iconic-carriage-return iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Carriage Return</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="10" transform="translate(0 3)">
+    <path stroke="#000" stroke-width="2" d="M2 7h10c1.657 0 3-1.343 3-3s-1.343-3-3-3h-3" class="iconic-carriage-return-stem iconic-property-stroke" fill="none" />
+    <path class="iconic-carriage-return-head iconic-property-fill" d="M0 7l3-3v6z" />
+  </g>
+</svg>

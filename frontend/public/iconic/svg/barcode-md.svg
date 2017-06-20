@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="barcode" class="iconic iconic-barcode iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Barcode</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="20" transform="translate(0 6)">
+    <path class="iconic-barcode-bar iconic-barcode-bar-12 iconic-property-fill" d="M31 0h1v20h-1z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-11 iconic-property-fill" d="M28 0h2v20h-2z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-10 iconic-property-fill" d="M26 0h1v20h-1z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-9 iconic-property-fill" d="M21 0h4v20h-4z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-8 iconic-property-fill" d="M19 0h1v20h-1z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-7 iconic-property-fill" d="M17 0h1v20h-1z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-6 iconic-property-fill" d="M15 0h1v20h-1z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-5 iconic-property-fill" d="M12 0h2v20h-2z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-4 iconic-property-fill" d="M10 0h1v20h-1z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-3 iconic-property-fill" d="M7 0h2v20h-2z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-2 iconic-property-fill" d="M2 0h4v20h-4z" />
+    <path class="iconic-barcode-bar iconic-barcode-bar-1 iconic-property-fill" d="M0 0h1v20h-1z" />
+  </g>
+</svg>

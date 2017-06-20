@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="settings" class="iconic iconic-settings iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Settings</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-settings-clip-0">
+      <path d="M94 58.25c-8.96 0-16.25-7.29-16.25-16.25s7.29-16.25 16.25-16.25c8.024 0 14.69 5.851 16 13.507v-39.257h-110v30.271c2.731-4.926 7.98-8.271 14-8.271 8.822 0 16 7.178 16 16s-7.178 16-16 16c-6.02 0-11.27-3.345-14-8.271v82.271h110v-83.257c-1.31 7.656-7.976 13.507-16 13.507zm-40 51.75c-8.822 0-16-7.178-16-16s7.178-16 16-16 16 7.178 16 16-7.178 16-16 16z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="110" data-height="128" transform="translate(9)">
+    <path stroke="#000" stroke-width="8" stroke-linecap="round" clip-path="url(#iconic-size-lg-settings-clip-0)" class="iconic-settings-line iconic-settings-line-1 iconic-property-accent iconic-property-stroke" fill="none" d="M14 4v120" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="round" clip-path="url(#iconic-size-lg-settings-clip-0)" class="iconic-settings-line iconic-settings-line-2 iconic-property-accent iconic-property-stroke" fill="none" d="M54 4v120" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="round" clip-path="url(#iconic-size-lg-settings-clip-0)" class="iconic-settings-line iconic-settings-line-3 iconic-property-accent iconic-property-stroke" fill="none" d="M94 4v120" />
+    <path d="M94 28c-7.72 0-14 6.28-14 14s6.28 14 14 14 14-6.28 14-14-6.28-14-14-14z" class="iconic-settings-knob iconic-settings-knob-3 iconic-property-fill" />
+    <path d="M54 80c-7.72 0-14 6.28-14 14s6.28 14 14 14 14-6.28 14-14-6.28-14-14-14z" class="iconic-settings-knob iconic-settings-knob-2 iconic-property-fill" />
+    <path d="M14 24c-7.72 0-14 6.28-14 14s6.28 14 14 14 14-6.28 14-14-6.28-14-14-14z" class="iconic-settings-knob iconic-settings-knob-1 iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="power-standby" class="iconic iconic-power-standby iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Power Standby</title>
+  </g>
+  <g class="iconic-container" data-width="111" data-height="125" transform="translate(8 1)">
+    <path stroke="#000" stroke-width="8" d="M71.462 20.338c18.502 5.755 32.617 21.894 35.82 41.007 3.238 19.325-4.904 39.228-20.746 50.748-16.009 11.643-37.927 13.081-55.324 3.631-17.1-9.29-27.748-27.81-27.191-47.257.556-19.427 12.333-37.321 29.922-45.571 2.136-1.002 4.34-1.857 6.592-2.558"
+    class="iconic-power-standby-circle iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-power-standby-line iconic-property-accent iconic-property-stroke" fill="none" d="M55.999 4v32" />
+  </g>
+</svg>

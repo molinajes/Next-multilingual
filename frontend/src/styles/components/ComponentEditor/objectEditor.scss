@@ -1,0 +1,59 @@
+.objectEditor__container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+}
+
+.objectEditor__sectionContent {
+	background-color: $palette-background;
+}
+
+.objectEditorRow__inputDiv {
+	@extend %inputField__cellDiv;
+	@extend %cellBorder--primary;
+}
+
+.objectEditor__table {
+	@extend %editTable;
+}
+
+.objectEditor__tableHead {
+	@extend %editTable__tableHead;
+}
+
+.objectEditor__row {
+	@extend %editTable__row;
+	@extend %editTable__row--primaryHover;
+}
+
+.objectEditor__cell {
+	@extend %editTable__cell;
+}
+
+.objectEditor__cell--text {
+	@extend %editTable__cell--text;
+}
+
+.objectEditor__addRowCell {
+	@extend %editTable__addRowCell;
+}
+
+.objectEditor__tableHead, .objectEditor__row {
+		.objectEditor__cell:first-child {
+			width: 2rem;
+			text-align: center;
+		}
+		.objectEditor__cell:nth-child(2) {
+			width: 30%;
+		}
+		.objectEditor__cell:nth-child(3) {
+			width: 65%;
+		}
+		.objectEditor__cell:nth-child(4) {
+			width: 4rem;
+		}
+}

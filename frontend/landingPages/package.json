@@ -1,0 +1,22 @@
+{
+  "name": "reqfireLandingPageGenerator",
+  "version": "1.0.0",
+  "description": "Generates landing pages using ejs",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles/main.scss:output/styles/main.css",
+    "sassBeta": "sass --watch styles/media.scss:output/styles/beta/main.css",
+    "sassSite": "sass --watch styles/siteMedia.scss:../../app/themes/react/css/main.css",
+    "start": "nodemon --watch js index.js",
+    "buildBeta": "nodemon --watch js/partials --watch js/content/beta -e js,ejs,json beta_index.js",
+    "copyToLocation": "bash moveFiles.sh"
+  },
+  "author": "ReqFire",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

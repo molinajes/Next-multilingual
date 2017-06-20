@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="list-nested" class="iconic iconic-list-nested iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>List Nested</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="14" transform="translate(0 1)">
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-4 iconic-property-stroke" fill="none" d="M9 13h5" />
+    <path class="iconic-list-nested-list-dot iconic-list-nested-list-dot-4 iconic-property-accent iconic-property-fill" d="M4 12h2v2h-2z" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-3 iconic-property-stroke" fill="none" d="M13 9h2" />
+    <path class="iconic-list-nested-list-dot iconic-list-nested-list-dot-3 iconic-property-accent iconic-property-fill" d="M8 8h2v2h-2z" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-2 iconic-property-stroke" fill="none" d="M9 5h4" />
+    <path class="iconic-list-nested-list-dot iconic-list-nested-list-dot-2 iconic-property-accent iconic-property-fill" d="M4 4h2v2h-2z" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-1 iconic-property-stroke" fill="none" d="M5 1h10" />
+    <path class="iconic-list-nested-list-dot iconic-list-nested-list-dot-1 iconic-property-accent iconic-property-fill" d="M0 0h2v2h-2z" />
+  </g>
+</svg>

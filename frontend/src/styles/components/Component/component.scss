@@ -1,0 +1,34 @@
+.component__selector {
+	cursor: pointer;
+	position: relative;
+	outline: none;
+}
+
+.component__selector--active {
+		.component__icon {
+			background-color: $palette-yellow-bg;
+				.iconColor--primary {
+					@include iconic-color($palette-primary, $active);
+				}
+		}
+		.component__count {
+			@include text--activity($active);
+		}
+}
+
+.component__selector--enabled {
+	background-color: $palette-yellow-bg;
+}
+
+.component__count {
+	@include text-sb-size($text-small);
+	@include text--activity($inactive);
+	position: absolute;
+	bottom: 0.3rem;
+	right: 0.2rem;
+}
+.component__icon {
+	 .iconColor--primary {
+	 	@include iconic-color($palette-primary, $weak);
+	 }
+}

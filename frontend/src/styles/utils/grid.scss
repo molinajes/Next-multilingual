@@ -1,0 +1,110 @@
+$page-width: 1680px;
+
+$grid-buffer: 1rem;
+$grid-column: 5rem;
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Grid // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+@mixin grid-width($grid-number) {
+	width: ($grid-number*$grid-column)+$grid-buffer;
+}
+
+@mixin grid-flex($flex-grow: 1) {
+	flex: $flex-grow;
+}
+
+%innerPage-width {
+	@include grid-width(12); // TODO: convert to flex | AjH
+	margin-left: auto;
+	margin-right: auto;
+}
+
+%indexPage-width {
+	@include grid-width(13); // TODO: convert to flex | AjH
+	margin-left: auto;
+	margin-right: auto;
+}
+
+%grid--modules {
+	@include grid-width(4);
+}
+
+%grid--requirements {
+	@include grid-flex;
+}
+
+%grid--linkedComponents {
+	@include grid-width(2);
+}
+
+%grid--components {
+	@include grid-flex;
+}
+
+%grid--packages {
+	@include grid-width(4);
+}
+
+%grid--usecases {
+	@include grid-flex;
+}
+
+%grid--steps {
+	@include grid-width(2);
+}
+
+%grid--release {
+	@include grid-width(4);
+}
+
+%grid--releaseSettings {
+	@include grid-flex;
+}
+
+%grid--edit {
+	@include grid-width(1);
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Columns // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // //
+
+@mixin grid-padding($left: 1, $right: 1) {
+	padding-left: $left*0.25rem;
+	padding-right: $right*0.25rem;
+	padding-top: 0.25rem;
+	padding-bottom: 1.5rem;
+}
+
+%gridPadding {
+	@include grid-padding(3,3);
+}
+
+%gridPadding--left {
+	@include grid-padding(6,3);
+}
+
+%gridPadding--right {
+	@include grid-padding(3,6);
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // grid border // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // //
+
+@mixin grid-border-left($color: $palette-primary) {
+	border-left: 0.5px solid rgba($color, $strong);
+	box-shadow: inset 0.5px 0px 8px rgba($color, $inactive);
+}
+
+@mixin grid-cellBorder-left($color: $palette-primary) {
+	border-left: 0.5px solid rgba($color, $strong);
+	box-shadow: inset 0.5px 0px 2px rgba($color, $inactive);
+}
+
+@mixin grid-border-right($color: $palette-primary) {
+	border-right: 0.5px solid rgba($color, $strong);
+	box-shadow: inset 0.5px 0px 8px rgba($color, $inactive);
+}

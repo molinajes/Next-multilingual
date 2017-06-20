@@ -1,0 +1,459 @@
+@import './base.scss';
+$mobile: new-breakpoint(max-width 600px 4);
+$phablet: new-breakpoint(max-width 939px, 4);
+
+// Main
+
+.header__container {
+	@include outer-container;
+	// box-shadow: 2px 0 2px $palette-shadow-faint,
+	// 			-2px 0 2px $palette-shadow-faint;
+	width: 100%;
+	left: 10%;
+	// background-color: rgba($palette-light, $strong);
+}
+
+header {
+	@include outer-container;
+	@include span-columns(12);
+	@include media($phablet) {
+	  @include span-columns(4);
+	}
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+		img {
+			padding-left: 5%;
+			width: 100%;
+			height: 100%;
+			max-height: 45px;
+			min-height: 30px;
+			max-width: 400px;
+			min-width: 130px;
+			@include span-columns(2);
+			@include media($mobile) {
+			  @include span-columns(2);
+			}
+			@include media($phablet) {
+			  @include span-columns(1);
+			}
+		}
+		p {
+			@include span-columns(10);
+			@include media($mobile) {
+			  @include span-columns(4);
+			}
+			@include media($phablet) {
+			  @include span-columns(4);
+			}
+			text-align: right;
+			padding-right: 5%;
+			margin-top: 0.75rem;
+			word-spacing: 1px;
+		}
+}
+
+.main__fullBackground {
+	background-color: $palette-background;
+}
+
+%content-container {
+	background-color: $palette-light;
+	// box-shadow: 1px 0 3px $palette-shadow-faint,
+	// 			-1px 0 3px $palette-shadow-faint;
+}
+
+.main__heroBackground {
+	// @include outer-container;
+	background: url("/pages/assets/landing/hero-image.png") $palette-light;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.main__container {
+	// @include span-columns(12);
+	@include outer-container;
+	padding: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	// box-shadow: 0 2px 4px $palette-shadow-faint;
+}
+.main__titleGroup {
+	@include span-columns(7);
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($phablet) {
+	  @include span-columns(4);
+	}
+		h3 {
+			@extend %text--subTitle;
+		}
+}
+
+.signUp__container {
+	@include span-columns(5);
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($phablet) {
+	  @include span-columns(4);
+	}
+	background-color: $palette-orange-transparent;
+	box-shadow: 2px 4px 5px $palette-shadow-faint;
+		h4 {
+			// color: $palette-text-strong;
+			font-weight: $font-light;
+			font-size: 1.5rem;
+			margin-bottom: 0.5rem;
+			margin-left: 1.4rem;
+			margin-right: 1.5rem;
+		}
+}
+
+.signUp__form {
+	width: 100%;
+	padding: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.mc-field-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.75rem;
+		label {
+			font-size: 1rem;
+			font-weight: $font-sb;
+			margin-bottom: 0.5rem;
+		}
+		input {
+			height: 2rem;
+			font-weight: $font-light;
+			background-color: $palette-light-transparent;
+			border-bottom: 2px solid rgba($palette-orange, 0);
+			padding: 0.25rem;
+			padding-bottom: 0.125rem;
+			&:focus {
+				border-bottom: 2px solid $palette-orange;
+			}
+		}
+}
+
+.clear {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5rem;
+	background-color: $palette-orange;
+	border-radius: 0.25rem;
+	input[type=submit] {
+		padding: 0.5rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		width: 100%;
+		text-align: center;
+		font-size: 1.25rem;
+		font-weight: $font-sb;
+		color: $palette-textLight-strong;
+		cursor: pointer;
+		&:hover {
+			box-shadow: 3px 3px 5px $palette-shadow-faint;
+		}
+	}
+}
+
+.signUp__button {
+		p {
+			display: inline-block;
+		}
+		div {
+			display: inline-block;
+			border: 1px solid $palette-mango;
+		}
+}
+
+.content-container {
+	@extend %content-container;
+	@include outer-container;
+}
+
+%section-container {
+	@include span-columns(12);
+	padding: 5%;
+}
+
+.primary__container {
+	@extend %section-container;
+}
+
+%section-titleGroup {
+	@include span-columns(6);
+	margin-bottom: 1rem;
+	@include media($mobile) {
+		@include span-columns(4);
+	}
+	@include media($phablet) {
+		  @include span-columns(4);
+		  	p {
+		  		width: 80%;
+		  	}
+	}
+		p {
+			width: 70%;
+			padding-bottom: 0.5rem;
+			&:last-child {
+				padding-bottom: 1rem;
+				border-bottom-width: 0.5rem;
+				border-bottom-style: solid;
+				color: $palette-text-active;
+			}
+		}
+}
+
+.primary__titleGroup {
+	@extend %section-titleGroup;
+	// margin-right: auto;
+		p {
+			margin-left: 0.25rem;
+				&:last-child {
+					border-bottom-color: $palette-yellow;
+				}
+		}
+}
+
+%section-img {
+	// // border: 2px dashed violet;
+	// margin: 2.5%;
+	@include span-columns(6);
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+	@include media($mobile) {
+			  @include span-columns(4);
+			}
+	@include media($phablet) {
+		@include span-columns(4);
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+		img {
+			width: 100%;
+			height: 100%;
+		}
+}
+
+.primary__img {
+	@extend %section-img;
+	// margin-right: auto;
+	// height: 100%;
+}
+
+.secondary__container {
+	@extend %section-container;
+	@include media($mobile) {
+		@include direction-context(right-to-left);
+		}
+}
+.secondary__titleGroup {
+	@extend %section-titleGroup;
+	@include media($mobile) {
+		display: none;
+		}
+	@include media($phablet) {
+		display: none;
+		}
+	text-align: right;
+		p {
+			margin-right: 0.25rem;
+			margin-left: auto;
+				&:last-child {
+					border-bottom-color: $palette-orange;
+				}
+		}
+}
+.secondary__titleGroup--mobile {
+	@extend %section-titleGroup;
+	text-align: right;
+	padding-bottom: 1rem;
+		p {
+			margin-right: 0.25rem;
+			margin-left: auto;
+				&:last-child {
+					border-bottom-color: $palette-orange;
+				}
+		}
+
+	display: none;
+	@include media($mobile) {
+		display: inherit;
+		}
+	@include media($phablet) {
+		display: inherit;
+		}
+}
+.secondary__img {
+	@extend %section-img;
+}
+
+.testimonial__fullBackground {
+	background-color: $palette-text-active;
+}
+
+.testimonial__container {
+	@include outer-container;
+	// @include span-columns(12);
+	
+	background: url("/pages/assets/landing/testimonial_picture.png") $palette-primary;
+	background-size: cover;
+	padding-top: 2.5%;
+	padding-bottom: 2%;
+}
+
+.testimonial__quoteBlock {
+	@include span-columns(5);
+	@include shift(1);
+		&:last-child {
+			@include shift(0);
+		}
+	@include media($mobile) {
+		@include span-columns(4);
+		@include shift(0);
+	}
+	@include media($phablet) {
+		@include span-columns(4);
+		@include shift(0);
+	}
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		blockquote {
+			background-color: rgba($palette-background, $active);
+			padding: 0.5rem;
+			padding-top: 0.75rem;
+			border-radius: 0.125rem;
+			hyphens: auto;
+			font-style: italic;
+			text-align: center;
+			color: $palette-text-active;
+				span {
+					font-style: normal;
+					color: $mango-500;
+					// color: $palette-mango-bg;
+				}
+		}
+		img {
+			max-width: 265px;
+			margin-top: 1rem;
+			&:last-child {
+				margin-left: 2rem;
+			}
+		}
+}
+
+.bannerCta__fullBackground {
+	background-color: $palette-orange;
+}
+.bannerCta__container {
+	@include outer-container;
+	// @include span-columns(12);
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.bannerCta__ctaGroup--spacing {
+	width: 10%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+		&:first-child {
+			background-color: $palette-yellow;
+		}
+		&:last-child {
+			background-color: $palette-mango;
+		}
+}
+.bannerCta__ctaGroup {
+	width: 80%;
+	display: flex;
+	background-color: $palette-orange;
+	align-items: center;
+	justify-content: center;
+	@include media($mobile) {
+		@include span-columns(4);
+		@include omega;
+	}
+		h3 {
+			display: inline-block;
+			padding-right: 1rem;
+			@include media($mobile) {
+				@include span-columns(2);
+				@include shift(1);
+				padding-right: 0;
+			}
+		}
+}
+
+.bannerCta__button {
+	@include media($mobile) {
+		@include span-columns(3);
+		margin-left: 12.5%;
+		margin-bottom: 5%;
+	}
+	display: inline-block;
+	background-color: $palette-light;
+	border-radius: 0.25rem;
+	width: auto;
+	padding: 0.25rem;
+	border: 2px solid $palette-orange-bg;
+	box-shadow: 1px 1px 2px $palette-shadow-faint;
+	text-align: center;
+		a {
+			text-decoration: none;
+			color: $palette-text-active;
+			font-weight: $font-sb;
+			padding: 0.5rem;
+			padding-right: 0.75rem;
+			padding-left: 0.75rem;
+		}
+		&:hover {
+			box-shadow: 3px 3px 5px $palette-shadow-faint;
+				a {
+					color: $palette-orange;
+				}
+		}
+}
+
+.footer__fullBackground {
+	background-color: $palette-text-active;
+}
+footer {
+	@include outer-container;
+	// @extend %content-container;
+	background-color: $palette-text;
+	padding: 0.5rem;
+		ul {
+			margin: 0;
+				li {
+					padding: 0.5rem;
+					list-style: none;
+				}
+				a {
+					color: $palette-light;
+					text-decoration: none;
+					border-bottom: 1px dashed $palette-orange;
+						&:hover {
+							color: $palette-orange;
+						border-bottom-style: solid;
+						}
+				}
+		}
+}
+.footer__listContact {
+		@include span-columns(8);
+		text-align: right;
+}
+.footer__listSignup {
+		@include span-columns(4);
+		display: flex;
+		flex-direction: row;
+}

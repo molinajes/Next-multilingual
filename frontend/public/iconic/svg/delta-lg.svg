@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="delta" class="iconic iconic-delta iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Delta</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path d="M64 0l-64 127.999v.001h128l-64-128zm-58 123.999l54-107.999 54 108h-108v-.001z" class="iconic-property-fill" />
+  </g>
+</svg>

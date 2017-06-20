@@ -1,0 +1,11 @@
+@mixin iconic-color($iconColour: $palette-primary, $iconOpacity: $strong) {
+	.iconic * {
+		fill: rgba($iconColour, $iconOpacity);
+		stroke: rgba($iconColour, $iconOpacity);
+	}
+}
+
+.iconic * {
+	fill: rgba($palette-primary, 1);
+	stroke: rgba($palette-primary, 1);
+}

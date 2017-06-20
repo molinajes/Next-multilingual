@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="rainy" class="iconic iconic-rainy iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Rainy</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-rainy-clip-0">
+      <path d="M0 0v86h30v-2c0-4.418 3.582-8 8-8 1.459 0 2.822.397 4 1.079v-1.079c0-4.418 3.582-8 8-8s8 3.582 8 8v1.079c1.178-.682 2.541-1.079 4-1.079s2.822.397 4 1.079v-1.079c0-4.418 3.582-8 8-8s8 3.582 8 8v.262c.64-.165 1.308-.262 2-.262 4.418 0 8 3.582 8 8v2h36v-86h-128z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="128" data-height="114" transform="translate(0 7)">
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-rainy-rain-droplet iconic-rainy-rain-droplet-5 iconic-property-accent iconic-property-stroke" fill="none" d="M38 84v22" />
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-rainy-rain-droplet iconic-rainy-rain-droplet-4 iconic-property-accent iconic-property-stroke" fill="none" d="M50 76v36" />
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-rainy-rain-droplet iconic-rainy-rain-droplet-3 iconic-property-accent iconic-property-stroke" fill="none" d="M62 84v24" />
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-rainy-rain-droplet iconic-rainy-rain-droplet-2 iconic-property-accent iconic-property-stroke" fill="none" d="M74 76v36" />
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-rainy-rain-droplet iconic-rainy-rain-droplet-1 iconic-property-accent iconic-property-stroke" fill="none" d="M84 84v22" />
+    <path d="M110 86c9.925 0 18-8.075 18-18s-8.075-18-18-18c-.711 0-1.311-.081-2 0-.871-8.409-7.602-15.091-16-16-.986-18.976-16.783-34-36-34-18.8 0-34.415 14.604-36 33-11.578 3.042-20 13.481-20 26 0 14.552 11.575 26.471 26 27h84z" clip-path="url(#iconic-size-lg-rainy-clip-0)"
+    class="iconic-rainy-cloud iconic-property-fill" />
+  </g>
+</svg>

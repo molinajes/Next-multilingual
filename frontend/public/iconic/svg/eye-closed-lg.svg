@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="eye-closed" width="128" height="128" class="iconic iconic-eye iconic-size-lg iconic-eye-closed" viewBox="0 0 128 128">
+  <g>
+    <title>Eye Closed</title>
+  </g>
+  <g data-width="128" data-height="100" class="iconic-container iconic-eye-closed" transform="translate(0 14 ) scale(1 1 ) ">
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-eye-closed-strike iconic-property-stroke" fill="none" d="M21 93l86-86"></path>
+    <path d="M26.549 76.138c-17.076-11.15-26.549-26.138-26.549-26.138s24-38 64.5-38c8.034 0 15.414 1.588 22.094 4.093l-12.247 12.247c-3.133-1.499-6.641-2.34-10.346-2.34-13.255 0-24 10.745-24 24 0 3.705.841 7.213 2.34 10.346l-15.791 15.791zm74.999-52.372l-15.888 15.888c1.499 3.133 2.34 6.641 2.34 10.346 0 13.255-10.745 24-24 24-3.705 0-7.213-.841-10.346-2.34l-12.111 12.111c6.905 2.584 14.571 4.229 22.958 4.229 39.5 0 63.5-38 63.5-38s-9.53-15.074-26.452-26.235z"
+    class="iconic-eye-closed-eyeball iconic-property-fill"></path>
+  </g>
+</svg>

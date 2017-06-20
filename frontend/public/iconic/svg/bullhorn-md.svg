@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="bullhorn" class="iconic iconic-bullhorn iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Bullhorn</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-bullhorn-clip-0">
+      <path d="M2 0h26v22h-26z" />
+    </clipPath>
+    <clipPath id="iconic-size-md-bullhorn-clip-1">
+      <path d="M29 0h3v22h-3z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="32" data-height="30" transform="translate(0 1)">
+    <path d="M14.814 29.536l-4.667-11.667c-.276-.665.332-1.712 1.399-1.369l-.547-2.5-6-1v3h.4l5.414 13.536c.102.255.411.464.686.464h3c.275 0 .416-.209.314-.464z" class="iconic-bullhorn-handle iconic-property-fill" />
+    <path d="M2.5 15h-2c-.276 0-.5-.224-.5-.5v-7c0-.276.224-.5.5-.5h2c.276 0 .5.224.5.5v7c0 .276-.224.5-.5.5z" class="iconic-bullhorn-body iconic-bullhorn-body-back iconic-property-fill" />
+    <path d="M2 15.5v-9c0-.276.224-.5.5-.5h7c.276 0 .713-.069.975-.155l17.478-5.69c.263-.085.699-.155.976-.155h2.571c.276 0 .5.224.5.5v21c0 .276-.224.5-.5.5h-2.571c-.276 0-.713-.069-.975-.155l-17.478-5.69c-.263-.085-.699-.155-.976-.155h-7c-.276 0-.5-.224-.5-.5z"
+    clip-path="url(#iconic-size-md-bullhorn-clip-0)" class="iconic-bullhorn-body iconic-property-fill" />
+    <path d="M28.5 0h3c.276 0 .5.224.5.5v21c0 .276-.224.5-.5.5h-3c-.276 0-.5-.224-.5-.5v-21c0-.276.224-.5.5-.5z" clip-path="url(#iconic-size-md-bullhorn-clip-1)" class="iconic-bullhorn-body iconic-bullhorn-body-front-lip iconic-property-fill" />
+  </g>
+</svg>

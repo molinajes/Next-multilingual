@@ -1,0 +1,41 @@
+{
+	"module": "grid-four-up",
+	"requirement": "chat",
+	"detail": "screenshot",
+
+	"package": "list-rich",
+	"useCase": "fire",
+	"usecase": "fire",
+	"step": "project",
+
+	"add": "plus-thin",
+
+	"interfaces": "laptop",
+	"iface": "laptop",
+	"rules": "cogs",
+	"rule": "cogs",
+	"forms": "list-rich",
+	"form": "task",
+	"objects": "connections",
+	"object": "connections",
+
+
+	"overview": "home",
+	"actor": "person-genderless",
+	"useCase": "fire",
+	"requirement": "chat",
+	"detail": "screenshot",
+
+	"edit": "pencil",
+	"edit2": "pencil",
+
+	"save": "document",
+	"linked": "link-intact",
+
+	"close": "plus-thin",
+
+	"expand": "fullscreen-enter",
+	"collapse": "fullscreen-exit",
+
+	"logout": "account-logout"
+}

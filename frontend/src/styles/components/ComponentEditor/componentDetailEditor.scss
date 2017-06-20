@@ -1,0 +1,117 @@
+.componentDetailEditor__container { // TODO: fix this? | AjH
+	display: flex;
+	flex-direction: row;
+	// @extend %height--modalTitle;
+	margin-top: 0rem;
+	align-items: center;
+	justify-content: flex-start;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid $palette-border-transparent;
+}
+
+.componentEditorName {
+	display: flex;
+	min-width: 16rem;
+	// max-width: 50%;
+	flex: 1;
+	margin-right: 1rem;
+}
+
+.componentEditorDescription {
+	display: flex;
+	flex: 1;
+}
+
+%componentEditorName__div {
+	@extend %inputField__singleLine;
+	@extend %inputField__iconLabel;
+	@extend %inputField__div--title;
+}
+
+.componentEditorName__div--overview, .componentEditorName__div--iface {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--mango;
+	@extend %inputField__div--mango;
+}
+
+.componentEditorDescription__div--overview, .componentEditorDescription__div--iface {
+	@extend %inputField__div--mango;
+	@extend %inputField__multiLine;
+}
+
+.componentEditorName__div--rule {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--orange;
+	@extend %inputField__div--orange;
+}
+
+.componentEditorDescription__div--rule {
+	@extend %inputField__div--orange;
+	@extend %inputField__multiLine;
+}
+
+.componentEditorName__div--form, .componentEditorName__div--useCase {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--yellow;
+	@extend %inputField__div--yellow;
+}
+
+.componentEditorDescription__div--form, .componentEditorDescription__div--useCase {
+	@extend %inputField__div--yellow;
+	@extend %inputField__multiLine;
+}
+
+.componentEditorName__div--object {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--primary;
+	@extend %inputField__div--primary;
+}
+
+.componentEditorDescription__div--object {
+	@extend %inputField__div--primary;
+	@extend %inputField__multiLine;
+}
+
+.componentEditorName__div--requirement {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--primary;
+	@extend %inputField__div--primary;
+}
+
+.componentEditorDescription__div--requirement {
+	@extend %inputField__div--primary;
+	@extend %inputField__multiLine;
+}
+
+.componentEditorName__div--detail {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--primary;
+	@extend %inputField__div--primary;
+}
+
+.componentEditorDescription__div--detail {
+	@extend %inputField__div--primary;
+	@extend %inputField__multiLine;
+}
+
+.componentEditorName__div--package {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--orange;
+	@extend %inputField__div--orange;
+}
+
+.componentEditorDescription__div--package {
+	@extend %inputField__div--orange;
+	@extend %inputField__multiLine;
+}
+
+.componentEditorName__div--useCase {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--primary;
+	@extend %inputField__div--primary;
+}
+
+.componentEditorDescription__div--useCase {
+	@extend %inputField__div--primary;
+	@extend %inputField__multiLine;
+}

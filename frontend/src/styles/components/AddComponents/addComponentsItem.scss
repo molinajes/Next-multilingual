@@ -1,0 +1,78 @@
+.addComponentsItem__tile {
+	@extend %portrait__tile;
+	@extend %portrait--hover--shadow;
+	flex-direction: row;
+	cursor: pointer;
+	width: 100%;
+	background-color: $palette-light;
+	// height: 2.5rem;
+}
+
+@mixin tileModifier (
+	$itemEditColor: $palette-background,
+	$portraitBorderColor: $palette-border,
+	$iconicColor: $palette-primary
+	) {
+		@include portrait__border($portraitBorderColor);
+		@include iconic-color($iconicColor, $inactive);
+			&:hover {
+					.addComponentsItem__itemEdit {
+						background-color: $itemEditColor;
+					}
+			}
+			.addComponentsItem__itemEdit--active {
+				background-color: $itemEditColor;
+			}
+			.addComponentsItem__title--active {
+				box-shadow: $elevation-shadow-0;
+				// TODO: Create modular shadow classes | AjH
+			}
+}		
+
+.addComponentsItem__tile--iface {
+	@include tileModifier($palette-mango-bg, $palette-mango, $palette-mango );
+}
+.addComponentsItem__tile--rule {
+	@include tileModifier($palette-orange-bg, $palette-orange, $palette-orange );
+}
+.addComponentsItem__tile--form {
+	@include tileModifier($palette-yellow-bg, $palette-yellow, $palette-yellow );
+}
+.addComponentsItem__tile--object {
+	@include tileModifier($palette-primary-bg, $palette-primary, $palette-primary );
+}
+
+// .addComponentsItem__itemEdit {
+// 	@extend %icon__block;
+// }
+
+// .addComponentsItem__editIcon {
+// 	@extend %iconCenter--compact;
+// }
+
+.addComponentsItem__name {
+	display: flex;
+	align-items: center;
+	@extend %margin--textBlock;
+	width: 100%;
+	justify-content: space-between;
+	p {
+		@extend %subject__title;
+	}
+
+}
+
+.addComponentsItem__name--createComponent {
+	padding-top: 0.5rem;
+}
+
+.addComponentsItem__stub {
+	@extend %subject__title;
+	padding-right: 0.5rem;
+	opacity: 0.5;
+}
+
+
+
+
+

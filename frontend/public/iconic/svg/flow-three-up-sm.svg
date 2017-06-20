@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="flow-three-up" width="16" height="16" class="iconic iconic-flow iconic-orientation-square iconic-size-sm iconic-flow-three-up" viewBox="0 0 16 16">
+  <g>
+    <title>Flow Three Up</title>
+  </g>
+  <g data-width="16" data-height="16" class="iconic-container iconic-flow-three-up" transform="scale(1 1 ) translate(0 ) ">
+    <path class="iconic-flow-three-up-item iconic-flow-three-up-item-7 iconic-flow-three-up-column-3 iconic-property-fill" d="M12 6h4v10h-4z"></path>
+    <path class="iconic-flow-three-up-item iconic-flow-three-up-item-5 iconic-flow-three-up-column-2 iconic-property-fill" d="M6 13h4v3h-4z"></path>
+    <path class="iconic-flow-three-up-item iconic-flow-three-up-item-4 iconic-flow-three-up-column-2 iconic-property-fill" d="M6 5h4v6h-4z"></path>
+    <path class="iconic-flow-three-up-item iconic-flow-three-up-item-4 iconic-flow-three-up-column-1 iconic-property-fill" d="M0 10h4v6h-4z"></path>
+    <path class="iconic-flow-three-up-item iconic-flow-three-up-item-6 iconic-flow-three-up-column-3 iconic-property-fill" d="M12 0h4v4h-4z"></path>
+    <path class="iconic-flow-three-up-item iconic-flow-three-up-item-3 iconic-flow-three-up-column-2 iconic-property-fill" d="M6 0h4v3h-4z"></path>
+    <path class="iconic-flow-three-up-item iconic-flow-three-up-item-1 iconic-flow-three-up-column-1 iconic-property-fill" d="M0 0h4v8h-4z"></path>
+  </g>
+</svg>

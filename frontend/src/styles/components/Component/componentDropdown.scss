@@ -1,0 +1,63 @@
+// TODO: Complete these classes | AjH
+.componentDropdown {
+	@extend %glass;
+	@include glass__border($palette-yellow);
+	@include glass--backgroundColour($palette-light)
+	// @extend %padding--glassTile;
+	@include padding-centered-text($padding-text-medium);
+	@include padding-box($padding-box-medium);
+	// @extend %form-input--subheading;
+	flex-direction: column;
+	// background-color: $palette-background; 
+	box-shadow: $elevation-shadow-2;
+	position: absolute;
+	top: 100%;
+	right: 0;
+
+	min-width: 300px;
+	max-width: 50vw;
+	z-index: 10;
+}
+
+.componentDropdown__input {
+	width: 100%;
+	@extend %inputField__div;
+	@extend %inputField__textActivity;
+	@extend %editableBorder--yellow;
+	border-bottom: dashed 1px $orange-500;
+}
+
+.componentDropdown__listItem {
+	@extend %subject__list;
+	@extend %margin--glassTile;
+	@extend %padding--subjectList;
+	box-shadow: $elevation-shadow-0;
+	line-height: 1em;
+	border-radius: 1px;
+	padding-left: 1em;
+	&:hover {
+		background-color:	$palette-yellow-bg;
+	}
+	&:focus {
+		background-color:	$palette-yellow-bg;
+		outline: $red-500 solid 1px;
+	}
+}
+.componentDropdown__listItem--linked {
+	@extend .componentDropdown__listItem; 
+	background-color:	$palette-yellow-bg;
+	&:hover {
+		// TODO: add link icon change here | AjH
+	}
+	&:focus {
+		// background-color:	$yellow-500;
+	}
+}
+
+.componentDropdown__title {
+	padding-left: 1em;
+}
+
+.componentTile__linked {
+	background-color:	$palette-yellow-bg;
+}

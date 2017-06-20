@@ -1,0 +1,134 @@
+%editTable {
+	display: flex;
+	flex-direction: column;
+}
+
+
+%editTable__tableHead, %editTable__row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+
+%editTable__tableHead {
+		%editTable__cell {
+			@extend %text--subheading;
+			@extend %cell__formEditor;
+			border-bottom-width: 2px;
+			padding: 0.5rem;
+			height: 2.5rem;
+			line-height: 1rem;
+		}
+		%editTable__cell--text {
+			@extend %cell__formEditor;
+			justify-content: center;
+		}
+}
+
+%editTable__row {
+		%editTable__cell--text {
+			@extend %cell__formEditor;
+			justify-content: center;
+		}
+		%editTable__cell:not(:first-child) {
+			@extend %text--rowContent;
+			background-color: $palette-light;
+		}
+		%editTable__addRowCell {
+			@extend %cell__formEditor;
+			@extend %text--subheading;
+			background-color: $palette-light;
+			width: 100%;
+			height: 2.5rem;
+		}
+		// &:last-child {
+		// 		&:hover {
+		// 			cursor: pointer;
+		// 			background-color: $palette-yellow-bg;
+		// 				%editTable__addRowCell {
+		// 					background-color: $palette-yellow-bg;
+		// 				}
+		// 		}
+		// }
+}
+
+@mixin editTable__row--hoverColor ($color: $palette-light) {
+	&:last-child {
+			&:hover {
+				cursor: pointer;
+				// background-color: $color;
+					%editTable__addRowCell {
+						background-color: $color;
+					}
+					%editTable__cell {
+						background-color: $color;
+					}
+			}
+	}
+}
+
+%editTable__row--mangoHover {
+	@include editTable__row--hoverColor($palette-mango-bg);
+}
+%editTable__row--orangeHover {
+	@include editTable__row--hoverColor($palette-orange-bg);
+}
+%editTable__row--yellowHover {
+	@include editTable__row--hoverColor($palette-yellow-bg);
+}
+%editTable__row--primaryHover {
+	@include editTable__row--hoverColor($palette-primary-bg);
+}
+
+%cell__formEditor {
+	display: flex;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 1px $palette-border-transparent solid;
+	align-items: center;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border-radius: 0.5px;
+}
+
+%inputField__cellDiv {
+	@extend %cell__formEditor;
+	@extend %text--rowContent;
+	@extend %inputField__textActivity;
+	height: 100%;
+	// min-height: 2.5rem;
+		div {
+			width: 100%;
+		}
+		form {
+			padding-left: 0;
+			width: 100%;
+			input, textarea {
+				font: inherit;
+				line-height: 0.875rem;
+				margin-bottom: 0;
+				width: 100%;
+			}
+		}
+}
+
+@mixin cellBorder--color($color-bg: transparent, $color: $palette-border) {
+		&.inputField--editing {
+			background-color: $color-bg;
+			border: 1px solid $color;
+		}
+}
+
+%cellBorder--mango {
+	@include cellBorder--color($palette-mango-bg, $palette-mango);
+}
+%cellBorder--orange {
+	@include cellBorder--color($palette-orange-bg, $palette-orange);
+}
+%cellBorder--yellow {
+	@include cellBorder--color($palette-yellow-bg, $palette-yellow);
+}
+%cellBorder--primary {
+	@include cellBorder--color($palette-primary-bg, $palette-primary);
+}

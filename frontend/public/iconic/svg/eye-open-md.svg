@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="eye-open" width="32" height="32" class="iconic iconic-eye iconic-size-md iconic-eye-open" data-state="false" viewBox="0 0 32 32">
+  <g>
+    <title>Eye Open</title>
+  </g>
+  <g data-width="32" data-height="20" class="iconic-container iconic-eye-open" transform="scale(1 1 ) translate(0 6 ) ">
+    <path d="M16.125 0c-10.125 0-16.125 10-16.125 10s6 10 16.125 10c9.875 0 15.875-10 15.875-10s-6-10-15.875-10zm-.125 17c-3.866 0-7-3.134-7-7s3.134-7 7-7 7 3.134 7 7-3.134 7-7 7z" class="iconic-eye-open-eyeball iconic-property-fill"></path>
+    <path d="M18.5 9c-.828 0-1.5-.672-1.5-1.5 0-.479.228-.9.577-1.175-.484-.208-1.017-.325-1.577-.325-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4c0-.561-.117-1.093-.325-1.577-.275.349-.696.577-1.175.577z" class="iconic-eye-open-pupil iconic-property-fill"></path>
+  </g>
+</svg>

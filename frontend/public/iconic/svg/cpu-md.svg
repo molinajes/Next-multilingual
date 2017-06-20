@@ -1,0 +1,52 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="cpu" class="iconic iconic-cpu iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Cpu</title>
+  </g>
+  <g class="iconic-container" data-width="31" data-height="31">
+    <path class="iconic-cpu-wafer iconic-property-fill" d="M5 5h21v21h-21z" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-1 iconic-property-stroke" fill="none" d="M.5 5.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-2 iconic-property-stroke" fill="none" d="M.5 7.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-3 iconic-property-stroke" fill="none" d="M.5 9.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-4 iconic-property-stroke" fill="none" d="M.5 11.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-5 iconic-property-stroke" fill="none" d="M.5 13.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-6 iconic-property-stroke" fill="none" d="M.5 15.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-7 iconic-property-stroke" fill="none" d="M.5 17.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-8 iconic-property-stroke" fill="none" d="M.5 19.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-9 iconic-property-stroke" fill="none" d="M.5 21.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-10 iconic-property-stroke" fill="none" d="M.5 23.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-left iconic-cpu-pin-left-11 iconic-property-stroke" fill="none" d="M.5 25.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-1 iconic-property-stroke" fill="none" d="M27.5 5.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-2 iconic-property-stroke" fill="none" d="M27.5 7.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-3 iconic-property-stroke" fill="none" d="M27.5 9.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-4 iconic-property-stroke" fill="none" d="M27.5 11.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-5 iconic-property-stroke" fill="none" d="M27.5 13.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-6 iconic-property-stroke" fill="none" d="M27.5 15.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-7 iconic-property-stroke" fill="none" d="M27.5 17.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-8 iconic-property-stroke" fill="none" d="M27.5 19.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-9 iconic-property-stroke" fill="none" d="M27.5 21.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-10 iconic-property-stroke" fill="none" d="M27.5 23.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-right iconic-cpu-pin-right-11 iconic-property-stroke" fill="none" d="M27.5 25.5h3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-11 iconic-property-stroke" fill="none" d="M25.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-10 iconic-property-stroke" fill="none" d="M23.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-9 iconic-property-stroke" fill="none" d="M21.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-8 iconic-property-stroke" fill="none" d="M19.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-7 iconic-property-stroke" fill="none" d="M17.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-6 iconic-property-stroke" fill="none" d="M15.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-5 iconic-property-stroke" fill="none" d="M13.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-4 iconic-property-stroke" fill="none" d="M11.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-3 iconic-property-stroke" fill="none" d="M9.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-2 iconic-property-stroke" fill="none" d="M7.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-top iconic-cpu-pin-top-1 iconic-property-stroke" fill="none" d="M5.5.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-11 iconic-property-stroke" fill="none" d="M25.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-10 iconic-property-stroke" fill="none" d="M23.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-9 iconic-property-stroke" fill="none" d="M21.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-8 iconic-property-stroke" fill="none" d="M19.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-7 iconic-property-stroke" fill="none" d="M17.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-6 iconic-property-stroke" fill="none" d="M15.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-5 iconic-property-stroke" fill="none" d="M13.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-4 iconic-property-stroke" fill="none" d="M11.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-3 iconic-property-stroke" fill="none" d="M9.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-2 iconic-property-stroke" fill="none" d="M7.5 27.5v3" />
+    <path stroke="#000" stroke-linecap="square" class="iconic-cpu-pin iconic-cpu-pin-bottom iconic-cpu-pin-bottom-1 iconic-property-stroke" fill="none" d="M5.5 27.5v3" />
+  </g>
+</svg>

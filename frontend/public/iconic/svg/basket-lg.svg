@@ -1,0 +1,24 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="basket" class="iconic iconic-basket iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Basket</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-basket-clip-0">
+      <path d="M98.882 42.513c1.926 2.696 1.302 6.444-1.395 8.37-1.057.755-2.275 1.118-3.482 1.118-1.872 0-3.716-.874-4.887-2.513l-5.348-7.487h-39.539l-5.348 7.487c-1.171 1.64-3.016 2.513-4.887 2.513-1.207 0-2.425-.363-3.482-1.118-2.697-1.926-3.321-5.673-1.395-8.37l.366-.513h-29.484v68h128v-68h-29.484l.366.513zm-58.347 57.414c-.179.049-.359.073-.536.073-.876 0-1.68-.58-1.926-1.465l-10-36c-.295-1.064.328-2.167 1.392-2.462 1.063-.293 2.167.328 2.462 1.392l10 36c.295 1.064-.328 2.166-1.392 2.462zm15.685.061c-.075.008-.149.012-.223.012-1.006 0-1.872-.756-1.985-1.779l-4-36c-.122-1.098.669-2.086 1.767-2.208 1.094-.12 2.086.669 2.208 1.767l4 36c.122 1.098-.669 2.086-1.767 2.209zm21.767-37.767l-4 36c-.114 1.023-.979 1.779-1.985 1.779-.074 0-.148-.004-.223-.012-1.098-.122-1.889-1.111-1.767-2.208l4-36c.122-1.098 1.111-1.887 2.208-1.767 1.098.122 1.889 1.111 1.767 2.209zm21.939.315l-10 36c-.246.885-1.05 1.465-1.926 1.465-.177 0-.357-.024-.536-.073-1.065-.296-1.688-1.398-1.392-2.462l10-36c.296-1.065 1.397-1.685 2.462-1.392 1.064.296 1.688 1.398 1.392 2.462z"
+      />
+    </clipPath>
+    <clipPath id="iconic-size-lg-basket-clip-1">
+      <path d="M61.942 0l-31.197 43.675c-1.284 1.798-.868 4.296.93 5.58.703.502 1.513.744 2.315.745h.011c1.247-.001 2.474-.583 3.254-1.675l34.518-48.325h-9.832zm-27.942 48c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z" />
+    </clipPath>
+    <clipPath id="iconic-size-lg-basket-clip-2">
+      <path d="M74.231 0l-35.348 49.487c-.13.182-.271.35-.416.513h61.533v-50h-25.769zm19.769 48c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="128" data-height="110" transform="translate(0 9)">
+    <path d="M101 110h-74c-1.657 0-3.364-1.293-3.812-2.888l-16.376-58.224c-.449-1.595.531-2.888 2.188-2.888h110c1.657 0 2.636 1.293 2.188 2.888l-16.375 58.224c-.449 1.595-2.155 2.888-3.812 2.888z" clip-path="url(#iconic-size-lg-basket-clip-0)" class="iconic-basket-body iconic-property-fill"
+    />
+    <path d="M126.5 50h-125c-.828 0-1.5-.672-1.5-1.5v-5c0-.828.672-1.5 1.5-1.5h125c.828 0 1.5.672 1.5 1.5v5c0 .828-.672 1.5-1.5 1.5z" clip-path="url(#iconic-size-lg-basket-clip-0)" class="iconic-basket-lip iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-basket-clip-1)" stroke="#000" stroke-width="8" stroke-linecap="round" class="iconic-basket-handle iconic-basket-handle-left iconic-property-accent iconic-property-stroke" fill="none" d="M34 46l30-42" />
+    <path clip-path="url(#iconic-size-lg-basket-clip-2)" stroke="#000" stroke-width="8" stroke-linecap="round" class="iconic-basket-handle iconic-basket-handle-right iconic-property-accent iconic-property-stroke" fill="none" d="M94 46l-30-42" />
+  </g>
+</svg>

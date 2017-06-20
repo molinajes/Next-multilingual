@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="eject" class="iconic iconic-eject iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Eject</title>
+  </g>
+  <g class="iconic-container" data-width="96" data-height="64" transform="translate(16 32)">
+    <path d="M46.961 1.082l-45.922 47.836c-.574.598-.367 1.082.461 1.082h93c.828 0 1.035-.484.461-1.082l-45.922-47.836c-.574-.598-1.504-.598-2.078 0z" class="iconic-eject-arrowhead iconic-property-fill" />
+    <path class="iconic-eject-line iconic-property-fill" d="M0 56h96v8h-96z" />
+  </g>
+</svg>

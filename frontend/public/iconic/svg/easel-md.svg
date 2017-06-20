@@ -1,0 +1,24 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="easel" class="iconic iconic-easel iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Easel</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-easel-clip-0">
+      <path d="M0 20h31v12h-31z" />
+    </clipPath>
+    <clipPath id="iconic-size-md-easel-clip-1">
+      <path d="M20 2v3h-9v-3h-10v16h29v-16z" />
+    </clipPath>
+    <clipPath id="iconic-size-md-easel-clip-2">
+      <path d="M12 1h7v3h-7z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="31" data-height="32">
+    <path clip-path="url(#iconic-size-md-easel-clip-0)" class="iconic-easel-legs iconic-easel-legs-front iconic-property-fill" d="M17 0l11 32h-3l-9.5-28-9.5 28h-3l11-32z" />
+    <path class="iconic-easel-legs iconic-easel-legs-back iconic-property-fill" d="M14 20h3v12h-3z" />
+    <path d="M29.5 18h-28c-.276 0-.5-.224-.5-.5v-15c0-.276.224-.5.5-.5h28c.276 0 .5.224.5.5v15c0 .276-.224.5-.5.5z" clip-path="url(#iconic-size-md-easel-clip-1)" class="iconic-easel-canvas iconic-property-accent iconic-property-fill" />
+    <path class="iconic-easel-base iconic-property-fill" d="M0 19h31v2h-31z" />
+    <path d="M17.5 2h-4c-.276 0-.4-.2-.276-.447l.553-1.106c.124-.247.448-.447.724-.447h2c.276 0 .6.2.724.447l.553 1.106c.123.247 0 .447-.276.447z" class="iconic-easel-clamp iconic-easel-clamp-top iconic-property-fill" />
+    <path clip-path="url(#iconic-size-md-easel-clip-2)" d="M18.5 5h-6c-.276 0-.5-.224-.5-.5v-3c0-.276.224-.5.5-.5h6c.276 0 .5.224.5.5v3c0 .276-.224.5-.5.5z" class="iconic-easel-clamp iconic-easel-clamp-main iconic-property-fill" />
+  </g>
+</svg>

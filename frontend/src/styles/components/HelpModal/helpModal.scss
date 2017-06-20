@@ -1,0 +1,55 @@
+.helpModal {
+	margin: 0.5rem;
+	background-color: $palette-light;
+	background-image: linear-gradient(-90deg, rgba($yellow-200, 0.18) 0%, rgba($yellow-200, 0.18) 24%, rgba($orange-200, 0.18) 38%, rgba($orange-200, 0.18) 62%, rgba($mango-200, 0.18) 76%);
+}
+
+.helpModal__wrapper {
+	
+
+}
+
+.helpModal__header {
+	display: flex;
+
+}
+
+.helpModal__navigation {
+	flex: 1 1 auto;
+	padding: 1rem;
+}
+
+.helpModal__content {
+
+}
+
+
+.tutorial__content {
+	min-width: 300px;
+	min-height: 150px;
+	img {
+		width: 450px;
+	}
+}
+
+
+.tutorial__content--welcome {
+	@extend .tutorial__content;
+	.tutorial__header {
+		font-size: 4rem;
+	}
+	min-width: 80vw;
+	min-height: 80vh;
+}
+
+.tutorial__content--module {
+	@extend .tutorial__content;
+}
+
+.tutorial__content--link{
+	@extend .tutorial__content;
+}
+
+.tutorial__header {
+	text-align: center;
+}

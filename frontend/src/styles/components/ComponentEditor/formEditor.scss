@@ -1,0 +1,68 @@
+.formEditor__container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.formEditor__sectionContent {
+	background-color: $palette-background;
+}
+
+.formEditorRow__inputDiv {
+	@extend %inputField__cellDiv;
+	// @extend %inputField__cellBorder;
+	@extend %cellBorder--yellow;
+}
+
+.formEditor__table {
+	@extend %editTable;
+}
+.formEditor__tableHead {
+	@extend %editTable__tableHead;
+}
+
+.formEditor__row {
+	@extend %editTable__row;
+	@extend %editTable__row--yellowHover;
+}
+
+.formEditor__cell {
+	@extend %editTable__cell;
+}
+
+.formEditor__cell--text {
+	@extend %editTable__cell--text;
+}
+
+.formEditor__addRowCell {
+	@extend %editTable__addRowCell;
+}
+
+.formEditor__tableHead, .formEditor__row {
+		.formEditor__cell:first-child {
+			width: 2rem;
+			text-align: center;
+		}
+		.formEditor__cell:nth-child(2) {
+			width: 28%;
+		}
+		.formEditor__cell:nth-child(3) {
+			width: 7%;
+		}
+		.formEditor__cell:nth-child(4) {
+			width: 20%;
+		}
+		.formEditor__cell:nth-child(5) {
+			width: 2rem;
+			text-align: center;
+		}
+		.formEditor__cell:nth-child(6) {
+			width: 50%;
+		}
+		.formEditor__cell:nth-child(7) {
+			width: 2.5rem;
+		}
+}

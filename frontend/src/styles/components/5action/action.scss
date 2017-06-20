@@ -1,0 +1,53 @@
+.actionBar__wrapper {
+	position: fixed;
+	top: 57px;
+	box-shadow: 0 1px 11px $palette-shadow-bg;		
+}
+
+%actionBar {
+	@extend %text--bannerTitle;
+	@extend %padding--action;
+	@extend %margin--actionBar;
+	align-items: center;
+	border-bottom-right-radius: 1px;
+	// border-bottom-left-radius: 1px;
+	border-bottom: 2px solid transparent;
+	border-left: 2.5px solid transparent;
+	// box-shadow: 0 1px 0.1px $palette-shadow-bg;
+	display: flex;
+	height: 2.5rem;
+	z-index: $zIndex-4--actionBar;
+}
+
+@mixin actionBar--border($color: $palette-primary) {
+	border-image: linear-gradient(to bottom left, rgba($color, 0) 40%, rgba($color, $faint) 60%, rgba($color, $inactive) 90%, rgba($color, 1) 97%);
+	border-image-slice: 1;
+}
+
+@mixin actionBar--background($color: $palette-primary-bg) {
+	// background-color:  $color;
+	background-image: linear-gradient(to bottom left, rgba($color, $faint) 8%, rgba($color, $weak) 16%, $color 72%);
+}
+
+%actionBar--mango {
+	@extend %actionBar;
+	// background-color:  $palette-mango-bg; // TODO: Fallback color? | AjH
+	@include actionBar--border($palette-mango);
+	@include actionBar--background($palette-mango-bg);
+}
+%actionBar--orange {
+	@extend %actionBar;
+	@include actionBar--border($palette-orange);
+	background-color: $palette-orange-bg;
+	// @include actionBar--background($palette-orange-bg);
+}
+%actionBar--yellow {
+	@extend %actionBar;
+	@include actionBar--border($palette-yellow);
+	@include actionBar--background($palette-yellow-bg);
+}
+%actionBar--primary {
+	@extend %actionBar;
+	@include actionBar--border($palette-primary);
+	@include actionBar--background($palette-primary-bg);
+}

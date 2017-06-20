@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="history" class="iconic iconic-history iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>History</title>
+  </g>
+  <g class="iconic-container" data-width="31" data-height="28" transform="translate(0 2)">
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" class="iconic-history-clock-hands iconic-property-accent iconic-property-stroke" fill="none" d="M17 7v7l4 3" />
+    <path stroke="#000" stroke-width="3" d="M8.161 22.839c2.262 2.262 5.387 3.661 8.839 3.661s6.577-1.399 8.839-3.661 3.661-5.387 3.661-8.839-1.399-6.577-3.661-8.839-5.387-3.661-8.839-3.661-6.577 1.399-8.839 3.661-3.661 5.387-3.661 8.839v1" class="iconic-history-rim iconic-property-stroke"
+    fill="none" />
+    <path d="M4.2 19.6l-3.9-5.2c-.166-.221-.076-.4.2-.4h8c.276 0 .366.179.2.4l-3.9 5.2c-.166.221-.434.221-.6 0z" class="iconic-history-arrowhead iconic-property-fill" />
+  </g>
+</svg>

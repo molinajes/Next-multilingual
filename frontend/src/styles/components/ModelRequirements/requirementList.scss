@@ -1,0 +1,48 @@
+.requirementList {
+	@extend %portrait;
+	display: block;
+	padding: 0;
+	background-color: rgba($grey-150, $inactive);
+	border-radius: 0.125em;
+	border-top-right-radius: 0.25rem;
+	border-top-left-radius: 0.25rem; 
+	margin: 0.5rem;
+	margin-top: 1em;
+	padding-bottom: 2px;
+}
+
+.requirementList__header {
+	display: flex;
+	flex-direction: row;
+	@extend %text__subheading;
+	align-items: center;
+	padding: 0;
+	padding-right: 0.5rem;
+	.requirementList__header__icon {
+		@extend %iconCenter;
+		@extend %iconCenter--size--32x32;
+		margin-right: 0.25rem;
+	}
+}
+
+.requirementList__item {
+	@extend %subject;
+	align-items: center;
+	@include activityElevationShadow($elevation-shadow: $elevation-shadow-1, $shadow-hover: $elevation-shadow-2, $shadow-active: $elevation-shadow-1);
+	// TODO: make the cursor work as intended
+	margin-right: 0.25rem;
+	cursor: move;
+	&:hover {
+		background-color: $mango-faint;
+	}
+}
+
+.requirementList__item__icon {
+	// @extend %action;
+	@extend %iconCenter;
+	// @extend %action--size--32x32;
+	height: 2rem;
+	margin-right: 0.25rem;
+	margin-left: 0.25rem;
+	cursor: move;
+}

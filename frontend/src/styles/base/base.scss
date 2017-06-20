@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	@extend %text;
+	// background-color: $palette-background;
+	background-color: #fffcfa;
+	// background-color: #F7F4F4;
+	// background-image: linear-gradient(-90deg, rgba($yellow-200, 0.18) 0%, rgba($yellow-200, 0.18) 24%, rgba($orange-200, 0.18) 38%, rgba($orange-200, 0.18) 62%, rgba($mango-200, 0.18) 76%);
+
+}
+
+html {
+	font-family: $font;
+	font-size: 16px;
+}
+
+h1 {
+	font-weight: $fontWeight-light;
+}
+
+h2, h3, h4 {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+h2, h4 {
+	font-weight: $fontWeight-sb;
+}
+
+h3 {
+	font-weight: $fontWeight-reg;
+}
+
+p {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+::selection {
+	background-color: $palette-orange-bg;
+}
+
+// TODO: Retire this rare and ancient classes that herald back to the days of Sketch | AjH
+%form-input {
+	form {
+		flex: 1;
+		border: none;
+	}
+	input {
+		color: rgba($black-500, $strong);
+		margin-bottom: 3px;
+		padding: 0.25rem;
+		padding-left: 0.25rem;
+		padding-right: 0.5rem;
+		width: 16rem;
+		&:focus {
+		border-bottom: solid 1px rgba($black-500, $weak);
+		}
+	}
+}
+
+%form-input--heading { 
+	@extend %form-input;
+	input {
+		@extend %text__heading;
+	}
+}
+
+%form-input--subheading { 
+	@extend %form-input;
+	input {
+		@extend %text__subheading;
+	}
+}

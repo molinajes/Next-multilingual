@@ -1,0 +1,88 @@
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+// Footer  
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+
+.footer__fullBackground {
+	background-color: $palette-text;
+}
+
+footer {
+	@include outer-container;
+	// padding: 4rem 0.5rem;
+	@include padding-box($padding-box-xx-large);
+	@include padding-centered-text($padding-text-xx-large);
+	display: flex;
+	align-items: center;
+	@include media($mobile) {
+		padding: 0.5rem;
+		flex-direction: column;
+	}
+	ul {
+		margin: 0;
+		li {
+			padding: 0.5rem;
+			list-style: none;
+		}
+		a {
+			color: rgba($palette-light, $strong);
+			text-decoration: none;
+			border-bottom: 1px dashed $palette-orange;
+			&:hover {
+				color: $palette-orange;
+				border-bottom-style: solid;
+			}
+		}
+	}
+}
+
+.footer__logo {
+	display: flex;
+	@include span-columns(4);
+	text-align: center;
+	@include media($mobile) {
+		@include span-columns(4);
+		
+		margin: 1rem 0;
+	}
+}
+
+.footer__social {
+	display: flex;
+	text-align: center;
+	@include span-columns(4);
+	@include media($mobile) {
+		@include span-columns(4);
+		
+		margin: 1rem 0;
+	}
+	align-items: center;
+	justify-content: center;
+	svg {
+		@include margin-horizontal($margin-horizontal-medium);
+	}
+}
+
+.social__icon * {
+	fill: rgba($palette-light, $strong);
+	stroke: rgba($palette-light, $strong);
+}
+
+//.footer__listContact {
+//	@include span-columns(8);
+//	text-align: right;
+// } 
+.footer__listSignup {
+	padding: 0;
+	@include span-columns(4);
+	// text-align: right;
+	@include media($mobile) {
+		@include span-columns(4);
+		text-align: center;
+		margin: 1rem 0;
+	}
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}

@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="syringe" class="iconic iconic-syringe iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Syringe</title>
+  </g>
+  <g class="iconic-container" data-width="15" data-height="16">
+    <path class="iconic-syringe-needle iconic-property-accent iconic-property-fill" d="M5.969 10l-5.969 6v-2l5-5z" />
+    <path class="iconic-syringe-plunger iconic-syringe-plunger-main iconic-property-fill" d="M13.969 2l-2 2-.969-1 2-2z" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-syringe-plunger iconic-syringe-plunger-top iconic-property-stroke" fill="none" d="M12.5.5l2 2" />
+    <path d="M10 2l-1.146 1.147 1 1c.195.195.195.512 0 .707-.098.098-.226.147-.354.147s-.256-.049-.354-.146l-1-1-1.293 1.293 1 1c.195.195.195.512 0 .707-.098.098-.226.146-.353.146s-.256-.049-.354-.146l-1-1-1.293 1.293 1 1c.195.195.195.512 0 .707-.098.098-.226.146-.353.146s-.256-.049-.354-.146l-1-1-1.146 1.146 3 3 7-7-3-3z"
+    class="iconic-syringe-tube iconic-syringe-tube-main iconic-property-fill" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-syringe-tube iconic-syringe-tube-top iconic-property-stroke" fill="none" d="M8.5.5l6 6" />
+  </g>
+</svg>

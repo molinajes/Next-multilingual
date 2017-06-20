@@ -1,0 +1,9 @@
+$strong: 0.88;
+$active: 0.72;
+$inactive: 0.54;
+$weak: 0.32;
+$faint: 0.16;
+
+@mixin op-status($op) {
+  opacity: $op;
+}

@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="browser" class="iconic iconic-browser iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Browser</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-browser-clip-0">
+      <path d="M0 11v97h128v-97h-128zm124 93h-120v-90h120v90z" />
+    </clipPath>
+    <clipPath id="iconic-size-lg-browser-clip-1">
+      <path d="M0 0v14h128v-14h-128zm8 10l-4.125-2 4.125-2v4zm4 0v-4l4 2-4 2zm110.084 0h-100.084c-1.105 0-2-.895-2-2s.895-2 2-2h100.084c1.105 0 2 .895 2 2s-.895 2-2 2z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="128" data-height="108" transform="translate(0 10)">
+    <path clip-path="url(#iconic-size-lg-browser-clip-0)" d="M126.5 108h-125c-.828 0-1.5-.672-1.5-1.5v-94c0-.828.672-1.5 1.5-1.5h125c.828 0 1.5.672 1.5 1.5v94c0 .828-.672 1.5-1.5 1.5z" class="iconic-browser-border iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-browser-clip-1)" d="M0 1.5v11c0 .828.672 1.5 1.5 1.5h125c.828 0 1.5-.672 1.5-1.5v-11c0-.828-.672-1.5-1.5-1.5h-125c-.828 0-1.5.672-1.5 1.5z" class="iconic-browser-top iconic-property-fill" />
+  </g>
+</svg>

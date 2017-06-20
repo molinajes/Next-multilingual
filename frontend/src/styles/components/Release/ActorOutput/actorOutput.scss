@@ -1,0 +1,8 @@
+.actorEditor__table {
+	background-color: $palette-background;
+		.actorOutput__row {
+				.actorEditor__cell {
+					@extend %output__tableCell;
+				}
+		} 
+}

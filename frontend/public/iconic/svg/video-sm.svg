@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="video" class="iconic iconic-video iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Video</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="10" transform="translate(0 3)">
+    <path d="M11.75 10h-11.5c-.138 0-.25-.112-.25-.25v-9.5c0-.138.112-.25.25-.25h11.5c.138 0 .25.112.25.25v9.5c0 .138-.112.25-.25.25z" class="iconic-video-body iconic-property-fill" />
+    <path class="iconic-video-lens iconic-property-fill" d="M12 4l3-2h1v6h-1l-3-2z" />
+  </g>
+</svg>

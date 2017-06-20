@@ -1,0 +1,38 @@
+.moduleList__container {
+	@extend %grid--modules;
+	@extend %gridPadding--left;
+	@include grid-border-right($palette-mango);
+}
+
+.moduleTitle__tile {
+	@extend %glassBorder;
+	@include glass__border($palette-mango);
+	@extend %subject__list;
+	@include portrait__border($palette-mango);
+		.moduleTitle__name {
+			@extend %text--subheading;
+		}
+			&:hover {
+			}
+}
+
+.moduleTitle__icon {
+	cursor: move;
+}
+
+.moduleTitle__size {
+	// @extend %padding--bannerText;
+	@include padding-centered-text($padding-text-large);
+	display: inline-block;
+	margin-left: auto;
+	color: $palette-text-inactive;
+	@include text-sb-size($text-small);
+	display: flex;
+	align-items: center;
+}
+
+.moduleTitle__createInput {
+	@extend %inputField__div;
+	@extend %inputField__textActivity;
+	@extend %editableBorder--mango;
+}

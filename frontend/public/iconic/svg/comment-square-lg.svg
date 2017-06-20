@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="comment-square" class="iconic iconic-comment-square iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Comment Square</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="110" transform="translate(0 9)">
+    <path d="M0 1.5v85c0 .828.672 1.5 1.5 1.5h103c.828 0 1.975.475 2.561 1.061l19.879 19.879c.586.586 1.061.389 1.061-.439v-107c0-.828-.672-1.5-1.5-1.5h-125c-.828 0-1.5.672-1.5 1.5z" class="iconic-property-fill" />
+  </g>
+</svg>

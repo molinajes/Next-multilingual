@@ -1,0 +1,37 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="shape-square" width="128" height="128" class="iconic iconic-shape iconic-size-lg iconic-shape-square" viewBox="0 0 128 128">
+  <g>
+    <title>Shape Square</title>
+  </g>
+  <defs>
+    <mask id="iconic-shape-knockout-lg">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="32" dx="32" y="78" font-size="36" text-anchor="middle" class="iconic-shape-knockout-text"></text>
+    </mask>
+    <mask id="iconic-shape-knockout-md" transform="translate(4)">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="8" dx="8" dy="20" font-size="12" text-anchor="middle" class="iconic-shape-knockout-text"></text>
+    </mask>
+    <mask id="iconic-shape-knockout-sm" transform="translate(8)">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="4" dx="4" dy="10" font-size="7" text-anchor="middle" font-weight="bold" class="iconic-shape-knockout-text"></text>
+    </mask>
+  </defs>
+  <!-- Square -->
+  <g data-width="128" data-height="128" class="iconic-container iconic-shape-square" transform="translate(0 ) scale(1 1 ) ">
+    <path d="M126.5 128h-125c-.828 0-1.5-.672-1.5-1.5v-125c0-.828.672-1.5 1.5-1.5h125c.828 0 1.5.672 1.5 1.5v125c0 .828-.672 1.5-1.5 1.5z" class="iconic-shape-square-background iconic-property-fill"></path>
+  </g>
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+  <!-- Square -->
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+  <!-- Square -->
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="key" class="iconic iconic-key iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Key</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="126" transform="translate(0 1)">
+    <path d="M92 0c-19.882 0-36 16.118-36 36 0 4.193.724 8.215 2.042 11.958l-58.042 58.042v20h20l8-8v-8h8v-6h6v-8h8l10-10v-6h6l5.938-5.938 4 4 7.171-7.171c2.844.723 5.822 1.109 8.891 1.109 19.882 0 36-16.118 36-36s-16.118-36-36-36zm-87.906 112.156v-4.125l53.908-54.033 1.998 2.169-55.906 55.99zm102.906-84.156c-3.866 0-7-3.134-7-7s3.134-7 7-7 7 3.134 7 7-3.134 7-7 7z"
+    class="iconic-property-fill" />
+  </g>
+</svg>

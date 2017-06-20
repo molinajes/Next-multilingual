@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="italic" class="iconic iconic-italic iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Italic</title>
+  </g>
+  <g class="iconic-container" data-width="12" data-height="16" transform="translate(2)">
+    <path d="M4 0v1h2.5c.275 0 .438.216.363.481l-3.725 13.038c-.076.264-.362.481-.637.481h-2.5v1h8v-1h-2.5c-.275 0-.438-.216-.363-.481l3.725-13.038c.075-.265.362-.481.637-.481h2.5v-1h-8z" class="iconic-property-fill" />
+  </g>
+</svg>

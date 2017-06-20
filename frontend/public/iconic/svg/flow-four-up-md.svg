@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="flow-four-up" width="32" height="32" class="iconic iconic-flow iconic-orientation-square iconic-size-md iconic-flow-four-up" viewBox="0 0 32 32">
+  <g>
+    <title>Flow Four Up</title>
+  </g>
+  <g data-width="32" data-height="32" class="iconic-container iconic-flow-four-up" transform="scale(1 1 ) translate(0 ) ">
+    <path d="M31.5 32h-4c-.276 0-.5-.224-.5-.5v-4c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v4c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-11 iconic-flow-four-up-column-4 iconic-property-fill"></path>
+    <path d="M22.5 32h-4c-.276 0-.5-.224-.5-.5v-10c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v10c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-8 iconic-flow-four-up-column-3 iconic-property-fill"></path>
+    <path d="M13.5 32h-4c-.276 0-.5-.224-.5-.5v-13c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v13c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-6 iconic-flow-four-up-column-2 iconic-property-fill"></path>
+    <path d="M4.5 32h-4c-.276 0-.5-.224-.5-.5v-6c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v6c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-3 iconic-flow-four-up-column-1 iconic-property-fill"></path>
+    <path d="M4.5 21h-4c-.276 0-.5-.224-.5-.5v-4c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v4c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-2 iconic-flow-four-up-column-1 iconic-property-fill"></path>
+    <path d="M31.5 23h-4c-.276 0-.5-.224-.5-.5v-11c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v11c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-10 iconic-flow-four-up-column-4 iconic-property-fill"></path>
+    <path d="M13.5 14h-4c-.276 0-.5-.224-.5-.5v-4c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v4c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-5 iconic-flow-four-up-column-2 iconic-property-fill"></path>
+    <path d="M31.5 7h-4c-.276 0-.5-.224-.5-.5v-6c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v6c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-9 iconic-flow-four-up-column-4 iconic-property-fill"></path>
+    <path d="M22.5 17h-4c-.276 0-.5-.224-.5-.5v-16c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v16c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-7 iconic-flow-four-up-column-3 iconic-property-fill"></path>
+    <path d="M13.5 5h-4c-.276 0-.5-.224-.5-.5v-4c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v4c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-4 iconic-flow-four-up-column-2 iconic-property-fill"></path>
+    <path d="M4.5 12h-4c-.276 0-.5-.224-.5-.5v-11c0-.276.224-.5.5-.5h4c.276 0 .5.224.5.5v11c0 .276-.224.5-.5.5z" class="iconic-flow-four-up-item iconic-flow-four-up-item-1 iconic-flow-four-up-column-1 iconic-property-fill"></path>
+  </g>
+</svg>

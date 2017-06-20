@@ -1,0 +1,88 @@
+.actorEditor__container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.actorEditorRow__inputDiv {
+	@extend %inputField__cellDiv;
+	@extend %cellBorder--mango;
+}
+
+.actorEditorRow__inputDiv--add {
+	@extend .actorEditorRow__inputDiv;
+	width: 100%;
+
+}
+
+.actorEditor__table {
+	@extend %editTable;
+}
+.actorEditor__tableHead {
+	@extend %editTable__tableHead;
+}
+
+.actorEditor__row {
+	@extend %editTable__row;
+}
+
+.actorEditor__row--hover {
+	@extend %editTable__row--mangoHover;	
+}
+
+.actorEditor__cell {
+	@extend %editTable__cell;
+}
+
+.actorEditor__cell--text {
+	@extend %editTable__cell--text;
+}
+
+.actorEditor__addRowCell {
+	@extend %editTable__addRowCell;
+	padding: 0px !important;
+}
+
+.actorEditor__tableHead, .actorEditor__row { // This is for the modal and output
+		.actorEditor__cell:first-child {
+			width: 2.5rem;
+			text-align: center;
+		}
+		.actorEditor__cell:nth-child(2) {
+			width: 20%;
+		}
+		.actorEditor__cell:nth-child(3) {
+			width: 15%;
+		}
+		.actorEditor__cell:nth-child(4) {
+			width: 12%;
+		}
+		.actorEditor__cell:nth-child(5) {
+			// flex-grow: 1;
+			// max-width: 30%;
+			width: 30%;
+		}
+		.actorEditor__cell:nth-child(6) {
+			width: 18%;
+		}
+		.actorEditor__cell:nth-child(7) {
+			width: 3.5rem;
+		}
+}
+
+.actorList__container {
+	.actorEditor__table {
+	.actorEditor__row { // This is for the modal and output
+			.actorEditor__cell:first-child {
+				width: 2.5rem;
+				text-align: center;
+			}
+			.actorEditor__cell:nth-child(2) {
+				width: 100%;
+			}
+	}
+}
+}

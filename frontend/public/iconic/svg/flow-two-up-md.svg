@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="flow-two-up" width="32" height="32" class="iconic iconic-flow iconic-orientation-square iconic-size-md iconic-flow-two-up" viewBox="0 0 32 32">
+  <g>
+    <title>Flow Two Up</title>
+  </g>
+  <g data-width="32" data-height="32" class="iconic-container iconic-flow-two-up" transform="scale(1 1 ) translate(0 ) ">
+    <path d="M31.5 32h-13c-.276 0-.5-.224-.5-.5v-8c0-.276.224-.5.5-.5h13c.276 0 .5.224.5.5v8c0 .276-.224.5-.5.5z" class="iconic-flow-two-up-item iconic-flow-two-up-item-4 iconic-flow-two-up-column-2 iconic-property-fill"></path>
+    <path d="M13.5 32h-13c-.276 0-.5-.224-.5-.5v-20c0-.276.224-.5.5-.5h13c.276 0 .5.224.5.5v20c0 .276-.224.5-.5.5z" class="iconic-flow-two-up-item iconic-flow-two-up-item-2 iconic-flow-two-up-column-1 iconic-property-fill"></path>
+    <path d="M31.5 19h-13c-.276 0-.5-.224-.5-.5v-18c0-.276.224-.5.5-.5h13c.276 0 .5.224.5.5v18c0 .276-.224.5-.5.5z" class="iconic-flow-two-up-item iconic-flow-two-up-item-3 iconic-flow-two-up-column-2 iconic-property-fill"></path>
+    <path d="M13.5 7h-13c-.276 0-.5-.224-.5-.5v-6c0-.276.224-.5.5-.5h13c.276 0 .5.224.5.5v6c0 .276-.224.5-.5.5z" class="iconic-flow-two-up-item iconic-flow-two-up-item-1 iconic-flow-two-up-column-1 iconic-property-fill"></path>
+  </g>
+</svg>

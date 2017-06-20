@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="camera-rangefinder" class="iconic iconic-camera-rangefinder iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Camera Rangefinder</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-camera-rangefinder-clip-0">
+      <path d="M6 0v1h-6v9h16v-10h-10zm4 1.125c0-.069.056-.125.125-.125h.75c.069 0 .125.056.125.125v.75c0 .069-.056.125-.125.125h-.75c-.069 0-.125-.056-.125-.125v-.75zm-1 7.875c-1.317 0-2.424-.854-2.827-2.035-.058.011-.112.035-.173.035h-1c-.552 0-1-.448-1-1s.448-1 1-1h1c.061 0 .115.024.173.035.403-1.181 1.51-2.035 2.827-2.035 1.657 0 3 1.343 3 3s-1.343 3-3 3zm5-7.125c0 .069-.056.125-.125.125h-1.75c-.069 0-.125-.056-.125-.125v-.75c0-.069.056-.125.125-.125h1.75c.069 0 .125.056.125.125v.75z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="10" transform="translate(0 3)">
+    <path class="iconic-camera-rangefinder-controls iconic-camera-rangefinder-controls-shutter-release iconic-property-fill" d="M1 0h2v1h-2z" />
+    <path clip-path="url(#iconic-size-sm-camera-rangefinder-clip-0)" class="iconic-camera-rangefinder-body iconic-property-fill" d="M16 10h-16v-9h6v-1h10z" />
+    <circle cx="9" cy="6" r="2" class="iconic-camera-rangefinder-lens iconic-camera-rangefinder-lens-glass iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>

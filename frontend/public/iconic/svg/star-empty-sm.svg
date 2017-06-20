@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="star-empty" class="iconic iconic-star-empty iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Star Empty</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path d="M8 3.162l1.051 3.154.228.684h3.87l-2.774 2.219-.545.436.221.662.931 2.787-2.358-1.885-.625-.499-.625.5-2.356 1.885.929-2.788.221-.661-.544-.436-2.774-2.219h3.87l.228-.684 1.051-3.154m0-3.162l-2 6h-6l5 4-2 6 5-4 5.004 4-2.004-6 5-4h-6l-2-6z"
+    class="iconic-property-fill" />
+  </g>
+</svg>

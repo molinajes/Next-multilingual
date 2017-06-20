@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="rocket" class="iconic iconic-rocket iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Rocket</title>
+  </g>
+  <g class="iconic-container" data-width="76" data-height="128" transform="translate(26)">
+    <path d="M16.572 86.571l-16.572 41.429h8l17.045-17.045c-2.858-5.381-6.216-13.433-8.473-24.385z" class="iconic-rocket-fin iconic-rocket-fin-left iconic-property-accent iconic-property-fill" />
+    <path d="M59.428 86.571c-2.257 10.951-5.615 19.004-8.473 24.385l17.045 17.045h8l-16.572-41.429z" class="iconic-rocket-fin iconic-rocket-fin-right iconic-property-accent iconic-property-fill" />
+    <path class="iconic-rocket-thruster iconic-property-fill" d="M46 116h-16l-2 4v2h20v-2z" />
+    <path d="M38 0s-22 20-22 60c0 29.238 8.543 46.709 13.143 54h17.713c4.6-7.291 13.144-24.762 13.144-54 0-40-22-60-22-60zm0 60c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm0-10c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z" class="iconic-rocket-body iconic-property-fill"
+    />
+  </g>
+</svg>

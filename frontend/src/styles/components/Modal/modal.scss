@@ -1,0 +1,25 @@
+
+.modal__overlay {
+    position          : fixed;
+    top               : 0;
+    left              : 0;
+    right             : 0;
+    bottom            : 0;
+    // background-color   : rgba(255, 255, 255, 0.75);
+}
+.modal__content {
+    position                   : absolute;
+    top                        : 100px;
+    // left                       : 200px;
+    // right                      : 200px;
+    bottom                     : 100px;
+    // border                     : 1px solid $palette-border;
+    // background                 : $palette-light;
+    overflow                   : auto;
+    -webkit-overflow-scrolling    : touch;
+    border-radius               : 4px;
+    outline                    : none;
+    // padding                    : 20px;
+    box-shadow                 : $elevation-shadow-4;
+    // box-shadow                 : 2px 2px 8px $palette-shadow;
+}

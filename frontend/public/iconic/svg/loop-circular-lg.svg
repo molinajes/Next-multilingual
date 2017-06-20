@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="loop-circular" class="iconic iconic-loop-circular iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Loop Circular</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="107" transform="translate(0 10)">
+    <path stroke="#000" stroke-width="8" d="M15.016 64.04c-2.481-12.125-.341-24.984 5.992-35.621 6.117-10.272 15.904-18.169 27.257-21.93 17.781-5.89 37.853-1.118 51.09 12.118" class="iconic-loop-circular-line iconic-loop-circular-line-left iconic-property-stroke"
+    fill="none" />
+    <path class="iconic-loop-circular-arrowhead iconic-loop-circular-arrowhead-left iconic-property-fill" d="M14 77.963l14-24h-28z" />
+    <path stroke="#000" stroke-width="8" d="M112.984 43.886c2.481 12.125.341 24.984-5.992 35.621-6.117 10.272-15.904 18.169-27.257 21.93-17.781 5.89-37.853 1.118-51.09-12.118" class="iconic-loop-circular-line iconic-loop-circular-line-right iconic-property-stroke"
+    fill="none" />
+    <path class="iconic-loop-circular-arrowhead iconic-loop-circular-arrowhead-right iconic-property-fill" d="M114 29.963l-14 24h28z" />
+  </g>
+</svg>

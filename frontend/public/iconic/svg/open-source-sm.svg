@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="open-source" class="iconic iconic-open-source iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Open Source</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path d="M8 0c-4.418 0-8 3.582-8 8 0 3.429 2.162 6.346 5.194 7.484l1.756-4.683c-1.137-.427-1.95-1.515-1.95-2.801 0-1.657 1.343-3 3-3s3 1.343 3 3c0 1.286-.813 2.374-1.95 2.801l1.756 4.683c3.032-1.138 5.194-4.055 5.194-7.484 0-4.418-3.582-8-8-8z" class="iconic-property-fill"
+    />
+  </g>
+</svg>

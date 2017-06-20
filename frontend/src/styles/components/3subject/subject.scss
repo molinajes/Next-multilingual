@@ -1,0 +1,58 @@
+%subject {
+	display: flex;
+	// overflow: none;
+	background-color: $palette-light;
+	border-radius: 0.125rem;
+	// padding: 0.125rem;
+
+	transition: transform ($transition-duration * 2) $transition-ease,
+	            box-shadow ($transition-duration * 2) $transition-ease;
+}
+
+%subject__list {
+	@extend %subject;
+	align-items: center;
+	@extend %margin--linkList;
+	box-shadow: $elevation-shadow-0;
+}
+
+.subjectTemp {
+	@extend %subject;
+	height: 3rem;
+	@include activityElevationShadow($elevation-shadow: $elevation-shadow-1, $shadow-hover: $elevation-shadow-2, $shadow-active: $elevation-shadow-1)
+}
+
+%subject__tile {
+	display: flex;
+	// overflow: none;
+	border-radius: 1px;
+	box-shadow: $elevation-shadow-1;
+}
+
+%subject__list1 {
+	display: flex;
+	background-color: $palette-light;
+	// @extend %margin--subjectList;
+	// @include activityElevationShadow($elevation-shadow: $elevation-shadow-0, $shadow-hover: $elevation-shadow-1, $shadow-active: $elevation-shadow-0);
+}
+
+%subject__title {
+	@extend %text--subheading;
+}
+
+%subject--hover--shadow {
+	transition: box-shadow ($transition-duration * 2) $transition-ease;
+		&:hover {
+			box-shadow: $elevation-shadow-2;
+		}
+}
+
+@mixin subject--hover--backgroundColor ($backgroundColor: $palette-background) {
+		&:hover {
+			background-color: $backgroundColor;
+		}
+}
+
+@mixin subject--backgroundColor ($backgroundColor: $palette-light, $alpha: 1) {
+	background-color: rgba($backgroundColor, $alpha)
+}

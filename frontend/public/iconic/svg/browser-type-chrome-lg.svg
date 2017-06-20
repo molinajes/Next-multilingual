@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="browser-type-chrome" width="128" height="128" class="iconic iconic-browser-type iconic-size-lg iconic-browser-type-chrome" viewBox="0 0 128 128">
+  <g>
+    <title>Browser Type Chrome</title>
+  </g>
+  <!-- Chrome -->
+  <g data-width="128" data-height="128" class="iconic-container iconic-browser-type-chrome" transform="translate(0 ) scale(1 1 ) ">
+    <path d="M73.12 95.508c-2.957.852-6.037 1.292-9.12 1.292-11.866 0-22.84-6.438-28.64-16.801l-27.066-47.519c-5.277 9.305-8.294 20.059-8.294 31.521 0 32.009 23.504 58.512 54.191 63.235l18.93-31.727z" class="iconic-browser-type-chrome-rim iconic-browser-type-chrome-rim-left iconic-property-fill"></path>
+    <path d="M32.071 56.444c3.413-14.554 16.442-25.244 31.929-25.244l54.957-.003c-11.176-18.684-31.603-31.197-54.957-31.197-20.362 0-38.497 9.513-50.219 24.333l18.29 32.111z" class="iconic-browser-type-chrome-rim iconic-browser-type-chrome-rim-top iconic-property-fill"></path>
+    <path d="M86.348 40c6.628 6.152 10.452 14.769 10.452 24 0 6.418-1.854 12.633-5.362 17.977l-27.45 46.023h.011c35.346 0 64-28.654 64-64 0-8.489-1.658-16.59-4.66-24.003l-36.992.003z" class="iconic-browser-type-chrome-rim iconic-browser-type-chrome-rim-right iconic-property-fill"></path>
+    <path d="M64 40c-13.234 0-24 10.766-24 24 0 4.101 1.051 8.146 3.038 11.698 4.252 7.588 12.284 12.302 20.962 12.302 8.077 0 15.562-4.025 20.027-10.768l.013-.019c2.591-3.921 3.961-8.489 3.961-13.212 0-13.234-10.766-24-24-24z" class="iconic-browser-type-chrome-center iconic-property-fill"></path>
+  </g>
+  <!-- Firefox -->
+  <!-- IE -->
+  <!-- Safari -->
+  <!-- Chrome -->
+  <!-- Firefox -->
+  <!-- IE -->
+  <!-- Safari -->
+  <!-- Chrome -->
+  <!-- Firefox -->
+  <!-- IE -->
+  <!-- Safari -->
+</svg>

@@ -1,0 +1,200 @@
+@mixin indexPage-color($color: $palette-primary) {
+
+}
+
+@mixin index-spacing($factor: 1) {
+	margin-top: $factor*0.25rem;
+	margin-bottom: $factor*(0.5rem);
+}
+
+@mixin index-padding($factor: 1) {
+	padding: $factor*0.25rem;
+	padding-top: $factor*0.5rem;
+	padding-bottom: $factor*(0.5rem);
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Efficient includable margin classes // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+// Margin List is for vertically laid out content 
+
+$margin-list-small: 0.5;
+$margin-list-medium: 1;
+$margin-list-large: 1.5;
+$margin-list-x-large: 2;
+
+
+@mixin margin-list($factor: $margin-list-medium) {
+	margin-top: ($factor/2)+rem;
+	margin-bottom: (-$factor/6)+rem;
+}
+
+// Margin Section is for content sections 
+
+$margin-section-x-small: 0.25;
+$margin-section-small: 0.5;
+$margin-section-medium: 1;
+$margin-section-large: 1.5;
+$margin-section-x-large: 2;
+$margin-section-xx-large: 4;
+
+
+@mixin margin-section($factor: $margin-section-medium) {
+	margin-top: ($factor/2)+rem;
+	margin-bottom: ($factor/2)+rem;
+}
+
+// Margin horizontal is for content sections usually with a border 
+
+$margin-horizontal-small: 0.5;
+$margin-horizontal-medium: 1;
+$margin-horizontal-large: 1.5;
+$margin-horizontal-x-large: 2;
+$margin-horizontal-xx-large: 4;
+
+
+@mixin margin-horizontal($factor: $margin-horizontal-medium) {
+	margin-right: ($factor)+rem;
+	margin-left: ($factor)+rem;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Efficient includable padding classes // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+// Padding text is for vertically centered text
+
+$padding-text-small: 0.5;
+$padding-text-medium: 1;
+$padding-text-large: 1.5;
+$padding-text-x-large: 2;
+$padding-text-xx-large: 4;
+
+@mixin padding-centered-text($factor: $padding-text-medium) {
+	padding-left: ($factor/2)+rem;
+	padding-right: ($factor/2)+rem;
+}
+
+// Box padding is for vertically laid out content 
+$padding-box-x-small: 0.25;
+$padding-box-small: 0.5;
+$padding-box-medium: 1;
+$padding-box-large: 1.5;
+$padding-box-x-large: 2;
+$padding-box-xx-large: 4;
+
+
+@mixin padding-box($factor: $padding-box-medium) {
+	padding-top: ($factor/2)+rem;
+	padding-bottom: ($factor/2)+rem;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Legacy box formatting %placeholders // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+%height--bannerText {
+	height: 2rem;
+}
+
+%height--modalTitle {
+	height: 6rem;
+}
+
+%padding--action {
+	padding: 0.5rem;
+}
+
+%padding--bannerText {
+	padding: 0.25rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+%padding--subjectLink {
+	padding: 0.125rem;
+}
+
+%padding--subjectList {
+	padding: 0.25rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+%padding--glassTile {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+%padding--inputFieldDiv {
+	padding: 0.25rem;
+	padding-left: 0.5rem;
+}
+
+%padding--pageNavDiv {
+	padding: 0.125rem;
+	padding-left: 0.25rem;
+}
+
+%padding--modalContent {
+	padding: 1rem;
+}
+
+%padding--nextedList {
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+%padding--tileContent {
+	padding: 0.25rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+%margin--actionBar {
+	margin-top: 1px;
+	margin-bottom: 0.5rem;
+}
+
+%margin--detailContainer {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+%margin--glassTile {
+	margin: 0.125rem;
+	margin-top: 0.25rem;
+	margin-bottom: -0.125rem;
+}
+
+%margin--header {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+%margin--linkList {
+	margin: 0.5rem;
+	margin-left: 0.25rem;
+	margin-bottom: -0.125rem;
+}
+
+%margin--table {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+%margin--section {
+	margin-bottom: 1rem;
+}
+
+%margin--tileList {
+	margin: 0.125rem;
+	margin-top: 0.5rem;
+	margin-bottom: -0.125rem;
+}
+
+%margin--textBlock {
+	margin-left: 0.25rem;
+	margin-right: auto;
+}

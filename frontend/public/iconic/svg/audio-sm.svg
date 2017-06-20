@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="audio" class="iconic iconic-audio iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Audio</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="11" transform="translate(0 2)">
+    <circle cx="8" cy="5.657" r="2" class="iconic-audio-center iconic-property-accent iconic-property-fill" />
+    <path stroke="#000" d="M11.182 2.475c.814.814 1.318 1.939 1.318 3.182s-.504 2.368-1.318 3.182" class="iconic-audio-wave iconic-audio-wave-inner iconic-audio-wave-right iconic-audio-wave-inner-right iconic-property-stroke" fill="none" />
+    <path stroke="#000" d="M13.303.354c1.357 1.357 2.197 3.232 2.197 5.303s-.84 3.946-2.197 5.303" class="iconic-audio-wave iconic-audio-wave-outer iconic-audio-wave-right iconic-audio-wave-outer-right iconic-property-stroke" fill="none" />
+    <path stroke="#000" d="M4.818 8.839c-.814-.814-1.318-1.939-1.318-3.182s.504-2.368 1.318-3.182" class="iconic-audio-wave iconic-audio-wave-inner iconic-audio-wave-left iconic-audio-wave-inner-left iconic-property-stroke" fill="none" />
+    <path stroke="#000" d="M2.697 10.96c-1.357-1.357-2.197-3.232-2.197-5.303s.84-3.946 2.197-5.303" class="iconic-audio-wave iconic-audio-wave-outer iconic-audio-wave-left iconic-audio-wave-outer-left iconic-property-stroke" fill="none" />
+  </g>
+</svg>

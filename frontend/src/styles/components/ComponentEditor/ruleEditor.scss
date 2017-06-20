@@ -1,0 +1,38 @@
+.ruleEditor__container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.ruleEditor__inputField {
+	@extend %inputField__div;
+	@extend %inputField__multiLine;
+	@extend %editable__label--orange;
+	background-color: $palette-light-transparent;
+		form {
+			textarea {
+				font-size: 1rem !important;
+			}
+		} 
+}
+
+.ruleEditor__ruleDefinition__form {
+	@extend %textAreaField__form;
+	// background-color: $palette-orange-bg;
+	height: 6rem;
+	width: 100%;
+}
+
+.ruleEditor__icon {
+	@extend %iconCenter;
+	@extend %iconCenter--size--32x32;
+	cursor: pointer;
+	margin-right: auto;
+	box-shadow: $elevation-shadow-0;
+		&:hover {
+			background-color: $palette-orange-bg;
+		}
+}

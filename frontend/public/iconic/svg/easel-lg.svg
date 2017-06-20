@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="easel" class="iconic iconic-easel iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Easel</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-easel-clip-0">
+      <path d="M0 78h124v50h-124z" />
+    </clipPath>
+    <clipPath id="iconic-size-lg-easel-clip-1">
+      <path d="M78 8v8h-32v-8h-42v66h116v-66z" />
+    </clipPath>
+    <clipPath id="iconic-size-lg-easel-clip-2">
+      <path d="M48 6h28v8h-28z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="124" data-height="128" transform="translate(2)">
+    <path clip-path="url(#iconic-size-lg-easel-clip-0)" class="iconic-easel-legs iconic-easel-legs-front iconic-property-fill" d="M66 0l46 128h-8l-42-118-42 118h-8l46-128z" />
+    <path class="iconic-easel-legs iconic-easel-legs-back iconic-property-fill" d="M58 78h8v50h-8z" />
+    <path class="iconic-easel-base iconic-property-fill" d="M0 76h124v4h-124z" />
+    <path d="M118.5 74h-113c-.828 0-1.5-.672-1.5-1.5v-63c0-.828.672-1.5 1.5-1.5h113c.828 0 1.5.672 1.5 1.5v63c0 .828-.672 1.5-1.5 1.5z" clip-path="url(#iconic-size-lg-easel-clip-1)" class="iconic-easel-canvas iconic-property-accent iconic-property-fill"
+    />
+    <path d="M68.5 10h-13c-.828 0-1.251-.624-.943-1.393l2.886-7.215c.308-.769 1.229-1.393 2.057-1.393h5c.828 0 1.749.624 2.057 1.393l2.886 7.215c.308.769-.115 1.393-.943 1.393z" class="iconic-easel-clamp iconic-easel-clamp-top iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-easel-clip-2)" d="M74.5 18h-25c-.828 0-1.5-.672-1.5-1.5v-9c0-.828.672-1.5 1.5-1.5h25c.828 0 1.5.672 1.5 1.5v9c0 .828-.672 1.5-1.5 1.5z" class="iconic-easel-clamp iconic-easel-clamp-main iconic-property-fill" />
+  </g>
+</svg>

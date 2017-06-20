@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="browser-type-safari" width="16" height="16" class="iconic iconic-browser-type iconic-size-sm iconic-browser-type-safari" viewBox="0 0 16 16">
+  <g>
+    <title>Browser Type Safari</title>
+  </g>
+  <!-- Chrome -->
+  <!-- Firefox -->
+  <!-- IE -->
+  <!-- Safari -->
+  <!-- Chrome -->
+  <!-- Firefox -->
+  <!-- IE -->
+  <!-- Safari -->
+  <!-- Chrome -->
+  <!-- Firefox -->
+  <!-- IE -->
+  <!-- Safari -->
+  <g data-width="16" data-height="16" class="iconic-container iconic-browser-type-safari" transform="scale(1 1 ) translate(0 ) ">
+    <path d="M8 .53c4.119 0 7.47 3.351 7.47 7.47s-3.351 7.47-7.47 7.47-7.47-3.351-7.47-7.47 3.351-7.47 7.47-7.47m0-.53c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z" class="iconic-browser-type-safari-border iconic-property-fill"></path>
+    <path class="iconic-browser-type-safari-needle iconic-property-fill" d="M12.972 3.006l-4.022 5.879-5.923 4.111 4.111-5.834z"></path>
+    <path stroke="#000" stroke-width=".177" class="iconic-browser-type-safari-tick iconic-browser-type-safari-tick-large iconic-property-stroke" d="M8 .935v1.444m-1.378-1.308l.282 1.416m-1.608-1.014l.553 1.334m-1.774-.681l.802 1.201m-1.872-.322l1.021 1.021m-1.9.049l1.201.802m-1.854.419l1.334.553m-1.736.773l1.416.282m-1.552 1.096h1.444m-1.308 1.378l1.416-.281m-1.014 1.607l1.334-.553m-.681 1.774l1.201-.802m.748 2.751l.802-1.201m.419 1.854l.553-1.334m.773 1.736l.282-1.416m1.096 1.552v-1.444m1.378 1.308l-.281-1.416m1.607 1.014l-.553-1.334m1.774.681l-.802-1.201m1.872.322l-1.021-1.021m1.9-.049l-1.201-.802m1.854-.419l-1.334-.553m1.736-.773l-1.416-.281m1.552-1.097h-1.444m1.308-1.378l-1.416.282m1.014-1.608l-1.334.553m.681-1.774l-1.201.802m-.748-2.751l-.802 1.201m-.419-1.854l-.553 1.334m-.773-1.736l-.281 1.416"
+    fill="none"></path>
+    <path stroke="#000" stroke-width=".177" class="iconic-browser-type-safari-tick iconic-browser-type-safari-tick-small iconic-property-stroke" d="M7.308.97l.072.733m-1.431-.463l.214.705m-1.493-.175l.347.649m-1.499.12l.468.569m-1.447.41l.569.468m-1.338.684l.649.347m-1.179.932l.705.214m-.975 1.145l.733.072m-.733 1.312l.733-.072m-.463 1.431l.705-.214m-.175 1.493l.649-.347m.12 1.499l.569-.468m.41 1.447l.468-.569m.684 1.338l.347-.649m.932 1.179l.214-.705m1.145.975l.072-.733m1.312.733l-.072-.733m1.431.463l-.214-.705m1.493.175l-.347-.649m1.499-.12l-.468-.569m1.447-.41l-.569-.468m1.338-.684l-.649-.347m1.179-.932l-.705-.214m.975-1.145l-.733-.072m.733-1.312l-.733.072m.463-1.431l-.705.214m.175-1.493l-.649.347m-.12-1.499l-.569.468m-.41-1.447l-.468.569m-.684-1.338l-.347.649m-.932-1.179l-.214.705m-1.145-.975l-.072.733"
+    fill="none"></path>
+  </g>
+</svg>

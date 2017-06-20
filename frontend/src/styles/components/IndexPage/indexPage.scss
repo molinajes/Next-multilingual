@@ -1,0 +1,394 @@
+.temp_background {
+	background-color: $palette-light;
+	background-image: linear-gradient(-90deg, rgba($yellow-200, 0.18) 0%, rgba($yellow-200, 0.18) 24%, rgba($orange-200, 0.18) 38%, rgba($orange-200, 0.18) 62%, rgba($mango-200, 0.18) 76%);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Modifiers for Index components // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+@mixin indexPage-color($color: $palette-primary) {
+
+}
+
+@mixin index-spacing($factor: 1) {
+	margin-top: $factor*0.25rem;
+	margin-bottom: $factor*(0.5rem);
+}
+
+@mixin index-padding($factor: 1) {
+	padding: $factor*0.25rem;
+	padding-top: $factor*0.5rem;
+	padding-bottom: $factor*(0.5rem);
+}
+
+.indexPage__container {
+	max-width: 66rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // IndexFeature // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+%indexFeature {
+	@extend %glassBorder;
+	// @include glass__border($palette-mango);
+	box-shadow: $elevation-shadow-3;
+	// padding: 0.5rem;
+	cursor: pointer;
+	@include index-spacing(6);
+}
+
+.indexFeature {
+	@extend %indexFeature;
+	width: 100%;
+}
+
+.indexFeature--fullWidth {
+	@extend %indexFeature;
+	width: 100%;
+	background-color: $palette-light;
+		.indexFeature__container {
+			@extend %innerPage-width;
+		}
+}
+
+
+.indexFeature__container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	// height: 10rem;
+}
+
+.indexFeature__image {
+	width: 10rem;
+	background-color: $palette-light-transparent;
+	box-shadow: $elevation-shadow-0;
+}
+
+.indexFeature__content {
+	// @include index-padding(4);
+	@include padding-centered-text($padding-text-xx-large);
+	@include padding-box($padding-box-xx-large);
+	flex: 1;
+	// box-shadow: $elevation-shadow-0;
+	background-color: rgba($palette-light, $active);
+}
+
+.indexFeature__title {
+	@extend %text--title;
+
+	@include index-spacing(1);
+}
+
+.indexFeature__subtitle {
+	@extend %text--subtitle;
+	@include index-spacing(1);
+}
+
+.indexFeature__description {
+	@extend %text;
+	@include index-spacing(1);
+	width: 75%;
+}
+
+.indexFeature__button {
+	@extend %text--subtitle;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	// margin-top: auto;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // IndexProjects // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+.indexProjects { 
+	@include index-spacing(6);
+	// @extend %indexPage-width;
+	width: 100%;
+}
+
+.indexProjects--rightAlign {
+		.indexProjects__title, .indexProjects__subtitle {
+			margin-left: auto;
+		}
+}
+
+.indexProjects--container {
+	display: flex;
+	flex-direction: column;
+}
+
+.indexProjects__title {
+	@extend %text--title;
+}
+
+.indexProjects__subtitle {
+	@include index-spacing(1);
+	@extend %text--subtitle;
+}
+
+.indexProjects__divider {
+	@include index-spacing(1);
+	min-height: 2px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-image: linear-gradient(to left, $palette-yellow 0%, $palette-yellow 24%, $palette-orange 38%, $palette-orange 62%, $palette-mango 76%);
+	border-image-slice: 1;
+}
+
+.indexProjects__contents {
+	@include index-spacing(1);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.indexProjects__link {
+	@extend %text--subtitle;
+	margin-left: auto;
+	border-bottom: 2px dashed $palette-text-inactive;
+	color: $palette-text-inactive;
+	padding-bottom: 0.125rem;
+	cursor: pointer;
+		&:hover {
+			border-bottom: 2px dashed $palette-yellow;
+			color: $palette-yellow;
+		}
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // IndexTile // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+.indexTile {
+	@include index-spacing(1);
+	// @include index-padding(1);
+	margin-right: 1.5rem;
+}
+
+.indexTile__container {
+	@include index-spacing(1);
+	display: flex;
+	align-items: center;
+	width: 6rem;
+	height: 6rem;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.25rem;
+	box-shadow: $elevation-shadow-2;
+	cursor: pointer;
+	@include transition-highlight(box-shadow);
+	&:hover {
+		box-shadow: $elevation-shadow-3;
+		// border: solid 1px rgba(0,0,0,0.54);
+	}
+}
+
+.indexTile__icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $palette-light;
+	height: 100%;
+	width: 100%;
+	border-radius: 0.25rem;
+
+}
+
+.indexTile__tags {
+	display: flex;
+	flex-direction: row;
+}
+
+.indexTile__tag {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.indexTile__title {
+	@extend %text--subheading;
+	// @include index-spacing(1);
+	// @extend %text--subtitle;
+	
+	width: 6.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+// TODO: Remove Sass below | AjH
+
+
+.indexPage__section {
+	@include span-columns(10 of 12);
+	@include shift(1);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	color: $palette-text-strong;
+	margin-bottom: 2rem;
+}
+.indexPage__section__title--left {
+	text-align: left; // delete?
+}
+.indexPage__section__title--right {
+	text-align: right;
+}
+.indexPage__section__titleHeading {
+	@extend %text--title;
+	width: 100%;
+	margin: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+.indexPage__section__titleSubheading {
+	@extend %text--subtitle;
+	color: $palette-text-active;
+	width: 100%;
+	margin: 0.25rem;
+	margin-right: 0.6rem;
+	margin-left: 0.6rem;
+}
+
+
+.indexPage__sectionTile {
+	@extend %portrait;
+	@extend %portrait--activityElevationShadow;
+	background-color: $palette-light;
+	flex-direction: column;
+	width: 12.5rem;
+	height: 12rem;
+	margin: 0.5rem;
+	padding: 0.25rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+		h3 {
+			@extend %text__heading;
+			margin: 0.5rem;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.indexPage__sectionTile__information {
+			@extend %text--label;
+			display: flex;
+			align-items: center;
+		}
+}
+.indexPage__sectionTile__icons {
+	@extend %iconCenter;
+	@extend %iconCenter--size--32x32;
+	// margin-top: 0.5rem;
+	margin-right: 0;
+	margin-left: 0;
+}
+@mixin sectionTile--colour($border-colour: $palette-primary, $hover-colour: $palette-primary-transparent) {
+	@include portrait__border($border-colour);
+		.indexPage__sectionTile__preview {
+			&:hover {
+				background-color: $hover-colour;
+			}
+		}
+}
+.indexPage__sectionTile--primary {
+	@include sectionTile--colour($palette-primary, $palette-primary-transparent);
+}
+.indexPage__sectionTile--yellow {
+	@include sectionTile--colour($palette-yellow, $palette-yellow-transparent);
+}
+.indexPage__sectionTile--orange {
+	@include sectionTile--colour($palette-orange, $palette-orange-transparent);
+}
+.indexPage__sectionTile--mango {
+	@include sectionTile--colour($palette-mango, $palette-mango-transparent);
+}
+
+
+		.indexPage__sectionTile__previewOpen { // TODO: This CSS and idea is unfinished | AjH
+			display: none;
+			vertical-align: middle;
+			min-height: 8rem;
+			min-width: 9rem
+			span {
+				display: inline-block;
+				// height: 100%;
+				// width: 100%;
+				color: $palette-text-weak;
+				vertical-align: middle !important;
+			}
+		}
+.indexPage__sectionTile__preview {
+	background-color: rgba($palette-border, $faint); // TODO: add this to colours | AjH
+	min-height: 8rem;
+	min-width: 9rem;
+	height: 100%;
+	cursor: pointer;
+		&:hover {
+				.indexPage__sectionTile__previewOpen { // TODO: This CSS and idea is unfinished | AjH
+					display: inline-block;
+					text-align: center;
+					height: 100%;
+					width: 100%;
+					vertical-align: middle;
+
+					span {
+						display: inline-block;
+						color: $palette-text-weak;
+						vertical-align: middle !important;
+					}
+				}
+		}
+}
+
+.indexPage__section__link--primary {
+	color: $palette-primary;
+}
+.indexPage__section__link--yellow {
+	color: $palette-yellow;
+}
+.indexPage__section__link--orange {
+	color: $palette-orange;
+}
+.indexPage__section__link--mango {
+	color: $palette-mango;
+	width: 100%;
+	text-align: right;
+	margin-right: 0.6rem;
+		a {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+}
+
+.indexPage__banner {
+	display: flex;
+	width: 100%;
+	background-color: $palette-background;
+	height: 20rem;
+}
+
+.indexPage__banner__featureImage {
+	width: 20rem;
+	height: 100%;	
+	background-color: $palette-border;
+}

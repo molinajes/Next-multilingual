@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="dna" class="iconic iconic-dna iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Dna</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-dna-clip-0">
+      <path d="M0 9.99v-9.99h9.277c-.172.295-.277.634-.277 1v1.786c0 .702-.375 1.361-.979 1.72l-6.084 3.612c-.793.471-1.444 1.121-1.937 1.872zm10.063-2.045l-6.084 3.612c-.604.358-.979 1.018-.979 1.72v1.723c0 .366-.106.705-.278 1h9.277v-9.927c-.493.751-1.144 1.401-1.937 1.872z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="12" data-height="16" transform="translate(2)">
+    <path clip-path="url(#iconic-size-sm-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-bottom iconic-dna-base-bottom-2 iconic-property-stroke" fill="none" d="M2 13.5h8" />
+    <path clip-path="url(#iconic-size-sm-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-bottom iconic-dna-base-bottom-1 iconic-property-stroke" fill="none" d="M1 11.5h10" />
+    <path clip-path="url(#iconic-size-sm-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-top iconic-dna-base-top-2 iconic-property-stroke" fill="none" d="M1 4.5h10" />
+    <path clip-path="url(#iconic-size-sm-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-top iconic-dna-base-top-1 iconic-property-stroke" fill="none" d="M1 2.5h10" />
+    <path clip-path="url(#iconic-size-sm-dna-clip-0)" stroke="#000" stroke-width="2" stroke-linecap="round" d="M1 1v1.786c0 1.412.744 2.719 1.958 3.439l3.042 1.806M6 8.031l3.042 1.806c1.214.721 1.958 2.028 1.958 3.439v1.723" class="iconic-dna-backbone iconic-dna-backbone-left iconic-property-stroke"
+    fill="none" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" d="M11 1v1.786c0 1.412-.744 2.719-1.958 3.439l-6.084 3.613c-1.214.721-1.958 2.028-1.958 3.439v1.723" class="iconic-dna-backbone iconic-dna-backbone-right iconic-property-stroke" fill="none"
+    />
+  </g>
+</svg>

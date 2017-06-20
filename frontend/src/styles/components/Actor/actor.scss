@@ -1,0 +1,13 @@
+.actor__picture {
+	border: solid 1px black;
+	border-radius: 5em;
+	padding: 1em;
+	width: 3em;
+	height: 3em;
+	margin-left: 0.5em;
+}
+
+.actor__container {
+	display: flex;
+	flex-direction: row;
+}

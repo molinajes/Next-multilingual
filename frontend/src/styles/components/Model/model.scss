@@ -1,0 +1,23 @@
+.model__container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	max-width: $page-width;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 100vh;
+}
+
+.model__packagesActorsContainer {
+	@extend %grid--packages;
+	@extend %gridPadding--left;
+	@include grid-border-right($palette-mango);
+}
+
+.model__packageContainer {
+	@extend %grid--usecases;
+	@extend %gridPadding--right;
+	@include grid-border-left($palette-orange);	
+	display: flex;
+	flex-direction: column;
+}

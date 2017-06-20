@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="screenshot" class="iconic iconic-screenshot iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Screenshot</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path fill="#fff" stroke="#000" stroke-width="2" class="iconic-screenshot-crosshair iconic-screenshot-crosshair-top iconic-property-accent iconic-property-stroke" d="M8 0v5" />
+    <path fill="#fff" stroke="#000" stroke-width="2" class="iconic-screenshot-crosshair iconic-screenshot-crosshair-bottom iconic-property-accent iconic-property-stroke" d="M8 11v5" />
+    <path fill="#fff" stroke="#000" stroke-width="2" class="iconic-screenshot-crosshair iconic-screenshot-crosshair-right iconic-property-accent iconic-property-stroke" d="M16 8h-5" />
+    <path fill="#fff" stroke="#000" stroke-width="2" class="iconic-screenshot-crosshair iconic-screenshot-crosshair-left iconic-property-accent iconic-property-stroke" d="M5 8h-5" />
+    <circle cx="8" cy="8" r="1" class="iconic-screenshot-center iconic-property-accent iconic-property-fill" />
+    <circle stroke="#000" stroke-width="2" cx="8" cy="8" r="5" class="iconic-screenshot-ring iconic-property-stroke" fill="none" />
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+// .modelRequirements__container {
+// 	@include span-columns(2 of 12);
+// 	// @include shift();
+// 	display: flex;
+// 	min-height: 80vh;
+// 	flex-direction: column;
+
+// 	@extend %frame;
+// 	background-color: rgba($grey-100, $faint);
+
+// }
+
+// .modelRequirements__tab {
+// 	@extend %glass;
+// 	background-color: rgba($mango-500, $faint);
+// 	@include glass__border($mango-500);
+// 	@extend %help;
+// 	font-size: 1rem;
+// 	padding: 0.25rem;
+// 	color: rgba($black-500, $active);
+// }
+

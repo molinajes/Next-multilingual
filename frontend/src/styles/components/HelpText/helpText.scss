@@ -1,0 +1,50 @@
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Help Text  // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+// Text size variables are found in Type file
+
+@mixin help-text($factor: $text-x-large) {
+	@include text-bold-size($factor);
+	@include text-line-size($text-line-large);
+	@include padding-centered-text($padding-text-large);
+	@include margin-section($margin-section-large);
+	text-align: center;
+	color: $palette-text-faint;
+}
+
+.moduleList__helpText {
+	@include help-text();
+}
+
+.requirementView__helpText {
+	@include help-text();
+}
+
+.componentView__helpText {
+	@include help-text();
+}
+
+.packageView__helpText {
+	@include help-text();
+}
+
+.actorList__helpText {
+	@include help-text($text-large);
+}
+
+.packageList__helpText {
+	@include help-text($text-large);
+}
+
+.createProject__helpText {
+	@include help-text($text-xx-large);
+	text-align: right;
+}
+
+.projectDetail__helpText {
+	@include help-text($text-x-large);
+	display: flex;
+	align-items: center;
+	width: 50%;
+}

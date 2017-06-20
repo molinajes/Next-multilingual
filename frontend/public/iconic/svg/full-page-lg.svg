@@ -1,0 +1,24 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="full-page" class="iconic iconic-full-page iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Full Page</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-full-page-clip-0">
+      <path d="M0 11v97h128v-97h-128zm124 93h-120v-90h120v90z" />
+    </clipPath>
+    <clipPath id="iconic-size-lg-full-page-clip-1">
+      <path d="M0 0v14h128v-14h-128zm8 10l-4.125-2 4.125-2v4zm4 0v-4l4 2-4 2zm110.084 0h-100.084c-1.105 0-2-.895-2-2s.895-2 2-2h100.084c1.105 0 2 .895 2 2s-.895 2-2 2z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path stroke="#000" stroke-width="2" class="iconic-full-page-bound iconic-full-page-bound-top iconic-full-page-bound-left iconic-full-page-bound-top-left iconic-property-accent iconic-property-stroke" fill="none" d="M7 26v-9h9" />
+    <path stroke="#000" stroke-width="2" class="iconic-full-page-bound iconic-full-page-bound-bottom iconic-full-page-bound-left iconic-full-page-bound-bottom-left iconic-property-accent iconic-property-stroke" fill="none" d="M16 127h-9v-9" />
+    <path stroke="#000" stroke-width="2" class="iconic-full-page-bound iconic-full-page-bound-bottom iconic-full-page-bound-right iconic-full-page-bound-bottom-right iconic-property-accent iconic-property-stroke" fill="none" d="M121 118v9h-9" />
+    <path stroke="#000" stroke-width="2" class="iconic-full-page-bound iconic-full-page-bound-top iconic-full-page-bound-right iconic-full-page-bound-top-right iconic-property-accent iconic-property-stroke" fill="none" d="M112 17h9v9" />
+    <path stroke="#000" stroke-width="8" class="iconic-tyle:accent iconic-full-page-arrow iconic-full-page-arrow-lines iconic-property-stroke" fill="none" d="M64 83v-44" />
+    <path d="M64.756 103.704l12.488-21.409c.417-.716.084-1.296-.744-1.296h-25c-.828 0-1.162.58-.744 1.296l12.488 21.409c.417.716 1.094.716 1.512 0z" class="iconic-full-page-arrow iconic-full-page-arrow-head iconic-property-accent iconic-property-fill"
+    />
+    <path clip-path="url(#iconic-size-lg-full-page-clip-0)" class="iconic-full-page-border iconic-property-fill" d="M0 11h128v77h-128z" />
+    <path clip-path="url(#iconic-size-lg-full-page-clip-1)" d="M0 1.5v11c0 .828.672 1.5 1.5 1.5h125c.828 0 1.5-.672 1.5-1.5v-11c0-.828-.672-1.5-1.5-1.5h-125c-.828 0-1.5.672-1.5 1.5z" class="iconic-full-page-top iconic-property-fill" />
+  </g>
+</svg>

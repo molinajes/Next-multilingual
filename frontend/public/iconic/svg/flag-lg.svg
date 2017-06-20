@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="flag" class="iconic iconic-flag iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Flag</title>
+  </g>
+  <g class="iconic-container" data-width="98" data-height="128" transform="translate(15)">
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-flag-mast iconic-property-stroke" fill="none" d="M4 12v112" />
+    <path d="M0 4c0-2.209 1.791-4 4-4s4 1.791 4 4v2h-8v-2z" class="iconic-flag-mast iconic-flag-mast-top iconic-property-fill" />
+    <path d="M42 13c0-.03.015-.056.017-.086-.002-.03-.017-.055-.017-.086 0-.324.175-.616.343-.828l1.314-2c.208-.287.343-.505.343-.828 0-.324-.131-.617-.343-.828-.212-.212-.505-.343-.828-.343h-32.828v52h32v-47z" class="iconic-flag-back iconic-property-accent iconic-property-fill"
+    />
+    <path d="M98 14h-54v51c0 .552.448 1 1 1h53l-14-26.11 14-25.89z" class="iconic-flag-front iconic-property-fill" />
+  </g>
+</svg>

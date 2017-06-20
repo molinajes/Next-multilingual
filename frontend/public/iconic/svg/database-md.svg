@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="database" class="iconic iconic-database iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Database</title>
+  </g>
+  <g class="iconic-container" data-width="18" data-height="32" transform="translate(7)">
+    <path d="M9 18c4.962 0 9-4.038 9-9 0-4.971-4.029-9-9-9s-9 4.029-9 9c0 4.962 4.038 9 9 9z" class="iconic-database-disc iconic-database-disc-top iconic-property-fill" />
+    <path d="M9 25c4.962 0 9-4.038 9-9v-2.67c-1.618 3.349-5.039 5.67-9 5.67s-7.382-2.321-9-5.67v2.67c0 4.962 4.038 9 9 9z" class="iconic-database-disc iconic-database-disc-middle iconic-property-accent iconic-property-fill" />
+    <path d="M9 26c-3.962 0-7.382-2.321-9-5.67v2.67c0 4.971 4.029 9 9 9s9-4.029 9-9v-2.67c-1.618 3.349-5.039 5.67-9 5.67z" class="iconic-database-disc iconic-database-disc-bottom iconic-property-fill" />
+  </g>
+</svg>

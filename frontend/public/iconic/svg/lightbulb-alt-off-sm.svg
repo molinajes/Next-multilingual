@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="lightbulb-alt-off" class="iconic iconic-lightbulb-alt-off iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Lightbulb Alt Off</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-lightbulb-alt-off-clip-0">
+      <path d="M.854 11.879v-11.879h11.879l-11.879 11.879zm4.121.121h7.879v-7.879l-7.879 7.879z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="14" data-height="16" transform="translate(1)">
+    <path stroke="#000" stroke-linecap="round" class="iconic-lightbulb-alt-off-screw iconic-lightbulb-alt-off-screw-2 iconic-property-stroke" fill="none" d="M5.354 15.5h3" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-lightbulb-alt-off-screw iconic-lightbulb-alt-off-screw-1 iconic-property-stroke" fill="none" d="M4.354 13.5h5" />
+    <path stroke="#000" class="iconic-lightbulb-alt-off-strike iconic-property-stroke" fill="none" d="M14.354.5l-14 14" />
+    <path clip-path="url(#iconic-size-sm-lightbulb-alt-off-clip-0)" d="M4.082 12c-.129 0-.226-.101-.241-.23-.216-1.848-2.987-2.771-2.987-6.271 0-2 2-5.5 6-5.5s6 3.5 6 5.5c0 3.5-2.771 4.422-2.987 6.271-.015.128-.112.229-.241.229h-5.544z" class="iconic-lightbulb-alt-off-bulb iconic-property-fill"
+    />
+  </g>
+</svg>

@@ -1,0 +1,222 @@
+.main__content {
+	width: 100%;
+}
+
+.pageNav__wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	flex-basis: 100%;
+	justify-content: stretch;
+	background-color: #ffffff;
+	// background-color: $palette-light;
+	// height: 3rem;
+	box-shadow: inset 0 -4px 6px $palette-shadow;
+	z-index: $zIndex-2--pageNav;
+}
+
+
+@mixin pageNav-tabColor($color: $palette-border) {
+	border-bottom: 4px solid $color;
+		.pageNav__contentStat {
+			color: $color;
+		}
+		.pageNav__helpIcon:hover, .pageNav__helpIcon--active {
+			cursor: help;
+			background-color: rgba($color, $faint);
+				box-shadow: 0 1px 1px rgba($color, $active),
+                	    	0 2px 6px rgba($color, $active);    	    
+		}
+}
+
+@mixin pageNav-shadowLine($color-start: $palette-border, $color-end: $palette-border) {
+	box-shadow: //inset 2px 0 2px #ffffff,
+	 			// inset -2px 0 2px #ffffff,			
+	 			inset 0px -4px 3px $color-start,			
+	 			0px 4px 3px $color-start;			
+}
+
+.pageNav__nav {
+	max-width: $page-width;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	width: 100%;
+		:first-child {
+			.pageNav__tab {
+				padding-left: 1.5rem;
+			}	
+		}
+		:last-child {
+			.pageNav__tab {
+				padding-right: 0.75rem;
+			}	
+		}
+}
+
+.pageNav__tab {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 3rem;
+	margin-top: 0.125rem;
+	margin-bottom: 0.125rem;
+	padding-left: 0.75rem;
+	padding-right: 0.5rem;
+}
+
+.pageNav__title {
+	@include iconic-color($palette-primary, 1);
+	@extend %text__pageNavTitle;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.pageNav__titleText {
+	padding-right: 0.25rem;
+}
+
+.pageNav__content {
+	@extend %text__pageNavContent;
+	display: flex;
+	flex: 1 1 0;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 1.5rem;
+	padding-left: 0.25rem;
+	// background-color: aquamarine;
+}
+
+.pageNav__contentGroup {
+	padding-right: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	flex: 1 1 0;
+}
+
+.pageNav__helpIcon, .pageNav__helpIcon--active {
+	@include transition-highlight();
+	background-color: $palette-light;
+	box-shadow: $elevation-shadow-1;
+	border-radius: 1rem;
+}
+
+.pageNav__collapseToggle {
+	@extend .pageNav__contentGroup;
+	flex-grow: 0;
+}
+
+%pageNav__search {
+	@extend %inputField__pageNavDiv;
+	margin-left: 0.25rem;
+	background-color: $palette-light-transparent;
+	cursor: pointer;
+}
+
+.pageNav__search--requirements {
+	@extend %pageNav__search; 
+	@extend %existingBorder--orange;
+}
+
+.pageNav__search--interfaces {
+	@extend %pageNav__search;
+	@extend %existingBorder--mango;
+}
+.pageNav__search--rules {
+	@extend %pageNav__search;
+	@extend %existingBorder--orange;
+}
+.pageNav__search--forms {
+	@extend %pageNav__search;
+	@extend %existingBorder--yellow;
+}
+.pageNav__search--objects {
+	@extend %pageNav__search;
+	@extend %existingBorder--primary;
+}
+
+.pageNav__modules {
+	display: flex;
+	@extend %grid--modules;
+	@include pageNav-tabColor($palette-mango);
+	@include pageNav-shadowLine($palette-mango-bg, $palette-orange-bg)
+}
+
+.pageNav__requirements {
+	@extend %grid--requirements;
+	@include pageNav-tabColor($palette-orange);
+	@include pageNav-shadowLine($palette-orange-bg, $palette-yellow-bg)
+}
+
+.pageNav__linkedComponents {
+	display: flex;
+	@extend %grid--linkedComponents;
+	@include pageNav-tabColor($palette-yellow);
+	@include pageNav-shadowLine($palette-yellow-bg, $palette-yellow-bg)
+}
+
+.pageNav__interfaces, .pageNav__rules, .pageNav__forms, .pageNav__objects {
+	@extend %grid--components;
+}
+
+.pageNav__interfaces {
+	@include pageNav-tabColor($palette-mango);
+	@include pageNav-shadowLine($palette-mango-bg, $palette-orange-bg);
+}
+
+.pageNav__rules {
+	@include pageNav-tabColor($palette-orange);
+	@include pageNav-shadowLine($palette-orange-bg, $palette-yellow-bg);
+}
+
+.pageNav__forms {
+	@include pageNav-tabColor($palette-yellow);
+	@include pageNav-shadowLine($palette-yellow-bg, $palette-border-transparent);
+}
+
+.pageNav__objects {
+	@include pageNav-tabColor($palette-border);
+	@include pageNav-shadowLine($palette-border-transparent, $palette-orange-bg);
+}
+
+.pageNav__packages {
+	@extend %grid--packages;
+	@include pageNav-tabColor($palette-mango);
+	@include pageNav-shadowLine($palette-mango-bg, $palette-orange-bg);
+}
+.pageNav__usecases {
+	@extend %grid--usecases;
+	@include pageNav-tabColor($palette-orange);
+	@include pageNav-shadowLine($palette-orange-bg, $palette-yellow-bg);
+}
+.pageNav__steps {
+	@extend %grid--steps;
+	@include pageNav-tabColor($palette-yellow);
+	@include pageNav-shadowLine($palette-yellow-bg, $palette-yellow-bg);
+}
+
+.pageNav__release {
+	@extend %grid--release;
+	@include pageNav-tabColor($palette-mango);
+	@include pageNav-shadowLine($palette-mango-bg, $palette-orange-bg);
+}
+
+.pageNav__releaseSettings {
+	@extend %grid--releaseSettings;
+	@include pageNav-tabColor($palette-orange);
+	@include pageNav-shadowLine($palette-orange-bg, $palette-yellow-bg);
+}
+
+.pageNav__edit {
+	@extend %grid--edit;
+	@include pageNav-tabColor($palette-yellow);
+	@include pageNav-shadowLine($palette-yellow-bg, $palette-yellow-bg);
+}

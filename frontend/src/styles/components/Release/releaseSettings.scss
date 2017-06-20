@@ -1,0 +1,16 @@
+
+
+.releaseSettings__titleInput {
+	@extend %inputField__singleLine;
+	@extend %inputField__div--subtitle;
+	// @extend %editableBorder--orange;
+	@extend %inputField__div;
+	@extend %editableLabel--orange;
+	// @extend %inputField__div--orange;
+	// @extend %inputField__iconLabel;
+	// max-height: 3rem;
+}
+
+.releaseSettings__release {
+	width: 30%;
+}

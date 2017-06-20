@@ -1,0 +1,246 @@
+$strong: 0.88;
+$active: 0.80;
+$inactive: 0.64;
+$weak: 0.32;
+$faint: 0.16;
+
+$black-50: #A0A0A0;
+$black-100: #C7C7C7;
+$black-200: #848484;
+$black-300: #616161;
+$black-400: #515151;
+$black-500: #424242;
+$black-600: #333333;
+$black-700: #232323;
+
+$black-50-faint: #F4F4F4;
+$black-500-faint: #D9D9D9;
+
+$grey-100: #FCFCFC;
+$grey-150: #F3F2F2;
+$grey-200: #E1DFDF;
+
+$yellow-200: #FFDC85;
+$yellow-300: #FFC83D;
+$yellow-500: #FFB600;
+$yellow-faint: #FFF1CA;
+
+$orange-200: #FFD1AB;
+$orange-200--background: rgba(255,209,171,0.32);
+
+$orange-300: #FFAA63;
+$orange-500: #FF8826;
+$orange-faint: #FFE7D3;
+
+$mango-200: #FEB99B;
+$mango-300: #FD8854;
+$mango-500: #FC5E18;
+$mango-faint: #FEDFD0;
+
+
+$red-200: #FF9D85;
+// $red-300: #FF643D;
+$red-500: #FF3300;
+
+$green-500: #DBDB00;
+
+$palette-primary: $black-500;
+$palette-light: $grey-100;
+$palette-white: #ffffff;
+$palette-light-transparent: rgba($grey-100, $active);
+$palette-background: $grey-150;
+$palette-background-transparent: rgba($palette-background, $weak);
+$palette-border: $black-50;
+$palette-border-transparent: rgba($palette-border, $faint);
+$palette-text: $black-700;
+$palette-shadow: rgba($black-700, $weak);
+$palette-shadow-faint: rgba($black-700, $faint);
+
+$palette-primary-transparent: rgba($palette-primary, $faint);
+$palette-primary-bg: $black-500-faint;
+
+$palette-textLight-strong: rgba($palette-light, $strong);
+
+
+$palette-text-strong: rgba($palette-text, $strong);
+$palette-text-active: rgba($palette-text, $active);
+$palette-text-inactive: rgba($palette-text, $inactive);
+$palette-text-weak: rgba($palette-text, $weak);
+
+$palette-yellow: $yellow-500;
+$palette-yellow-transparent: rgba($palette-yellow, $faint);
+$palette-yellow-bg: $yellow-faint;
+
+$palette-orange: $orange-500;
+$palette-orange-transparent: rgba($palette-orange, $faint);
+$palette-orange-bg: $orange-faint;
+
+$palette-mango: $mango-500;
+$palette-mango-transparent: rgba($palette-mango, $faint);
+$palette-mango-bg: $mango-faint;
+
+// TYPE
+$font-light: 300;
+$font-reg: 400;
+$font-sb: 600;
+$font-display: 'Architects Daughter', cursive;
+// $font-display: 'Oregano', cursive;
+
+
+%text--subTitle {
+	font-weight: $font-light;
+	font-size: 1.5rem;
+	letter-spacing: -0.2px;
+	line-height: 3rem;
+}
+
+%text--sectionHeading {
+	letter-spacing: -0.2px;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Shadows // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+$elevation-shadow-0:  0 0 1px rgba($black-700, $weak);
+$elevation-shadow-1:  0 1px 1px rgba($black-700, $weak);
+$elevation-shadow-2:  0 1px 1px rgba($black-700, $weak),
+                      0 2px 6px rgba($black-700, $weak);
+$elevation-shadow-3:  0 2px 4px rgba($black-700, $weak),
+                      0 8px 16px rgba($black-700, $weak);
+$elevation-shadow-4:  0 4px 8px rgba($black-700, $weak),
+                      0 18px 46px 6px rgba($black-700, $weak);
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Efficient includable margin classes // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+// Margin List is for vertically laid out content 
+
+$margin-list-small: 0.5;
+$margin-list-medium: 1;
+$margin-list-large: 1.5;
+$margin-list-x-large: 2;
+
+
+@mixin margin-list($factor: $margin-list-medium) {
+	margin-top: ($factor/2)+rem;
+	margin-bottom: (-$factor/6)+rem;
+}
+
+// Margin Section is for content sections 
+
+$margin-section-x-small: 0.25;
+$margin-section-small: 0.5;
+$margin-section-medium: 1;
+$margin-section-large: 1.5;
+$margin-section-x-large: 2;
+$margin-section-xx-large: 4;
+
+
+@mixin margin-section($factor: $margin-section-medium) {
+	margin-top: ($factor/2)+rem;
+	margin-bottom: ($factor/2)+rem;
+}
+
+// Margin horizontal is for content sections usually with a border 
+
+$margin-horizontal-small: 0.5;
+$margin-horizontal-medium: 1;
+$margin-horizontal-large: 1.5;
+$margin-horizontal-x-large: 2;
+$margin-horizontal-xx-large: 4;
+$margin-horizontal-section: 8;
+
+
+@mixin margin-horizontal($factor: $margin-horizontal-medium) {
+	margin-right: ($factor)+rem;
+	margin-left: ($factor)+rem;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Efficient includable padding classes // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+// Padding text is for vertically centered text
+
+$padding-text-small: 0.5;
+$padding-text-medium: 1;
+$padding-text-large: 1.5;
+$padding-text-x-large: 2;
+$padding-text-xx-large: 4;
+$padding-text-section: 8;
+
+@mixin padding-centered-text($factor: $padding-text-medium) {
+	padding-left: ($factor/2)+rem;
+	padding-right: ($factor/2)+rem;
+}
+
+// Box padding is for vertically laid out content 
+$padding-box-x-small: 0.25;
+$padding-box-small: 0.5;
+$padding-box-medium: 1;
+$padding-box-large: 1.5;
+$padding-box-x-large: 2;
+$padding-box-xx-large: 4;
+$padding-box-section: 8;
+
+
+@mixin padding-box($factor: $padding-box-medium) {
+	padding-top: ($factor/2)+rem;
+	padding-bottom: ($factor/2)+rem;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Animations // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+$transition-ease: cubic-bezier(0.4, 1, 0.75, 0.9);
+
+$gradient-spin-color: $palette-mango 0%, $palette-orange 52%, $palette-yellow 100%;
+$gradient-spin-deg-start: 0;
+$gradient-spin-deg: 21;
+$gradient-spin-keyframe: 6%;
+
+@keyframes gradient-spin {
+  @for $gs from 1 through 16 {
+      #{0%+$gs*$gradient-spin-keyframe} {
+        background-image: linear-gradient(#{($gradient-spin-deg-start)-$gs*$gradient-spin-deg}deg,$gradient-spin-color);
+      }
+    }
+} 
+
+@keyframes shadow-drop-2-center {
+  0% {
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 rgba($black-700, $weak);
+  }
+  100% {
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 20% 20%;
+  }
+  15% {
+    transform: translateX(-10px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(5px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-5px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(3px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-2px) rotate(-1.2deg);
+  }
+}
+

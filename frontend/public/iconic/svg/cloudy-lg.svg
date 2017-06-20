@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="cloudy" class="iconic iconic-cloudy iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Cloudy</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-cloudy-clip-0">
+      <path d="M16.342 57.954c3.005-19.247 19.922-33.954 39.658-33.954 10.737 0 20.521 4.21 27.731 11.094-3.366-19.919-20.688-35.094-41.565-35.094-23.288 0-42.167 18.879-42.167 42.167 0 8.034 2.248 15.542 6.148 21.933 2.919-2.649 6.361-4.76 10.194-6.146z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="128" data-height="114" transform="translate(0 7)">
+    <circle cx="42" cy="42" r="42" clip-path="url(#iconic-size-lg-cloudy-clip-0)" class="iconic-cloudy-sun iconic-property-accent iconic-property-fill" />
+    <path d="M110 78c-.711 0-1.311-.081-2 0-.871-8.409-7.602-15.091-16-16-.986-18.976-16.783-34-36-34-18.8 0-34.415 14.604-36 33-11.578 3.042-20 13.481-20 26 0 14.552 11.575 26.471 26 27h84c9.925 0 18-8.075 18-18s-8.075-18-18-18z" class="iconic-cloudy-cloud iconic-property-fill"
+    />
+  </g>
+</svg>

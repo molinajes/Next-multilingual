@@ -1,0 +1,30 @@
+.actorList__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.actorList__table {
+	@include margin-horizontal($margin-horizontal-small);
+	@include margin-section($margin-section-medium);
+	box-shadow: $elevation-shadow-0;
+	position: relative;
+}
+
+.actorList__edit {
+	display: flex; 
+	@include transition-highlight();
+	@include text-sb-size($text-x-large);
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba($palette-mango, 0);
+	box-shadow: $elevation-shadow-1;
+	position: absolute;
+	cursor: pointer;
+		&:hover {
+			background-color: rgba($palette-mango, $faint);
+			box-shadow: $elevation-shadow-2;
+		}
+}

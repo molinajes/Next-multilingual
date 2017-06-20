@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="building" class="iconic iconic-building iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Building</title>
+  </g>
+  <g class="iconic-container" data-width="90" data-height="128" transform="translate(19)">
+    <path class="iconic-building-step iconic-building-step-bottom iconic-property-accent iconic-property-fill" d="M0 126h90v2h-90z" />
+    <path class="iconic-building-step iconic-building-step-middle iconic-property-accent iconic-property-fill" d="M2 122h86v2h-86z" />
+    <path class="iconic-building-step iconic-building-step-top iconic-property-accent iconic-property-fill" d="M4 118h82v2h-82z" />
+    <path d="M2 4v2c2.209 0 4 1.791 4 4v106h34v-14h10v14h34v-106c0-2.209 1.791-4 4-4v-2h-86zm24 82h-14v-14h14v14zm2-16h-18v-2h18v2zm-16-10v-14h14v14h-14zm16-16h-18v-2h18v2zm-16-10v-14h14v14h-14zm16-16h-18v-2h18v2zm24 68h-14v-14h14v14zm2-16h-18v-2h18v2zm-16-10v-14h14v14h-14zm16-16h-18v-2h18v2zm-16-10v-14h14v14h-14zm16-16h-18v-2h18v2zm24 68h-14v-14h14v14zm2-16h-18v-2h18v2zm-16-10v-14h14v14h-14zm16-16h-18v-2h18v2zm-16-10v-14h14v14h-14zm16-16h-18v-2h18v2z"
+    class="iconic-building-facade iconic-property-fill" />
+    <path class="iconic-building-rooftop iconic-property-fill" d="M0 0h90v2h-90z" />
+  </g>
+</svg>

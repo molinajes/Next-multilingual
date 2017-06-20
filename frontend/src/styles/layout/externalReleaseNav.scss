@@ -1,0 +1,48 @@
+// .externalNav__wrapper {
+// 	background-color: $palette-light;
+// 	border-bottom-width: 0.25rem;
+// 	border-bottom-style: solid;
+// 	border-bottom-color: $palette-primary;
+// 	box-shadow: $elevation-shadow-2;
+// 	// box-shadow: 0 1px 4px 0 $palette-shadow;
+// 	z-index: $zIndex-7--nav;
+// 	position: fixed;
+// 	width: 100%;
+// }
+
+// .externalNav__container {
+// 	display: flex;
+// 	flex-direction: row;
+// 	flex-wrap: nowrap;
+// 	align-items: center;
+// 	// justify-content: space-between;
+// 	height: 3.5rem;
+// 	width: 100%;
+// 	max-width: 1920px;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// 	padding-left: 2rem;
+// 	padding-right: 2rem;
+// }
+
+// .externalNav__projectName {
+// 	@extend %text__modalSubtitle;
+// 	padding-top: 0.5rem;
+// 		h3 {
+// 			display: inline-block;
+// 		}
+// 		span {
+// 			color: $palette-text-inactive;
+// 		}
+// }
+// .externalNav__title {
+// 	@extend %text--externalTitle;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// }
+// .externalNav__releaseDate {
+// 	@extend %text;
+// 	color: $palette-text-inactive;
+// }
+
+

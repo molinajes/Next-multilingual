@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="tags" class="iconic iconic-tags iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Tags</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-tags-clip-0">
+      <path d="M108 64l-32 32 6 6 38-38-68-64h-12z" />
+    </clipPath>
+    <clipPath id="iconic-size-lg-tags-clip-1">
+      <path d="M36 0h-36v36l68 64 36-36-68-64zm-14 28c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="120" data-height="102" transform="translate(4 13)">
+    <path d="M16 1.5v33c0 .828.489 1.96 1.092 2.528l65.815 61.944c.603.568 1.567.553 2.153-.033l33.879-33.879c.586-.586.572-1.521-.032-2.089l-65.816-61.944c-.603-.568-1.764-1.028-2.592-1.028h-33c-.828 0-1.5.672-1.5 1.5z" clip-path="url(#iconic-size-lg-tags-clip-0)"
+    class="iconic-tags-back iconic-property-accent iconic-property-fill" />
+    <path d="M34.5 0h-33c-.828 0-1.5.672-1.5 1.5v33c0 .828.489 1.96 1.092 2.528l65.815 61.944c.603.568 1.567.553 2.153-.033l33.879-33.879c.586-.586.572-1.521-.032-2.089l-65.816-61.944c-.603-.568-1.764-1.028-2.592-1.028z" clip-path="url(#iconic-size-lg-tags-clip-1)"
+    class="iconic-tags-front iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="inkwell" class="iconic iconic-inkwell iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Inkwell</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path d="M120.43 2.114c-12.716 5.98-48.872 23.678-68.43 40.37l-8 11.517v-6c-3.008 2.38-5.288 4.688-7.077 6.845-.598.721-.923 1.625-.923 2.562v20.376c21.923-25.162 64.267-62.384 84.43-75.67z" class="iconic-inkwell-feather iconic-inkwell-feather-left iconic-property-fill"
+    />
+    <path d="M104 32.125l7.321-8.125c7.408-13.255 16.679-24 16.679-24l-11.5 7.875-25.25 22.125-20.375 19.25-26.552 29.75 30.997-7.828c.451-.114.884-.281 1.284-.518 4.373-2.591 9.503-7.489 14.74-14.656l-7.344.002 12.878-8c3.403-5.159 6.748-10.643 9.872-15.999l-2.75.124z"
+    class="iconic-inkwell-feather iconic-inkwell-feather-right iconic-property-fill" />
+    <path d="M26.243 94h8.457c9.833-17.589 68.284-76.52 93.299-94-18.866 8.82-88.654 71.114-101.757 94z" class="iconic-inkwell-feather iconic-inkwell-feather-stem iconic-property-accent iconic-property-fill" />
+    <path d="M58.871 115.012l-13.742-12.024c-.621-.543-1.129-1.663-1.129-2.488v-3.5h-28v3.5c0 .825-.508 1.944-1.129 2.488l-13.742 12.025c-.621.543-1.129 1.663-1.129 2.488v10.5h60v-10.5c0-.825-.508-1.945-1.129-2.488zm-36.871-10.93c0 .24-.086.471-.243.653l-11.515 13.354c-.157.182-.243.413-.243.653v3.258h-4v-4.039c0-.265.105-.519.293-.707l13.414-13.414c.188-.188.293-.442.293-.707v-1.132h2v2.082z"
+    class="iconic-inkwell-well iconic-property-fill" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-inkwell-well-lip iconic-property-stroke" fill="none" d="M15 97h30" />
+  </g>
+</svg>

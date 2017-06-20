@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="settings" class="iconic iconic-settings iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Settings</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-settings-clip-0">
+      <path d="M14 8c-1.654 0-3-1.346-3-3s1.346-3 3-3c.771 0 1.468.3 2 .78v-2.78h-16v2.78c.532-.48 1.229-.78 2-.78 1.654 0 3 1.346 3 3s-1.346 3-3 3c-.771 0-1.468-.301-2-.78v8.78h16v-8.78c-.532.48-1.229.78-2 .78zm-6 6c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path clip-path="url(#iconic-size-sm-settings-clip-0)" stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-settings-line iconic-settings-line-1 iconic-property-accent iconic-property-stroke" fill="none" d="M2 1v14" />
+    <path clip-path="url(#iconic-size-sm-settings-clip-0)" stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-settings-line iconic-settings-line-2 iconic-property-accent iconic-property-stroke" fill="none" d="M8 1v14" />
+    <path clip-path="url(#iconic-size-sm-settings-clip-0)" stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-settings-line iconic-settings-line-3 iconic-property-accent iconic-property-stroke" fill="none" d="M14 1v14" />
+    <circle cx="2" cy="5" r="2" class="iconic-settings-knob iconic-settings-knob-1 iconic-property-fill" />
+    <circle cx="8" cy="11" r="2" class="iconic-settings-knob iconic-settings-knob-2 iconic-property-fill" />
+    <circle cx="14" cy="5" r="2" class="iconic-settings-knob iconic-settings-knob-3 iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="pie-chart" class="iconic iconic-pie-chart iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Pie Chart</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path d="M10 2.101v6.813l-5.449 5.449c1.213 1.007 2.75 1.637 4.449 1.637 3.866 0 7-3.134 7-7 0-3.523-2.612-6.41-6-6.899z" class="iconic-pie-chart-slice iconic-pie-chart-slice-large iconic-property-fill" />
+    <path d="M1.826 4.74c-1.111 1.089-1.826 2.581-1.826 4.26 0 1.909.892 3.61 2.281 4.709l4.261-4.253-4.716-4.716z" class="iconic-pie-chart-slice iconic-pie-chart-slice-medium iconic-property-fill" />
+    <path d="M2.054 2.054c1.264-1.268 3.014-2.054 4.947-2.054h.001c.339 0 .672.024.998.071v7.929l-5.946-5.947z" class="iconic-pie-chart-slice iconic-pie-chart-slice-small iconic-property-fill" />
+  </g>
+</svg>

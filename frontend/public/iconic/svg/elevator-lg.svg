@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="elevator" class="iconic iconic-elevator iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Elevator</title>
+  </g>
+  <g class="iconic-container" data-width="72" data-height="128" transform="translate(28)">
+    <path d="M36.791 126.725l34.418-55.451c.437-.704.119-1.275-.709-1.275h-69c-.828 0-1.146.571-.709 1.274l34.418 55.451c.437.704 1.145.704 1.582 0z" class="iconic-elevator-arrow-bottom iconic-property-fill" />
+    <path d="M35.209 1.274l-34.418 55.451c-.437.704-.119 1.275.709 1.275h69c.828 0 1.146-.571.709-1.274l-34.418-55.451c-.437-.704-1.145-.704-1.582 0z" class="iconic-elevator-arrow-top iconic-property-fill" />
+  </g>
+</svg>

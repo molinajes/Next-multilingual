@@ -1,0 +1,287 @@
+.release__contentContainer {
+	margin-top: -1.25rem; // TODO: Remove 'magic number'  | AjH
+	@extend %gridPadding;
+}
+
+.releaseContent__container { // Level of all Packages, Rules etc..
+	@include margin-section($margin-section-xx-large);
+	@include padding-box($padding-box-xx-large);
+	@include padding-centered-text($padding-text-xx-large);
+	@extend %grid--releaseSettings;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	background-color: $palette-light;
+	box-shadow: $elevation-shadow-0;
+}
+
+.releaseContent__componentGroup { // Level of single Package or Interface  
+	@include margin-section($margin-section-medium);
+	@include padding-box($padding-box-x-large);
+	@include padding-centered-text($padding-text-xx-large);
+}
+
+.releaseContent__componentIndividual { // Level of single Package diagram   
+	@include margin-section($margin-section-x-large);
+	// @include padding-box($padding-box-x-large);
+	// @include padding-centered-text($padding-text-xx-large);
+}
+
+.output__nestedComponent { // Level of detail for a single component
+	@include padding-box($padding-box-medium);
+	@include padding-centered-text($padding-text-large);
+	@include margin-horizontal($margin-horizontal-x-large);
+	margin-right: 0;
+	// border-left: 0.5em $palette-border-transparent solid;
+	// border: 1px violet solid;
+}
+
+.releaseContent__componentGroup .releaseContent__rte.releaseContent__editing {
+	// has to over specified
+	border: dashed 3px $orange-500;
+}
+
+.releaseContent__rte--editing {
+	color: $orange-500;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+.rf-h1 {
+	@extend %text--title;
+  	line-height: 0.9; // override for border bottom 
+	// border-bottom: 0.5px solid $palette-primary; // add this to external
+}
+
+.rf-h2 {
+	@extend %text--titleSecond;
+	margin-left: -2px; // Makes text appear aligned on left margin
+}
+
+.rf-h3 {
+	@extend %text--titleThird;
+	margin-left: -1px; // Makes text appear aligned on left margin
+	// font-size: 2.5rem;
+	// line-height: 2.5rem;
+}
+
+
+.rf-h4 {
+	@extend %text--titleFourth; 
+	margin-left: -1px; // Makes text appear aligned on left margin
+}
+
+.rf-p {
+	@extend %text--paragraph;
+	max-width: 60rem;
+}
+
+.rf-p--sb {
+	font-weight: $fontWeight-sb;
+}
+
+.rf-label {	
+	@extend %text--titleLabel;
+	display: block;
+	color: $palette-text-inactive;
+}
+
+.reqModel__title {
+	border-bottom: 2px solid $palette-orange; // this is here because of difference in color style between app and external
+	width: 100%;
+}
+
+.reqSection__title {
+	@extend .rf-h1;
+	color: $palette-text-active;
+}
+
+.rf-highlight {
+	color: $palette-orange;
+}
+
+.output__inlineIcon {
+	display: inline-block;
+}
+
+.releaseContent__editIcon {
+	margin-left: auto;
+}
+
+.output__rowInline {
+	display: inline-block;
+}
+
+.output__componentTitle {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: -0.75rem; // Makes text appear aligned on left margin
+}
+
+.output__child { // this class is used for overrides  // TODO: Retire this poor decision and reflect on the pile of mistakes | AjH
+	// border-radius: 0.25rem;
+	@include margin-section($margin-section-x-large);
+	.rf-h1 {
+		width: 100%;
+		margin-right: auto;
+	}
+	.output__componentDescription {
+		@extend %text--titleThird;
+	}
+}
+
+.releaseContent__container {
+		.releaseContent__rte { // Rich text editor
+			background: transparent;
+			border: none;
+		}
+
+}
+
+.releaseContent__rte {
+	h1 {
+		@extend .rf-h1;
+	}
+	
+	h2 {
+		@extend .rf-h2;
+	}
+	
+	h3 {
+		@extend .rf-h3;
+	}
+	
+	h4 {
+		@extend .rf-h4;
+	}
+	
+	// p {
+	// 	@extend .rf-p;
+	// }
+	
+	p b {
+		@extend .rf-p--sb;
+	}
+	
+	label {
+	
+		@extend .rf-label ;
+	}
+	a {
+		color: $palette-orange;
+	}
+
+	.public-DraftEditor-content > div > div {
+		@extend .rf-p;
+	}
+
+	li {
+		@extend .rf-p;
+	}
+}
+
+
+.releaseContent__header {
+	display: flex;
+}
+		
+.span--headingInactive {
+	@include text-reg-size($text-small);
+	color: $palette-text-inactive;
+}
+
+.span--headingActive {
+	@include text-reg-size($text-small);
+	color: $palette-text-active;
+}
+
+.span--horizontalRule {
+	@include margin-section($margin-section-large);
+	// @include margin-horizontal($margin-horizontal-xx-large);
+	display: block;
+	border-bottom: 1px dashed $palette-border;
+	min-height: 1px;
+}
+
+.rf__horizontalRule {
+	@include margin-section($margin-section-large);
+	// @include margin-horizontal($margin-horizontal-xx-large);
+	display: block;
+	border-bottom: 1px dashed $palette-border;
+	min-height: 1px;
+}
+
+
+.output__detailContainer {
+	@extend %margin--detailContainer;
+	// @extend %output__label;
+	display: flex;
+	.output__detailColumn {
+		width: auto;
+		flex-basis: 100%;
+	}
+	.output__actorColumn {
+		width: 10rem;
+			p {
+				display: inline-block;
+			}
+			label {
+				padding-left: 0.5rem;
+			}
+	}
+	p {
+		margin-bottom: 0.5rem;
+	}
+}
+
+
+
+%output__tableCell {
+	@extend %text--size--medium;
+	display: flex;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 1px $palette-border-transparent solid;
+	align-items: center;
+	color: $palette-text-inactive;
+	padding: 0.5rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border-radius: 0.5px;
+}
+
+.releaseCreateSection__input {
+	@extend %inputField__div;
+	@extend %inputField__singleLine;
+	@extend %inputField__iconLabel;
+	@extend %inputField__div--title;
+	cursor: pointer;
+}
+
+.ifaceOutput__image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 600px;
+	max-height: 600px;
+	min-height: 2.5rem;
+	margin: auto;
+	// background-color: violet;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // External Release Overrides // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+.release__contentContainer--external {
+		.releaseContent__container {
+				.reqModel__title {
+					border-bottom: 2px dashed $palette-primary;
+					// background-color: $palette-border-transparent;
+					// color: $palette-mango;
+					// padding-top: 1rem;
+				}
+		}
+}

@@ -1,0 +1,12 @@
+.indexNotification {
+	width: 100%;
+}
+
+.indexNotification__container {
+	// TEMPCSS start: Have not designed or considered the notification yet | AjH
+	height: 6rem;
+	margin: 2rem;
+	box-shadow: $elevation-shadow-2;
+	background-color: $palette-mango-transparent;
+	// TEMPCSS end
+}

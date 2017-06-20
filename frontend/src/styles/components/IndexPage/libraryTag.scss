@@ -1,0 +1,38 @@
+.libraryTag {
+	display: flex;
+	margin-right: 0.5rem;
+}
+
+.libraryTag__container { 
+	@include index-spacing(1);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: $palette-light;
+	box-shadow: $elevation-shadow-1;
+	background-color: rgba($palette-primary, $active);
+	border-radius: 0.25rem;
+	padding-right: 0.25rem;
+}
+
+.libraryTag__name {
+	@include index-padding(1);
+}
+
+.libraryTag--feature {
+	.libraryTag__container {
+		background-color: $palette-mango;
+	}
+}
+
+.libraryTag--tutorial {
+	.libraryTag__container {
+		background-color: $palette-orange;
+	}
+}
+
+.libraryTag--article {
+	.libraryTag__container {
+		background-color: $palette-yellow;
+	}
+}

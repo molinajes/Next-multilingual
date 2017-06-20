@@ -1,0 +1,137 @@
+%iconCenter {
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.5em;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 0;
+}
+
+%iconCenter--compact {
+	display: flex;
+	flex-direction: column;
+	margin-right: 0.25rem;
+	margin-left: 0.25rem;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 0;
+	height: 100%;
+}
+
+%iconCenter--16 {
+	display: flex;
+	flex-direction: column;
+	// margin-right: 0.125rem;
+	// margin-left: 0.125rem;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 0;
+	height: 100%;
+}
+
+%iconCenter--24 {
+	display: flex;
+	flex-direction: column;
+	margin-right: 0.125rem;
+	margin-left: 0.125rem;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 0;
+	height: 100%;
+}
+
+%iconCenter--size--16x16 {
+	width: 1rem;
+	height: 1rem;
+		svg  {
+			height: 0.625rem !important;
+		}
+}
+
+%iconCenter--size--24x24 {
+	width: 1.25rem;
+	height: 1.25rem;
+		svg  {
+			height: 0.75rem !important;
+		}
+}
+
+%iconCenter--size--32x32 {
+	width: 1.5rem;
+	height: 1.5rem;
+		svg  {
+			height: 0.875rem !important;
+		}
+}
+
+%iconCenter--size--40x40 {
+	width: 2rem;
+	height: 2rem;
+}
+
+%iconCenter--size--56x56 {
+	width: 3rem;
+	height: 3rem;
+}
+
+%iconCenter__position {
+	position: relative;
+}
+
+%iconCenter__position--16x16 {
+	max-width: 1rem;
+	max-height: 1rem;
+	width: 1rem;
+	height: 1rem;
+	// padding-top: 0.125rem;
+	// padding-bottom: 0.125rem;	
+}
+
+%iconCenter__position--24x24 {
+	max-width: 1.5rem;
+	max-height: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;	
+}
+
+%iconCenter__position--32x32 {
+	max-width: 2rem;
+	max-height: 2rem;
+	width: 2rem;
+	height: 2rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+
+%iconCenter__position--40x40 {
+	max-width: 2.5rem;
+	max-height: 2.5rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+
+%iconCenter__position--56x56 {
+	max-width: 3.5rem;
+	max-height: 3.5rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+
+%icon__block {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: 2.5rem;
+}
+
+%iconCenter__button {
+	@extend %iconCenter;
+	@extend %iconCenter--size--32x32;
+	cursor: pointer;
+	margin-top: 0.5rem;
+	box-shadow: $elevation-shadow-0;
+}

@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="heart" class="iconic iconic-heart iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Heart</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="112" transform="translate(0 8)">
+    <path d="M118.041 9.959c-6.152-6.153-14.652-9.959-24.041-9.959-9.389 0-17.889 3.805-24.041 9.959-2.361 2.36-4.372 5.068-5.959 8.037-1.587-2.969-3.597-5.677-5.959-8.037-6.152-6.153-14.652-9.959-24.041-9.959-9.389 0-17.889 3.805-24.041 9.959-6.154 6.152-9.959 14.652-9.959 24.041 0 9.389 3.805 17.889 9.959 24.041l54.041 53.959 54.041-53.959c6.154-6.152 9.959-14.652 9.959-24.041 0-9.389-3.805-17.889-9.959-24.041z"
+    class="iconic-property-fill" />
+  </g>
+</svg>

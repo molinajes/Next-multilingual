@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="random" class="iconic iconic-random iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Random</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-random-clip-0">
+      <path d="M0 0v98h128v-98h-128zm60 68l-22-22 14-14 21.75 21.875-13.75 14.125z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="128" data-height="98" transform="translate(0 15)">
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" d="M108 82h-17c-1.657 0-3.95-.95-5.121-2.121l-59.757-59.757c-1.172-1.172-3.464-2.121-5.121-2.121h-17" class="iconic-random-line iconic-random-line-bottom iconic-property-stroke" fill="none"
+    />
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" d="M108 18h-17c-1.657 0-3.95.95-5.121 2.121l-59.757 59.757c-1.172 1.172-3.464 2.121-5.121 2.121h-17" clip-path="url(#iconic-size-lg-random-clip-0)" class="iconic-random-line iconic-random-line-top iconic-property-accent iconic-property-stroke"
+    fill="none" />
+    <path d="M126.704 81.244l-21.409-12.488c-.716-.417-1.296-.084-1.296.744v25c0 .828.58 1.162 1.296.744l21.409-12.488c.716-.417.716-1.094 0-1.512z" class="iconic-random-arrowhead iconic-random-arrowhead-bottom iconic-property-fill" />
+    <path d="M126.704 17.244l-21.409-12.488c-.716-.417-1.296-.084-1.296.744v25c0 .828.58 1.162 1.296.744l21.409-12.488c.716-.417.716-1.094 0-1.512z" class="iconic-random-arrowhead iconic-random-arrowhead-top iconic-property-accent iconic-property-fill"
+    />
+  </g>
+</svg>

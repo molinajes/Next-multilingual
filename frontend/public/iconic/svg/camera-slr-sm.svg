@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="camera-slr" class="iconic iconic-camera-slr iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Camera Slr</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-camera-slr-clip-0">
+      <path d="M0 0v15h16v-15h-16zm9 13c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="15">
+    <path clip-path="url(#iconic-size-sm-camera-slr-clip-0)" d="M12.861 2.792l-1.723-2.584c-.077-.115-.251-.208-.389-.208h-3.5c-.138 0-.312.093-.389.208l-1.723 2.584c-.077.115-.251.208-.389.208h-1.75c-1.657 0-3 1.343-3 3v8.75c0 .138.112.25.25.25h15.5c.138 0 .25-.112.25-.25v-11.5c0-.138-.112-.25-.25-.25h-2.5c-.138 0-.312-.093-.389-.208z"
+    class="iconic-camera-slr-body iconic-property-fill" />
+    <circle cx="9" cy="9" r="3" class="iconic-camera-slr-lens iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>

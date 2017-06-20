@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="laptop" class="iconic iconic-laptop iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Laptop</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-laptop-clip-0">
+      <path d="M2 0v9h4.5c-.276 0-.5-.224-.5-.5v-.5h4v.5c0 .276-.224.5-.5.5h4.5v-9h-12zm11 7h-10v-6h10v6z" />
+    </clipPath>
+    <clipPath id="iconic-size-sm-laptop-clip-1">
+      <path d="M10 8v.5c0 .276-.224.5-.5.5h-3c-.276 0-.5-.224-.5-.5v-.5h-6v2h16v-2h-6z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="10" transform="translate(0 3)">
+    <path clip-path="url(#iconic-size-sm-laptop-clip-0)" d="M13.75 9h-11.5c-.138 0-.25-.112-.25-.25v-8.5c0-.138.112-.25.25-.25h11.5c.138 0 .25.112.25.25v8.5c0 .138-.112.25-.25.25z" class="iconic-laptop-screen-border iconic-property-fill" />
+    <path clip-path="url(#iconic-size-sm-laptop-clip-1)" d="M15.75 10h-15.5c-.138 0-.25-.112-.25-.25v-3.5c0-.138.112-.25.25-.25h15.5c.138 0 .25.112.25.25v3.5c0 .138-.112.25-.25.25z" class="iconic-laptop-base iconic-property-fill" />
+  </g>
+</svg>

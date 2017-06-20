@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="map-marker" class="iconic iconic-map-marker iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Map Marker</title>
+  </g>
+  <g class="iconic-container" data-width="10" data-height="16" transform="translate(3)">
+    <path d="M5 0c-2.761 0-5 2.239-5 5 0 3.75 5 11 5 11s5-7.25 5-11c0-2.761-2.239-5-5-5zm0 7c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z" class="iconic-property-fill" />
+  </g>
+</svg>

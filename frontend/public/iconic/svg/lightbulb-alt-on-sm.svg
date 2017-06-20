@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="lightbulb-alt-on" class="iconic iconic-lightbulb-alt-on iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Lightbulb Alt On</title>
+  </g>
+  <g class="iconic-container" data-width="12" data-height="16" transform="translate(2)">
+    <path stroke="#000" stroke-linecap="round" class="iconic-lightbulb-alt-on-screw iconic-lightbulb-alt-on-screw-2 iconic-property-stroke" fill="none" d="M4.5 15.5h3" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-lightbulb-alt-on-screw iconic-lightbulb-alt-on-screw-1 iconic-property-stroke" fill="none" d="M3.5 13.5h5" />
+    <path d="M3.228 12c-.129 0-.226-.101-.241-.23-.216-1.848-2.987-2.771-2.987-6.271 0-2 2-5.5 6-5.5s6 3.5 6 5.5c0 3.5-2.771 4.422-2.987 6.271-.015.128-.112.229-.241.229h-5.544z" class="iconic-lightbulb-alt-on-bulb iconic-property-fill" />
+  </g>
+</svg>

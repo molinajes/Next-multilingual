@@ -1,0 +1,20 @@
+.project__content {
+	max-width: 1680px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+
+.project__details {
+	flex: 2;
+}
+
+.project__activity {
+	flex: 2;
+}
+
+.project__overview {
+	flex: 1;
+	padding: 0 2rem;
+	text-align: right;
+}

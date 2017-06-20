@@ -1,0 +1,4 @@
+node_modules/
+.chrome/
+*.sublime-project
+*.sublime-workspace

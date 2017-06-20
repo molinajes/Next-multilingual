@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="ungroup" class="iconic iconic-ungroup iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Ungroup</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path d="M106.7 82h-33c-.828 0-1.5-.672-1.5-1.5v-33c0-.828.672-1.5 1.5-1.5h33c.828 0 1.5.672 1.5 1.5v33c0 .828-.672 1.5-1.5 1.5z" class="iconic-ungroup-item iconic-ungroup-item-2 iconic-property-fill" />
+    <path d="M54.5 82h-33c-.828 0-1.5-.672-1.5-1.5v-33c0-.828.672-1.5 1.5-1.5h33c.828 0 1.5.672 1.5 1.5v33c0 .828-.672 1.5-1.5 1.5z" class="iconic-ungroup-item iconic-ungroup-item-1 iconic-property-fill" />
+    <path stroke="#000" stroke-width="2" class="iconic-ungroup-bound iconic-ungroup-bound-bottom iconic-ungroup-bound-left iconic-ungroup-bound-bottom-left iconic-property-accent iconic-property-stroke" fill="none" d="M16 127h-15v-15" />
+    <path stroke="#000" stroke-width="2" class="iconic-ungroup-bound iconic-ungroup-bound-top iconic-ungroup-bound-right iconic-ungroup-bound-top-right iconic-property-accent iconic-property-stroke" fill="none" d="M112 1h15v15" />
+    <path stroke="#000" stroke-width="2" class="iconic-ungroup-bound iconic-ungroup-bound-top iconic-ungroup-bound-left iconic-ungroup-bound-top-left iconic-property-accent iconic-property-stroke" fill="none" d="M1 16v-15h15" />
+    <path stroke="#000" stroke-width="2" class="iconic-ungroup-bound iconic-ungroup-bound-bottom iconic-ungroup-bound-right iconic-ungroup-bound-bottom-right iconic-property-accent iconic-property-stroke" fill="none" d="M127 112v15h-15" />
+  </g>
+</svg>

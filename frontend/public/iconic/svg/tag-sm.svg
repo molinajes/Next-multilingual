@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="tag" class="iconic iconic-tag iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Tag</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path d="M6 0h-6v6.005l10.006 9.995 5.994-6-10-10zm-2 6c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z" class="iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="external-link" class="iconic iconic-external-link iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>External Link</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="32">
+    <path stroke="#000" stroke-width="3" d="M27.5 15v15c0 .276-.224.5-.5.5h-25c-.276 0-.5-.224-.5-.5v-25c0-.276.224-.5.5-.5h16" class="iconic-external-link-box iconic-property-accent iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-width="3" stroke-linecap="square" class="iconic-external-link-arrow iconic-external-link-arrow-stem iconic-property-stroke" fill="none" d="M28 4l-10 10" />
+    <path class="iconic-external-link-arrow iconic-external-link-arrow-head iconic-property-fill" d="M32 0l-1 8-7-7z" />
+  </g>
+</svg>

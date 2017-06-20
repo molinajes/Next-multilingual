@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="eyedropper" class="iconic iconic-eyedropper iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Eyedropper</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="32">
+    <path class="iconic-eyedropper-fluid iconic-property-fill" d="M3.674 23.278l4.714 5.015-3.388 3.198-4.5.008v-4.43z" />
+    <path stroke="#000" stroke-linejoin="round" d="M19.608 7.711l-18.757 19.002c-.194.197-.351.58-.351.856v3.43c0 .276.224.5.5.499l3.439-.006c.276-.001.658-.159.853-.355l18.863-18.879" class="iconic-eyedropper-tube iconic-property-stroke" fill="none"
+    />
+    <path d="M20.004 7.046l6.021-6.021c1.367-1.367 3.583-1.367 4.95 0s1.367 3.583 0 4.95l-6.167 6.167-4.804-5.096z" class="iconic-eyedropper-top iconic-eyedropper-top-suction iconic-property-fill" />
+    <path transform="matrix(.707 -.707 .707 .707 -.127 18.692)" class="iconic-eyedropper-top iconic-eyedropper-top-lip iconic-property-fill" d="M21.086 3.136h2.828v12.728h-2.828z" />
+  </g>
+</svg>

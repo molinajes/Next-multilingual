@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="bug" class="iconic iconic-bug iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Bug</title>
+  </g>
+  <g class="iconic-container" data-width="15" data-height="15">
+    <path stroke="#000" stroke-linecap="round" class="iconic-bug-leg iconic-bug-leg-right iconic-bug-leg-top iconic-bug-leg-top-right iconic-property-accent iconic-property-stroke" fill="none" d="M9.5 6.5l3-2" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-bug-leg iconic-bug-leg-right iconic-bug-leg-bottom iconic-bug-leg-bottom-right iconic-property-accent iconic-property-stroke" fill="none" d="M10.5 9.5l3 4" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-bug-leg iconic-bug-leg-right iconic-bug-leg-middle iconic-bug-leg-middle-right iconic-property-accent iconic-property-stroke" fill="none" d="M10.5 7.5l4 2" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-bug-leg iconic-bug-leg-left iconic-bug-leg-top iconic-bug-leg-top-left iconic-property-accent iconic-property-stroke" fill="none" d="M5.5 6.5l-3-2" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-bug-leg iconic-bug-leg-left iconic-bug-leg-bottom iconic-bug-leg-bottom-left iconic-property-accent iconic-property-stroke" fill="none" d="M4.5 9.5l-3 4" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-bug-leg iconic-bug-leg-left iconic-bug-leg-middle iconic-bug-leg-middle-left iconic-property-accent iconic-property-stroke" fill="none" d="M4.5 7.5l-4 2" />
+    <path stroke="#000" stroke-linecap="round" d="M6.5 4s-.5-3.5-2.5-3.5" class="iconic-bug-antenna iconic-bug-antenna-left iconic-property-accent iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-linecap="round" d="M8 4s.5-3.5 2.5-3.5" class="iconic-bug-antenna iconic-bug-antenna-right iconic-property-accent iconic-property-stroke" fill="none" />
+    <path d="M7.517 2c1.985 0 3.252 2.586 1.957 3.972l-3.941.028c-1.323-1.352 0-4 1.984-4z" class="iconic-bug-head iconic-property-fill" />
+    <path d="M7.5 5c-2.485 0-4.5 2.462-4.5 5.5 0 2.349 1.208 4.349 2.904 5.137.585-.437 1.096-1.226 1.096-2.137v-6c0-.276.224-.5.5-.5s.5.224.5.5v6c0 .911.511 1.7 1.096 2.137 1.696-.788 2.904-2.788 2.904-5.137 0-3.038-2.015-5.5-4.5-5.5z" class="iconic-bug-thorax iconic-property-fill"
+    />
+  </g>
+</svg>

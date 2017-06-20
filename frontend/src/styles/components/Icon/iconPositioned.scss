@@ -1,0 +1,96 @@
+.iconPosition--16 {
+	@extend %iconCenter__position--16x16;
+	@extend %iconCenter__position;
+		.iconPositioned__div {
+			@extend %iconCenter--16;
+			@extend %iconCenter--size--16x16;
+		}
+}
+
+.iconPosition--24 {
+	@extend %iconCenter__position--24x24;
+	@extend %iconCenter__position;
+		.iconPositioned__div {
+			@extend %iconCenter--24;
+			@extend %iconCenter--size--24x24;
+		}
+}
+
+.iconPosition--32 {
+	@extend %iconCenter__position--32x32;
+	@extend %iconCenter__position;
+		.iconPositioned__div {
+			@extend %iconCenter--compact;
+			@extend %iconCenter--size--32x32;
+		}
+}
+
+.iconPosition--40 {
+	@extend %iconCenter__position--40x40;
+	@extend %iconCenter__position;
+		.iconPositioned__div {
+			@extend %iconCenter--compact;
+			@extend %iconCenter--size--40x40;
+		}
+}
+
+.iconPosition--56 {
+	@extend %iconCenter__position--56x56;
+	@extend %iconCenter__position;
+		.iconPositioned__div {
+			@extend %iconCenter--compact;
+			@extend %iconCenter--size--56x56;
+		}
+}
+
+@mixin iconHoverBackground ($hoverColor: $palette-background) {
+		&:hover {
+			background-color: $hoverColor;
+		}
+}
+
+.iconHoverBackground--mango {
+	@include iconHoverBackground($palette-mango-bg);
+	@include transition-highlight();
+}
+.iconHoverBackground--orange {
+	@include iconHoverBackground($palette-orange-bg);
+	@include transition-highlight();
+}
+.iconHoverBackground--yellow {
+	@include iconHoverBackground($palette-yellow-bg);
+	@include transition-highlight();
+}
+.iconHoverBackground--primary {
+	@include iconHoverBackground($palette-primary-bg);
+	@include transition-highlight();
+}
+
+.iconColor--mango {
+	@include iconic-color($palette-mango, $strong);
+}
+.iconColor--orange {
+	@include iconic-color($palette-orange, $strong);
+}
+.iconColor--yellow {
+	@include iconic-color($palette-yellow, $strong);
+}
+.iconColor--primary {
+	@include iconic-color($palette-primary, $strong);
+}
+.iconColor--light {
+	@include iconic-color($palette-light, 1);
+}
+
+.iconBackgroundColor--mango {
+	background-color: $palette-mango-bg;
+}
+.iconBackgroundColor--orange {
+	background-color: $palette-orange-bg;
+}
+.iconBackgroundColor--yellow {
+	background-color: $palette-yellow-bg;
+}
+.iconBackgroundColor--primary {
+	background-color: $palette-primary-bg;
+}

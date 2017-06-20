@@ -1,0 +1,114 @@
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+// Product features  
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+
+.product__wrapper {
+	@include padding-box($padding-box-xx-large);
+	@include span-columns(8);
+	@include shift(2);
+
+	@include media($phablet) {
+		@include span-columns(10 of 12);
+		@include shift(1 of 12);
+		display: flex;
+	}
+
+	@include media($mobile) {
+		@include span-columns(12 of 12);
+		@include shift(0);
+		display: flex;
+	}
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@mixin product-feature-iconColor($color: $palette-yellow, $child: 1) {
+	.product__wrapper {
+		&:nth-child(#{$child}) {
+			.product__featureIcon {
+				.iconic * {
+					fill: $color;
+					stroke: $color;
+				}
+			}
+		}
+	}	
+}
+
+.page__container {
+	@include product-feature-iconColor($palette-yellow, 1);
+	@include product-feature-iconColor(#FFA40F, 2);
+	@include product-feature-iconColor($palette-orange, 3);
+	@include product-feature-iconColor(#FE7F23, 4);
+	@include product-feature-iconColor($palette-mango, 5);
+}
+
+.product__icon {
+
+}
+
+.product__titleGroup {
+	@include margin-horizontal($margin-horizontal-large);
+	@include margin-section($margin-section-large);
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid $palette-shadow;
+}
+
+.product__title {
+	@include margin-section($margin-section-small);
+	color: $palette-text-weak;
+}
+
+.product__feature {
+	// @include span-columns(6);
+	// @include shift(3);
+	@include padding-box($padding-box-medium);
+	display: flex;
+	align-items: center;
+	width: 40%;
+	@include media($phablet) {
+		width: 70%;
+	}
+	@include media($mobile) {
+		width: 70%;
+	}
+	margin-left: auto;
+	margin-right: auto;
+	align-self: flex-start;
+}
+
+.product__featureIcon {
+
+}
+
+.product__featureText {
+	@include text-light-size($text-x-large);
+	padding-left: 1rem;
+}
+
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+// Product sign up
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+
+.product__signUp {
+	@include padding-box($padding-box-xx-large);
+	text-align: center;
+	background-color: $palette-primary;
+	box-shadow: 0 -8px 16px $palette-shadow,
+				0 -2px 4px $palette-shadow;
+}
+
+.product__title--light {
+	color: $palette-white;
+}
+
+.product__joinContainer {
+	@include padding-box($padding-box-medium);	
+}

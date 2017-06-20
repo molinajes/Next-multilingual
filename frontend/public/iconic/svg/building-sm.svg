@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="building" class="iconic iconic-building iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Building</title>
+  </g>
+  <g class="iconic-container" data-width="14" data-height="16" transform="translate(1)">
+    <path class="iconic-building-step iconic-property-accent iconic-property-fill" d="M0 15h14v1h-14z" />
+    <path d="M6 14v-2h2v2h5v-13h-12v13h5zm2-12h3v3h-3v-3zm0 5h3v3h-3v-3zm-5-5h3v3h-3v-3zm0 5h3v3h-3v-3z" class="iconic-building-facade iconic-property-fill" />
+    <path class="iconic-building-rooftop iconic-property-fill" d="M0 0h14v1h-14z" />
+  </g>
+</svg>

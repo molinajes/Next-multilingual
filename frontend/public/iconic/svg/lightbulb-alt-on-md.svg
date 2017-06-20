@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="lightbulb-alt-on" class="iconic iconic-lightbulb-alt-on iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Lightbulb Alt On</title>
+  </g>
+  <g class="iconic-container" data-width="21" data-height="32" transform="translate(5)">
+    <path stroke="#000" stroke-linecap="round" class="iconic-lightbulb-alt-on-screw iconic-lightbulb-alt-on-screw-3 iconic-property-stroke" fill="none" d="M8.5 31.5h4" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-lightbulb-alt-on-screw iconic-lightbulb-alt-on-screw-2 iconic-property-stroke" fill="none" d="M7.5 29.5h6" />
+    <path stroke="#000" stroke-linecap="round" class="iconic-lightbulb-alt-on-screw iconic-lightbulb-alt-on-screw-1 iconic-property-stroke" fill="none" d="M7.5 27.5h6" />
+    <path d="M15.035 23h-9.071c.013.179.036.349.036.541-.001.179 0 1.297 0 1.962 0 .276.224.497.5.497h8c.276 0 .5-.221.5-.497 0-.665.001-1.783 0-1.962-.001-.192.022-.362.035-.541z" class="iconic-lightbulb-alt-on-base iconic-property-fill" />
+    <path d="M15.186 22c.983-4.074 5.814-4.825 5.814-12 0-4-3.833-10-10.5-10s-10.5 6-10.5 10c0 7.166 4.82 7.974 5.811 12h9.375zm-11.186-11c-.552 0-1-.448-1-1 0-2.443 2.576-7 7.5-7 .552 0 1 .448 1 1s-.448 1-1 1c-3.629 0-5.5 3.505-5.5 5 0 .552-.448 1-1 1z"
+    class="iconic-lightbulb-alt-on-bulb iconic-property-fill" />
+  </g>
+</svg>

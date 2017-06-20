@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="screen-viewport" class="iconic iconic-screen-viewport iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Screen Viewport</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="26" transform="translate(0 3)">
+    <path stroke="#000" stroke-width="2" class="iconic-screen-viewport-viewport iconic-property-stroke" fill="none" d="M1 1h30v24h-30z" />
+    <path stroke="#000" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-top iconic-screen-viewport-bound-left iconic-screen-viewport-bound-top-left iconic-property-accent iconic-property-stroke" fill="none" d="M3.5 7v-3.5h3.5" />
+    <path stroke="#000" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-top iconic-screen-viewport-bound-right iconic-screen-viewport-bound-top-right iconic-property-accent iconic-property-stroke" fill="none" d="M25 3.5h3.5v3.5" />
+    <path stroke="#000" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-bottom iconic-screen-viewport-bound-right iconic-screen-viewport-bound-bottom-right iconic-property-accent iconic-property-stroke" fill="none" d="M28.5 19v3.5h-3.5"
+    />
+    <path stroke="#000" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-bottom iconic-screen-viewport-bound-left iconic-screen-viewport-bound-bottom-left iconic-property-accent iconic-property-stroke" fill="none" d="M7 22.5h-3.5v-3.5"
+    />
+  </g>
+</svg>

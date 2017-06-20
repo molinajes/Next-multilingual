@@ -1,0 +1,7 @@
+.formOuput__sectionContent {
+		.formOutput__row {
+				.formEditor__cell {
+					@extend %output__tableCell;
+				}
+		} 
+}

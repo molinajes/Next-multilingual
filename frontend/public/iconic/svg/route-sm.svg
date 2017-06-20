@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="route" class="iconic iconic-route iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Route</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path stroke="#231F20" stroke-width="2" d="M2 8v4c0 1.657 1.343 3 3 3s3-1.343 3-3v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v4" class="iconic-route-path iconic-property-stroke" fill="none" />
+    <circle fill="#231F20" cx="2" cy="8" r="2" class="iconic-route-point iconic-route-start-point iconic-property-accent iconic-property-fill" />
+    <circle fill="#231F20" cx="14" cy="8" r="2" class="iconic-route-point iconic-route-end-point iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>

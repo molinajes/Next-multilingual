@@ -1,0 +1,37 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="shape-square" width="16" height="16" class="iconic iconic-shape iconic-size-sm iconic-shape-square" viewBox="0 0 16 16">
+  <g>
+    <title>Shape Square</title>
+  </g>
+  <defs>
+    <mask id="iconic-shape-knockout-lg">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="32" dx="32" y="78" font-size="36" text-anchor="middle" class="iconic-shape-knockout-text"></text>
+    </mask>
+    <mask id="iconic-shape-knockout-md" transform="translate(4)">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="8" dx="8" dy="20" font-size="12" text-anchor="middle" class="iconic-shape-knockout-text"></text>
+    </mask>
+    <mask id="iconic-shape-knockout-sm" transform="translate(8)">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="4" dx="4" dy="10" font-size="7" text-anchor="middle" font-weight="bold" class="iconic-shape-knockout-text"></text>
+    </mask>
+  </defs>
+  <!-- Square -->
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+  <!-- Square -->
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+  <!-- Square -->
+  <g data-width="16" data-height="16" class="iconic-container iconic-shape-square" transform="scale(1 1 ) translate(0 ) ">
+    <path class="iconic-shape-square-background iconic-property-fill" d="M0 0h16v16h-16z"></path>
+  </g>
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+</svg>

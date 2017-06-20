@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="pilcrow" class="iconic iconic-pilcrow iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Pilcrow</title>
+  </g>
+  <g class="iconic-container" data-width="13" data-height="16" transform="translate(1)">
+    <path d="M13 0h-9c-2.209 0-4 1.791-4 4s1.791 4 4 4h1v8h2v-14h2v14h2v-14h2v-2z" class="iconic-property-fill" />
+  </g>
+</svg>

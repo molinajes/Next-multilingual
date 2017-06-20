@@ -1,0 +1,24 @@
+.flow {
+	@extend %frame__container;
+	margin-bottom: 2rem;
+}
+
+.flow__title {
+	@extend %frame__banner;
+	justify-content: flex-start;
+		p {
+			font-size: 1rem;
+			margin-right: 0.5rem;
+		}
+}
+
+.flow__delete {
+	align-self: flex-end;
+	margin-left: auto;
+	float: right;
+}
+
+.flowEditor__sectionContent {
+	background-color: $palette-background;
+	@extend %padding--nextedList;
+}

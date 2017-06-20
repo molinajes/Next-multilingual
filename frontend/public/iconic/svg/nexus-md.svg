@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="nexus" class="iconic iconic-nexus iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Nexus</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-nexus-clip-0">
+      <path d="M0 0v32h16v-32h-16zm7.5 1h1c.276 0 .5.224.5.5s-.224.5-.5.5h-1c-.276 0-.5-.224-.5-.5s.224-.5.5-.5zm7.5 27h-14v-25h14v25z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="32" transform="translate(8)">
+    <path clip-path="url(#iconic-size-md-nexus-clip-0)" d="M15.38.801c-.129-.033-3.224-.801-7.38-.801s-7.25.768-7.38.801c-.353.089-.62.432-.62.796v28.838c0 .366.269.708.625.795.13.032 3.221.771 7.375.771s7.245-.739 7.375-.77c.356-.087.625-.429.625-.795v-28.838c0-.364-.267-.707-.62-.796z"
+    class="iconic-nexus-body iconic-property-fill" />
+    <path class="iconic-nexus-button iconic-nexus-button-context iconic-property-fill" d="M11 26h2v1h-2z" />
+    <path fill="#0C0D07" class="iconic-nexus-button iconic-nexus-button-back iconic-property-fill" d="M3 26.5l.5-.5h1.5v.992h-1.5z" />
+    <path class="iconic-nexus-button iconic-nexus-button-home iconic-property-fill" d="M8 26.016l-1 .484v.5h2v-.504z" />
+  </g>
+</svg>

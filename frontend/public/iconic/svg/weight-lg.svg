@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="weight" class="iconic iconic-weight iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Weight</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path class="iconic-weight-handle iconic-weight-handle-neck iconic-property-fill" d="M60 31.5h8v6h-8z" />
+    <circle stroke="#000" stroke-width="4" cx="64" cy="17" r="15" class="iconic-weight-handle iconic-weight-handle-ring iconic-property-stroke" fill="none" />
+    <path d="M31.507 37.417l-31.014 89.167c-.272.782.179 1.417 1.007 1.417h125c.828 0 1.279-.634 1.007-1.417l-31.014-89.167c-.272-.782-1.164-1.417-1.993-1.417h-61c-.828 0-1.721.634-1.993 1.417z" class="iconic-weight-body iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="minus-thin" class="iconic iconic-minus-thin iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Minus Thin</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="3" transform="translate(0 14)">
+    <path stroke="#000" stroke-width="3" stroke-linecap="square" class="iconic-property-stroke" fill="none" d="M30.5 1.5h-29" />
+  </g>
+</svg>

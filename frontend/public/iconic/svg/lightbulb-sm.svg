@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="lightbulb" class="iconic iconic-lightbulb iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Lightbulb</title>
+  </g>
+  <g class="iconic-container" data-width="10" data-height="16" transform="translate(3)">
+    <path d="M7 14c0 1.105-.895 2-2 2s-2-.895-2-2" class="iconic-lightbulb-screw iconic-property-accent iconic-property-fill" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-4 iconic-property-stroke" fill="none" d="M8 8l-2 1v2" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-3 iconic-property-stroke" fill="none" d="M4 10.5v.5" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-2 iconic-property-stroke" fill="none" d="M1 8l8-4" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-1 iconic-property-stroke" fill="none" d="M7 1l-6 3" />
+    <path d="M1.776 12.553l-.553-1.106c-.123-.247 0-.447.276-.447h7c.276 0 .4.2.276.447l-.553 1.106c-.124.247-.448.447-.724.447h-5c-.276 0-.6-.2-.724-.447z" class="iconic-lightbulb-base iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="keypad-mobile" class="iconic iconic-keypad-mobile iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Keypad Mobile</title>
+  </g>
+  <g class="iconic-container" data-width="94" data-height="128" transform="translate(17)">
+    <path d="M58.5 128h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-0 iconic-property-fill" />
+    <path d="M92.5 94h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-9 iconic-property-fill" />
+    <path d="M58.5 94h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-8 iconic-property-fill" />
+    <path d="M24.5 94h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-7 iconic-property-fill" />
+    <path d="M92.5 60h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-6 iconic-property-fill" />
+    <path d="M58.5 60h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-5 iconic-property-fill" />
+    <path d="M24.5 60h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-4 iconic-property-fill" />
+    <path d="M92.5 26h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-3 iconic-property-fill" />
+    <path d="M58.5 26h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-2 iconic-property-fill" />
+    <path d="M24.5 26h-23c-.828 0-1.5-.672-1.5-1.5v-23c0-.828.672-1.5 1.5-1.5h23c.828 0 1.5.672 1.5 1.5v23c0 .828-.672 1.5-1.5 1.5z" class="iconic-keypad-mobile-button iconic-keypad-mobile-button-1 iconic-property-fill" />
+  </g>
+</svg>

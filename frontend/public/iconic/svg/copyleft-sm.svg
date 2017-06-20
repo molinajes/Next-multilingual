@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="copyleft" class="iconic iconic-copyleft iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Copyleft</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <circle stroke="#000" stroke-width="2" cx="8" cy="8" r="7" class="iconic-copyleft-container iconic-property-stroke" fill="none" />
+    <path fill="#fff" stroke="#000" stroke-width="2" d="M5.879 5.879c.543-.543 1.293-.879 2.121-.879s1.578.336 2.121.879c.543.543.879 1.293.879 2.121s-.336 1.578-.879 2.121c-.543.543-1.293.879-2.121.879s-1.578-.336-2.121-.879" class="iconic-copyleft-c iconic-property-stroke"
+    />
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="platform-microsoft" width="32" height="32" class="iconic iconic-platform iconic-size-md iconic-platform-microsoft" viewBox="0 0 32 32">
+  <g>
+    <title>Platform Microsoft</title>
+  </g>
+  <!-- Android -->
+  <!-- Apple -->
+  <!-- Linux -->
+  <!-- Microsoft -->
+  <!-- Android -->
+  <!-- Apple -->
+  <!-- Linux -->
+  <!-- Microsoft -->
+  <g data-width="32" data-height="32" class="iconic-container iconic-platform-microsoft" transform="scale(1 1 ) translate(0 ) ">
+    <path class="iconic-platform-microsoft-top iconic-platform-microsoft-left iconic-platform-microsoft-top-left iconic-property-fill" d="M0 4.531l13.077-1.776.006 12.575-13.071.074z"></path>
+    <path class="iconic-platform-microsoft-bottom iconic-platform-microsoft-left iconic-platform-microsoft-bottom-left iconic-property-fill" d="M13.071 16.779l.01 12.586-13.071-1.792-.001-10.879z"></path>
+    <path class="iconic-platform-microsoft-top iconic-platform-microsoft-right iconic-platform-microsoft-top-right iconic-property-fill" d="M14.656 2.523l17.34-2.523v15.171l-17.34.137z"></path>
+    <path class="iconic-platform-microsoft-bottom iconic-platform-microsoft-right iconic-platform-microsoft-bottom-right iconic-property-fill" d="M32 16.898l-.004 15.102-17.34-2.44-.024-12.691z"></path>
+  </g>
+  <!-- Android -->
+  <!-- Apple -->
+  <!-- Linux -->
+  <!-- Microsoft -->
+</svg>

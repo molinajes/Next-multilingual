@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="server" class="iconic iconic-server iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Server</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-server-clip-0">
+      <path d="M0 0v15h12v-15h-12zm11 14h-10v-13h10v13z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="12" data-height="16" transform="translate(2)">
+    <path d="M2 2v3h8v-3h-8zm3.5 2h-2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2c.276 0 .5.224.5.5s-.224.5-.5.5zm3 0c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5z" class="iconic-server-chasis iconic-server-chasis-bottom iconic-property-fill" />
+    <path d="M2 6v3h8v-3h-8zm3.5 2h-2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2c.276 0 .5.224.5.5s-.224.5-.5.5zm3 0c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5z" class="iconic-server-chasis iconic-server-chasis-middle iconic-property-fill" />
+    <path d="M2 10v3h8v-3h-8zm3.5 2h-2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h2c.276 0 .5.224.5.5s-.224.5-.5.5zm3 0c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5z" class="iconic-server-chasis iconic-server-chasis-top iconic-property-fill" />
+    <path clip-path="url(#iconic-size-sm-server-clip-0)" class="iconic-server-rack iconic-server-rack-walls iconic-property-fill" d="M0 0h12v15h-12z" />
+    <path class="iconic-server-rack iconic-server-rack-base iconic-property-fill" d="M0 14h12v2h-12z" />
+  </g>
+</svg>

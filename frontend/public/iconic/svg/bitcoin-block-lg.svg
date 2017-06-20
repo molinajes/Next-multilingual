@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="bitcoin-block" class="iconic iconic-bitcoin-block iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Bitcoin Block</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path stroke="#000" stroke-width="8" class="iconic-bitcoin-block-strike iconic-bitcoin-block-strike-top iconic-bitcoin-block-strike-left iconic-property-accent iconic-property-stroke" fill="none" d="M32 0v18" />
+    <path stroke="#000" stroke-width="8" class="iconic-bitcoin-block-strike iconic-bitcoin-block-strike-top iconic-bitcoin-block-strike-right iconic-property-accent iconic-property-stroke" fill="none" d="M48 0v18" />
+    <path stroke="#000" stroke-width="8" class="iconic-bitcoin-block-strike iconic-bitcoin-block-strike-bottom iconic-bitcoin-block-strike-left iconic-property-accent iconic-property-stroke" fill="none" d="M32 110v18" />
+    <path stroke="#000" stroke-width="8" class="iconic-bitcoin-block-strike iconic-bitcoin-block-strike-bottom iconic-bitcoin-block-strike-right iconic-property-accent iconic-property-stroke" fill="none" d="M48 110v18" />
+    <path d="M63.382 58.419c5.266-4.402 8.618-11.018 8.618-18.419 0-12.671-9.822-23.042-22.267-23.931v-.069h-49.733v6h8c3.314 0 6 2.686 6 6v72c0 3.314-2.686 6-6 6h-8v6h53v-.025c15-.528 27-12.846 27-27.975 0-11.41-6.828-21.218-16.618-25.581zm-35.382-36.419h15c9.389 0 17 7.611 17 17s-7.611 17-17 17h-15v-34zm16.533 84h-16.533v-44h16.533c12.15 0 22 9.85 22 22s-9.85 22-22 22z"
+    class="iconic-bitcoin-block-b iconic-property-fill" />
+    <path stroke="#000" stroke-width="8" class="iconic-bitcoin-block-block iconic-property-stroke" fill="none" d="M92 46h32v32h-32z" />
+  </g>
+</svg>

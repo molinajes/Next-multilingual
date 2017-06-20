@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="tablet" class="iconic iconic-tablet iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Tablet</title>
+  </g>
+  <g class="iconic-container" data-width="11" data-height="16" transform="translate(2)">
+    <path d="M10.25 0h-9.5c-.414 0-.75.336-.75.75v14.5c0 .414.336.75.75.75h9.5c.414 0 .75-.336.75-.75v-14.5c0-.414-.336-.75-.75-.75zm-4.75 15c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5zm4.5-2h-9v-11h9v11z" class="iconic-tablet-body iconic-property-fill"
+    />
+  </g>
+</svg>

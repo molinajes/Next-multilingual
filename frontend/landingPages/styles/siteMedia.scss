@@ -1,0 +1,140 @@
+@import './site.scss';
+@import './siteJoin.scss';
+@import './siteProduct.scss';
+@import './siteFooter.scss';
+
+@import 'Purchase/_module.scss';
+// $mobile: new-breakpoint(max-width 600px 4);
+// $phablet: new-breakpoint(max-width 939px, 4);
+
+// header {
+// 	@include media($phablet) {
+// 		@include span-columns(4);
+// 	}
+// }
+
+////////////////////////////////////////////////////////
+
+	//main styles
+
+////////////////////////////////////////////////////////
+
+.main__titleGroup {
+	@include media($mobile) {
+		@include span-columns(4);
+		@include omega;
+		border-right-width: 0;
+	}
+	@include media($phablet) {
+		@include span-columns(4);
+		@include omega;
+		border-right-width: 0;
+	}
+}
+
+////////////////////////////////////////////////////////
+
+	//Panel styles
+
+////////////////////////////////////////////////////////
+
+.panel__container {
+	@include media($mobile) {
+		@include span-columns(4);
+		@include omega;
+	}
+	@include media($phablet) {
+		@include span-columns(4);
+		@include omega;	
+		height: 20rem
+	}
+}
+
+.panel__title, .panel__content {
+	@include media($phablet) {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.panel__title {
+	@include fluid-type($max-font-size: $fluid-heading-h3);
+	@include media($phablet) {
+		@include fluid-type($max-font-size: $fluid-heading-h2);
+	}
+}
+
+.panel__content {
+	@include media($phablet) {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	} 
+}
+
+////////////////////////////////////////////////////////
+
+//	 Invite Banner styles
+
+////////////////////////////////////////////////////////
+
+.invite__title {
+	@include media($phablet) {
+		@include span-columns(4);
+		text-align: center;
+	}
+	@include media($mobile) {
+		@include span-columns(4);
+		text-align: center;
+	}
+}
+
+/* .invite__container {
+	@include media($phablet) {
+		@include span-columns(2);
+		@include shift(1);
+		display: flex;
+	}
+	@include media($mobile) {
+		@include span-columns(2);
+		@include shift(1);
+		display: flex;
+		.invite__cta {
+			input {
+				font-size: 0.75rem;
+			}
+		}
+		.invite__button {
+			input {
+				font-size: 0.75rem;
+			}
+		}
+	}
+} */
+
+////////////////////////////////////////////////////////
+
+//	 Step styles
+
+////////////////////////////////////////////////////////
+
+.step__textImgRow {
+	@include media($phablet) {
+		flex-direction: column-reverse;
+			.step__subpoint1, .step__subpoint2 {
+		 		text-align: center;
+		 		width: 80%;
+		 		margin-left: auto;
+		 		margin-right: auto;
+		 }
+	}
+	@include media($mobile) {
+		flex-direction: column-reverse;
+			.step__subpoint1, .step__subpoint2 {
+		 		text-align: center;
+		 		width: 80%;
+		 		margin-left: auto;
+		 		margin-right: auto;
+		 }
+	}
+}

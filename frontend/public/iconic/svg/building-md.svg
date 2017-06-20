@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="building" class="iconic iconic-building iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Building</title>
+  </g>
+  <g class="iconic-container" data-width="31" data-height="32">
+    <path class="iconic-building-step iconic-building-step-bottom iconic-property-accent iconic-property-fill" d="M0 31.037h31v1h-31z" />
+    <path class="iconic-building-step iconic-building-step-middle iconic-property-accent iconic-property-fill" d="M1 29.037h29v1h-29z" />
+    <path class="iconic-building-step iconic-building-step-top iconic-property-accent iconic-property-fill" d="M2 27h27v1h-27z" />
+    <path d="M2 1c.552 0 1 .448 1 1v24h11v-5h3v5h11v-24c0-.552.448-1 1-1h-27zm8 17h-5v-5h5v5zm0-8h-5v-5h5v5zm8 8h-5v-5h5v5zm0-8h-5v-5h5v5zm8 8h-5v-5h5v5zm0-8h-5v-5h5v5z" class="iconic-building-facade iconic-property-fill" />
+    <path class="iconic-building-rooftop iconic-property-fill" d="M2 0h27v1h-27z" />
+  </g>
+</svg>

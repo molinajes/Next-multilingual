@@ -1,0 +1,48 @@
+.ruleOutput__sectionContent {
+		.ruleOutput__row {
+				.ruleOutput__cell {
+					@extend %output__tableCell;
+				}
+		} 
+}
+
+.ruleOutput__sectionContent {
+	background-color: $palette-background;
+}
+
+.ruleOutput__table {
+	@extend %editTable;
+}
+.ruleOutput__tableHead {
+	@extend %editTable__tableHead;
+}
+
+.ruleOutput__row {
+	@extend %editTable__row;
+	@extend %editTable__row--yellowHover;
+}
+
+.ruleOutput__cell {
+	@extend %editTable__cell;
+}
+
+.ruleOutput__cell--text {
+	@extend %editTable__cell--text;
+}
+
+.ruleOutput__addRowCell {
+	@extend %editTable__addRowCell;
+}
+
+.ruleOutput__tableHead, .ruleOutput__row {
+		.ruleOutput__cell:first-child {
+			width: 3.5rem;
+			text-align: center;
+		}
+		.ruleOutput__cell:nth-child(2) {
+			width: 20%;
+		}
+		.ruleOutput__cell:nth-child(3) {
+			width: 75%;
+		}
+}

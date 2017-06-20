@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="lightbulb" class="iconic iconic-lightbulb iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Lightbulb</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-lightbulb-clip-0">
+      <path d="M16.583 94h33.417v2.667l-39.083 6.375-.333-6.417z" />
+    </clipPath>
+    <clipPath id="iconic-size-lg-lightbulb-clip-1">
+      <path d="M64 57l-14.5 8.25v16.75h-34.25l-1.5-16 50.25-23z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="64" data-height="128" transform="translate(32)">
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-screw iconic-lightbulb-screw-4 iconic-property-accent iconic-property-stroke" d="M44 122l-23.834 4.001" />
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-lightbulb-screw iconic-lightbulb-screw-3 iconic-property-accent iconic-property-stroke" fill="none" d="M48 112l-32 6" />
+    <path stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-lightbulb-screw iconic-lightbulb-screw-2 iconic-property-accent iconic-property-stroke" fill="none" d="M48 102l-32 6" />
+    <path clip-path="url(#iconic-size-lg-lightbulb-clip-0)" stroke="#000" stroke-width="4" stroke-linecap="round" class="iconic-lightbulb-screw iconic-lightbulb-screw-1 iconic-property-accent iconic-property-stroke" fill="none" d="M48 92.5l-32 6" />
+    <path clip-path="url(#iconic-size-lg-lightbulb-clip-1)" stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-6 iconic-property-stroke" fill="none" d="M60 54l-20 9v18.75" />
+    <path clip-path="url(#iconic-size-lg-lightbulb-clip-1)" stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-5 iconic-property-stroke" fill="none" d="M24 68v13.75" />
+    <path d="M47 94h-30c-1.657 0-3.221-1.325-3.493-2.959l-1.014-6.082c-.272-1.634.85-2.959 2.507-2.959h34c1.657 0 2.779 1.325 2.507 2.959l-1.014 6.082c-.272 1.634-1.836 2.959-3.493 2.959z" class="iconic-lightbulb-base iconic-property-fill" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-4 iconic-property-stroke" fill="none" d="M60 38l-56 26" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-3 iconic-property-stroke" fill="none" d="M60 22l-56 26" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-2 iconic-property-stroke" fill="none" d="M60 6l-56 26" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="iconic-lightbulb-coil iconic-lightbulb-coil-1 iconic-property-stroke" fill="none" d="M30 4.114l-26 11.886" />
+  </g>
+</svg>

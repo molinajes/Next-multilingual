@@ -1,0 +1,286 @@
+.defaultInputForm {
+	width: 100%;
+}
+
+.defaultInput {
+	width: 100%;
+}
+
+
+@mixin editable-textWeight ($font-weight: $font-reg) { // TODO: depreciate this class | AjH
+	font-family: $font-weight;
+}
+
+@mixin editable--editingState ($size: 1px, $colour: $black-50, $colour-active: $black-50) { // TODO: depreciate this class | AjH
+	border-bottom: $size $colour solid;
+		&.inputField--editing {
+			border-bottom: calc(#{$size}*2) $colour-active solid;
+				label {
+					color: $colour-active;
+				}
+		}
+}
+
+@mixin editable__label--activeColor ($color: $palette-primary) {
+		&.inputField--editing {
+				label {
+					color: $color;
+				}
+		} 
+}
+
+%editable__label--orange {
+	@include editable__label--activeColor($palette-orange);
+}
+
+@mixin editable__border ($color: $palette-border) {
+	border-left: 2px transparent solid;
+		&.inputField--editing {
+			border-left: 2px $color solid;
+		}
+}
+@mixin editable__existingBorder ($color: $palette-border) {
+	border-left: 2px $palette-border solid;
+		&.inputField--editing {
+			border-left: 2px $color solid;
+		}
+}
+
+%inputField__div {
+	display: flex;
+	flex-direction: column;
+	@extend %padding--inputFieldDiv;
+	@extend %inputField__textActivity;
+	justify-content: center;
+	// flex-basis: 100%;
+	width: 100%;
+	min-height: 2.5rem;
+		div {
+			width: 100%;
+		}
+		label {
+			@extend %text--label;
+			color: $palette-text-weak;
+			margin-top: -0.25rem;
+			// margin-bottom: 0.5rem;
+		}
+		form {
+			padding-left: 0;
+			width: 100%;
+			input, textarea {
+				// color: $palette-text-inactive;
+				font: inherit;
+				line-height: 0.875rem;
+				margin-bottom: 0;
+				width: 100%;
+			}
+			input {
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+}
+
+%inputField__pageNavDiv {
+	display: flex;
+	flex-direction: column;
+	@extend %padding--pageNavDiv;
+	@extend %inputField__textActivity;
+	justify-content: center;
+	width: 100%;
+		div {
+			width: 100%;
+		}
+		// label {
+		// 	@extend %text--label;
+		// 	color: $palette-text-weak;
+		// 	margin-top: -0.25rem;
+		// 	// margin-bottom: 0.5rem;
+		// }
+		form {
+			padding-left: 0;
+			width: 100%;
+			
+			input, textarea {
+				cursor: pointer;
+				// color: $palette-text-inactive;
+				font: inherit;
+				line-height: 1;
+				margin-bottom: 0;
+				width: 100%;
+			}
+			input {
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+}
+
+.inputField__div {
+	@extend %inputField__div;
+}
+.inputField--editing {
+		form {
+				input, textarea {
+					color: $palette-text-active;
+				}
+		}
+}
+
+%inputField__singleLine {
+	justify-content: flex-start;
+}
+
+%inputField__multiLine {
+	justify-content: flex-start;
+	height: 4rem;
+	// min-height: 4rem;
+		form {
+			input, textarea {
+				height: 2.5rem;
+			}
+		}
+}
+
+%inputField__iconLabel {
+		label {
+			margin-left: 0.25rem;
+		}
+}
+
+%inputField__div--title {
+	@extend %text__modalTitle;
+	min-height: 4rem;
+	line-height: 2rem;
+		form {
+			input {
+				line-height: 2rem;
+			}
+		} 
+		span {
+			min-height: 2rem;
+		}
+}
+
+%inputField__div--subtitle {
+	@extend %text__modalSubtitle;
+		form {
+			input {
+				line-height: 2rem;
+			}
+		} 
+		span {
+			min-height: 2rem;
+		}
+}
+
+%inputField__textActivity {
+		form {
+				input, textarea {
+				color: $palette-text-inactive;
+				}
+		}
+		&.inputField--editing {
+				form {
+						input, textarea {
+							color: $palette-text-active;
+						}
+				}
+		}
+}
+
+%inputField__textActivity--strong {
+		form {
+				input, textarea {
+				color: $palette-text-active;
+				}
+		}
+		&.inputField--editing {
+				form {
+						input, textarea {
+							color: $palette-text-strong;
+						}
+				}
+		}
+}
+
+
+
+%inputField__div--primary {
+	@extend %inputField__div;
+	@include editable__label--activeColor($palette-primary);
+	@include editable__border($palette-primary);
+}
+%inputField__div--yellow {
+	@extend %inputField__div;
+	@include editable__label--activeColor($palette-yellow);
+	@include editable__border($palette-yellow);
+}
+
+%inputField__div--orange {
+	@extend %inputField__div;
+	@include editable__label--activeColor($palette-orange);
+	@include editable__border($palette-orange);
+}
+
+%inputField__div--mango {
+	@extend %inputField__div;
+	@include editable__label--activeColor($palette-mango);
+	@include editable__border($palette-mango);
+}
+
+%existingBorder--mango {
+	@include editable__existingBorder($palette-mango);
+}
+%existingBorder--orange {
+	@include editable__existingBorder($palette-orange);
+}
+%existingBorder--yellow {
+	@include editable__existingBorder($palette-yellow);
+}
+%existingBorder--primary {
+	@include editable__existingBorder($palette-primary);
+}
+
+%editableBorder--mango {
+	@include editable__border($palette-mango);
+}
+%editableBorder--orange {
+	@include editable__border($palette-orange);
+}
+%editableBorder--yellow {
+	@include editable__border($palette-yellow);
+}
+%editableBorder--primary {
+	@include editable__border($palette-primary);
+}
+
+%editableLabel--mango {
+	@include editable__label--activeColor($palette-mango);
+}
+%editableLabel--orange {
+	@include editable__label--activeColor($palette-orange);
+}
+%editableLabel--yellow {
+	@include editable__label--activeColor($palette-yellow);
+}
+%editableLabel--primary {
+	@include editable__label--activeColor($palette-primary);
+}
+
+
+%textAreaField__form {
+		textarea {
+			outline: none;
+			font: inherit;
+			width: 100%;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			height: 100%;
+		}
+}
+.textAreaField__form {
+	@extend %textAreaField__form;
+}

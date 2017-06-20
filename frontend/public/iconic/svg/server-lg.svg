@@ -1,0 +1,36 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="server" class="iconic iconic-server iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Server</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-server-clip-0">
+      <path d="M6 6v30h76v-30h-76zm3 28c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm0-24c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm7 19c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm13-1c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm-4-4c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5zm10 10c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm0-24c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1z"
+      />
+    </clipPath>
+    <clipPath id="iconic-size-lg-server-clip-1">
+      <path d="M6 38v30h76v-30h-76zm3 28c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm0-24c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm7 19c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm13-1c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm-4-4c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5zm10 10c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm0-24c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1z"
+      />
+    </clipPath>
+    <clipPath id="iconic-size-lg-server-clip-2">
+      <path d="M6 70v30h76v-30h-76zm3 28c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm0-24c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm7 19c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm6 0c0 .552-.448 1-1 1s-1-.448-1-1v-16c0-.552.448-1 1-1s1 .448 1 1v16zm13-1c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm-4-4c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5zm10 10c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm0-24c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1z"
+      />
+    </clipPath>
+    <clipPath id="iconic-size-lg-server-clip-3">
+      <path d="M0 0v108h88v-108h-88zm84 104h-80v-100h80v100z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="88" data-height="128" transform="translate(20)">
+    <path clip-path="url(#iconic-size-lg-server-clip-0)" d="M80.5 36h-73c-.828 0-1.5-.672-1.5-1.5v-27c0-.828.672-1.5 1.5-1.5h73c.828 0 1.5.672 1.5 1.5v27c0 .828-.672 1.5-1.5 1.5z" class="iconic-server-chasis iconic-server-chasis-top iconic-property-fill"
+    />
+    <circle cx="69" cy="19" r="3" class="iconic-server-chasis-light iconic-server-chasis-top-light iconic-property-accent iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-server-clip-1)" d="M80.5 68h-73c-.828 0-1.5-.672-1.5-1.5v-27c0-.828.672-1.5 1.5-1.5h73c.828 0 1.5.672 1.5 1.5v27c0 .828-.672 1.5-1.5 1.5z" class="iconic-server-chasis iconic-server-chasis-middle iconic-property-fill"
+    />
+    <circle cx="69" cy="51" r="3" class="iconic-server-chasis-light iconic-server-chasis-middle-light iconic-property-accent iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-server-clip-2)" d="M80.5 100h-73c-.828 0-1.5-.672-1.5-1.5v-27c0-.828.672-1.5 1.5-1.5h73c.828 0 1.5.672 1.5 1.5v27c0 .828-.672 1.5-1.5 1.5z" class="iconic-server-chasis iconic-server-chasis-bottom iconic-property-fill"
+    />
+    <circle cx="69" cy="83" r="3" class="iconic-server-chasis-light iconic-server-chasis-bottom-light iconic-property-accent iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-server-clip-3)" d="M86.5 108h-85c-.828 0-1.5-.672-1.5-1.5v-105c0-.828.672-1.5 1.5-1.5h85c.828 0 1.5.672 1.5 1.5v105c0 .828-.672 1.5-1.5 1.5z" class="iconic-server-rack iconic-server-rack-walls iconic-property-fill"
+    />
+    <path class="iconic-server-rack iconic-server-rack-base iconic-property-fill" d="M0 102h88v26h-88z" />
+  </g>
+</svg>

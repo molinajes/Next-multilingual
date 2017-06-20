@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="marquee" class="iconic iconic-marquee iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Marquee</title>
+  </g>
+  <g class="iconic-container" data-width="30" data-height="20" transform="translate(1 6)">
+    <path fill="#fff" stroke="#000" class="iconic-marquee-corner iconic-marquee-corner-top iconic-marquee-corner-left iconic-marquee-corner-top-left iconic-property-stroke" d="M4 .5h-3.5v3.5" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-corner iconic-marquee-corner-top iconic-marquee-corner-right iconic-marquee-corner-top-right iconic-property-stroke" d="M29.5 4v-3.5h-3.5" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-corner iconic-marquee-corner-bottom iconic-marquee-corner-right iconic-marquee-corner-bottom-right iconic-property-stroke" d="M26 19.5h3.5v-3.5" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-corner iconic-marquee-corner-bottom iconic-marquee-corner-left iconic-marquee-corner-bottom-left iconic-property-stroke" d="M.5 16v3.5h3.5" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-line iconic-marquee-line-vertical iconic-marquee-line-vertical-right iconic-property-stroke" d="M29.5 6v3" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-line iconic-marquee-line-vertical iconic-marquee-line-vertical-left iconic-property-stroke" d="M.5 6v3" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-line iconic-marquee-line-horizontal iconic-marquee-line-horizontal-top iconic-property-stroke" d="M11 .5h3M6 .5h3M21 .5h3M16 .5h3" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-line iconic-marquee-line-horizontal iconic-marquee-line-horizontal-bottom iconic-property-stroke" d="M21 19.5h3M16 19.5h3M11 19.5h3M6 19.5h3" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-line iconic-marquee-line-vertical iconic-marquee-line-vertical-right iconic-property-stroke" d="M29.5 11v3" />
+    <path fill="#fff" stroke="#000" class="iconic-marquee-line iconic-marquee-line-vertical iconic-marquee-line-vertical-left iconic-property-stroke" d="M.5 11v3" />
+  </g>
+</svg>

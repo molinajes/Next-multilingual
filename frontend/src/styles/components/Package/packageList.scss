@@ -1,0 +1,32 @@
+.packageList__container {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1em;
+}
+
+.packageListItem__tile {
+	@include transition-highlight();
+	@extend %portrait__tile;
+	@include portrait__border($palette-mango);
+	align-items: center;
+	background-color: $palette-light;
+	cursor: pointer;
+	@include text-sb-size($text-medium);
+}
+
+.packageListItem__tile--active {
+	@extend .packageListItem__tile;
+	background-color: $palette-mango-bg;
+	box-shadow: $elevation-shadow-2;
+}
+
+.packageList__name {
+	@include padding-centered-text($padding-text-medium);
+	// @extend %text__subheading;
+}
+
+.packageListItem__create {
+	@extend %inputField__div;
+	@extend %editableBorder--mango;
+}
+

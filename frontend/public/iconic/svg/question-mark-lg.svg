@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="question-mark" class="iconic iconic-question-mark iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Question Mark</title>
+  </g>
+  <g class="iconic-container" data-width="76" data-height="128" transform="translate(26)">
+    <path stroke="#231F20" stroke-width="12" d="M38 104v-10c0-35 32-32 32-64 0-11.75-8-24-32-24-32 0-32 24-32 30v2" class="iconic-question-mark-curve iconic-property-stroke" fill="none" />
+    <path class="iconic-question-mark-dot iconic-property-fill" d="M32 116h12v12h-12z" />
+  </g>
+</svg>

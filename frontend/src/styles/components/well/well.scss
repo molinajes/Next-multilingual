@@ -1,0 +1,50 @@
+// TODO: Delete thiis file | AjH
+%well {
+	display: flex;
+	border-radius: 0.175em;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin: 0.125em;
+	padding: 0.25em;
+	padding-top: 0.7em;
+	padding-bottom: 0.8em;
+	position: relative;
+	background-color: $grey-100;
+}
+
+.well__row {
+	@extend %well;
+	box-shadow: inset 0 0 2px 0 rgba(35,35,35,0.32);
+	input {
+		width: 100%;
+		// height: 100%;
+		@extend %text__subheading;
+		@include text--activity($inactive);
+	}
+}
+
+.well__row--mango {
+	border-left: solid 2px rgba($mango-500, $strong);
+	input {
+		&:active, &:hover, &:focus {
+			 box-shadow: inset 0 0 2px 0 rgba($mango-500,0.32);
+			 @include text--activity($active);
+		}
+	}
+}
+
+.well__row--orange {
+	border-left: solid 2px rgba($orange-500, $strong);
+	&:active, &:hover, &:focus {
+		 box-shadow: inset 0 0 2px 0 rgba($orange-500,0.32);
+		 @include text--activity($active);
+	}
+}
+
+.well__row--yellow {
+	border-left: solid 2px rgba($yellow-500, $strong);
+	&:active, &:hover, &:focus {
+		 box-shadow: inset 0 0 2px 0 rgba($yellow-500,0.32);
+		 @include text--activity($active);
+	}
+}

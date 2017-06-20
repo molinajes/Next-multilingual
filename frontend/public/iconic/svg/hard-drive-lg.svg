@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="hard-drive" class="iconic iconic-hard-drive iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Hard Drive</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-hard-drive-clip-0">
+      <path d="M0 0v96c0 2.206 1.794 4 4 4h90c2.206 0 4-1.794 4-4v-96h-98zm50 86c-6.362 0-12.335-1.657-17.522-4.553-1.53 2.52-2.847 4.479-3.7 5.331-2.077 2.078-4.84 3.222-7.778 3.222s-5.701-1.144-7.778-3.222c-4.289-4.289-4.289-11.267 0-15.556.853-.853 2.811-2.17 5.331-3.7-2.896-5.187-4.553-11.159-4.553-17.522 0-19.882 16.118-36 36-36s36 16.118 36 36-16.118 36-36 36z"
+      />
+    </clipPath>
+    <clipPath id="iconic-size-lg-hard-drive-clip-1">
+      <path d="M94 104h-90c-1.458 0-2.822-.398-4-1.083v25.082h98v-25.082c-1.178.684-2.542 1.082-4 1.082zm-80 18h-2v-12h2v12zm4 0h-2v-12h2v12zm4 0h-2v-12h2v12zm4 0h-2v-12h2v12zm4 0h-2v-12h2v12zm4 0h-2v-12h2v12zm4 0h-2v-12h2v12zm50-4c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="98" data-height="128" transform="translate(15)">
+    <path clip-path="url(#iconic-size-lg-hard-drive-clip-0)" d="M0 8v112c0 4.418 3.582 8 8 8h82c4.418 0 8-3.582 8-8v-112c0-4.418-3.582-8-8-8h-82c-4.418 0-8 3.582-8 8z" class="iconic-hard-drive-casing iconic-hard-drive-casing-top iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-hard-drive-clip-1)" d="M0 8v112c0 4.418 3.582 8 8 8h82c4.418 0 8-3.582 8-8v-112c0-4.418-3.582-8-8-8h-82c-4.418 0-8 3.582-8 8z" class="iconic-hard-drive-casing iconic-hard-drive-casing-bottom iconic-property-fill"
+    />
+    <path stroke="#000" stroke-width="2" d="M43.541 61.272c1.904 1.094 4.105 1.728 6.459 1.728 7.18 0 13-5.82 13-13s-5.82-13-13-13-13 5.82-13 13c0 2.353.635 4.554 1.728 6.459" class="iconic-hard-drive-plate iconic-hard-drive-plate-inner-rim iconic-property-accent iconic-property-stroke"
+    fill="none" />
+    <circle cx="50" cy="50" r="4" class="iconic-hard-drive-plate iconic-hard-drive-plate-axis iconic-property-fill" />
+    <path d="M14.636 72.636c-3.515 3.515-3.515 9.213 0 12.728s9.213 3.515 12.728 0 16.636-29.364 16.636-29.364-25.849 13.121-29.364 16.636zm6.364 8.364c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z" class="iconic-hard-drive-plate iconic-hard-drive-plate-needle iconic-property-accent iconic-property-fill"
+    />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" d="M28.08 28.08c5.61-5.61 13.36-9.08 21.92-9.08" class="iconic-hard-drive-plate iconic-hard-drive-plate-reflection iconic-property-accent iconic-property-stroke" fill="none" />
+  </g>
+</svg>

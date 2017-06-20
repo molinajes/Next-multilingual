@@ -1,0 +1,19 @@
+.linkedUsage__container {
+	@extend %componentEditorModal__section;
+}
+
+.linkedUsage__title {
+	@extend %componentEditorModal__sectionTitle;
+}
+
+.linkedUsage__content {
+	@extend %componentEditorModal__sectionContent;
+}
+
+.linkedUsage__item {
+	@extend %subject__list;
+}
+
+.linkedUsage__itemName {
+	@extend %margin--textBlock;
+}

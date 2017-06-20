@@ -1,0 +1,41 @@
+%frame__background {
+	background-color: $palette-background;
+	border-radius: 2px;
+	box-shadow: $elevation-shadow-0;
+}
+
+%frame__container {
+	border-radius: 1px;
+	@extend %margin--tileList;
+	padding-bottom: 0.125rem;
+	border-top: 2px solid $palette-border-transparent;
+	border-bottom: 2px solid $palette-border-transparent;
+}
+
+%frame__banner {
+	display: flex;
+	border-radius: 1px;
+	@extend %text--subheading;
+	@extend %margin--textBlock;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgba($palette-background, $inactive);
+}
+
+%frame__header {
+	@extend %text--subheading;
+	@extend %margin--header;
+	display: flex;
+	border-radius: 1px;
+	flex-direction: row;
+	align-items: center;
+	box-shadow: $elevation-shadow-0;
+	background-color: rgba($palette-background, $active);
+}
+
+%frame__title { 
+	@extend %padding--bannerText;
+		&:hover {
+			text-decoration: underline;
+		}
+}

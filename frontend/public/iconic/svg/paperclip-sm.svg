@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="paperclip" class="iconic iconic-paperclip iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Paperclip</title>
+  </g>
+  <g class="iconic-container" data-width="14" data-height="16" transform="translate(1)">
+    <path stroke="#000" stroke-linecap="square" d="M8.328 6.257l-4.535 4.535c-.391.391-.391 1.024 0 1.414.391.391 1.024.391 1.414 0l7.507-7.436c.976-.976.976-2.559 0-3.535s-2.559-.976-3.535 0l-7.507 7.436c-1.562 1.562-1.562 4.095 0 5.657s4.095 1.562 5.657 0l4.535-4.535"
+    class="iconic-property-stroke" fill="none" />
+  </g>
+</svg>

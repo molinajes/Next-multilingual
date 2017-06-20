@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="tint" class="iconic iconic-tint iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Tint</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-tint-clip-0">
+      <path d="M0 0v128h96v-128h-96zm42.92 115.912c-.384 1.898-2.052 3.208-3.916 3.208-.263 0-.53-.026-.797-.081-3.568-.722-6.935-1.844-10.007-3.334-10.381-5.037-17.065-14.014-19.33-25.96-.411-2.17 1.015-4.264 3.185-4.675 2.169-.41 4.264 1.015 4.675 3.185 1.8 9.495 6.833 16.309 14.962 20.253 2.467 1.197 5.192 2.103 8.1 2.691 2.166.438 3.565 2.549 3.127 4.714z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="96" data-height="128" transform="translate(16)">
+    <path d="M96 80c0 32-22.753 48-48 48s-48-16-48-48c0-36.571 48-80 48-80s48 43.429 48 80z" clip-path="url(#iconic-size-lg-tint-clip-0)" class="iconic-tint-drop iconic-property-fill" />
+  </g>
+</svg>

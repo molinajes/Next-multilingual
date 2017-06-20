@@ -1,0 +1,28 @@
+{
+    "libraries": [
+    {
+        "name": "Social",      
+        "description": "ReqFire's most popular library item.  For all your Social Authentication needs",
+        "imageURL": "https://images.unsplash.com/photo-1472143684393-8b081cb2e899?dpr=1&auto=format&fit=crop&w=1500&h=844&q=80&cs=tinysrgb&crop=",
+        "id": "social"
+    },
+    {
+        "name": "Wearables",        
+        "description": "Get your app ready for the latest trend in wearables",
+        "imageURL": "https://images.unsplash.com/photo-1461141346587-763ab02bced9?dpr=1&auto=format&fit=crop&w=1500&h=791&q=80&cs=tinysrgb&crop=",
+        "id": "wearables"
+    },
+    {
+        "name": "Finance",     
+        "description": "Suite of components and Use Cases to get you up and running with PayPal",
+        "imageURL": "https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/RZWM4T2UAD.jpg",
+        "id": "finance"
+    },
+    {
+        "name": "Analytics",        
+        "description": "A systematic approach to convey all your analytics in your next project",
+        "imageURL": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?dpr=1&auto=format&fit=crop&w=1500&h=1068&q=80&cs=tinysrgb&crop=",
+        "id": "analytics"
+    }
+]
+}

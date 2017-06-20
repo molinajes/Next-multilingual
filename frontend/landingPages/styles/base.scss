@@ -1,0 +1,132 @@
+@import 'type.scss';
+@import "./neat/neat";
+
+body {
+	margin: 0;
+	@extend %text;
+	background-color: #ffffff;
+	// background-color: $palette-light;
+	font-family: 'Source Sans Pro', Tahoma, sans-serif;
+}
+
+html {
+	font-size: 16px;
+}
+
+h1 {
+	// font-weight: $font-;
+	letter-spacing: -0.2px;
+	font-size: 3rem;
+	line-height: 4rem;
+	color: $palette-text-active;
+}
+h3, h3, h4 {
+	// font-weight: normal;
+}
+
+h2 {
+	color: $palette-text-active;
+	@extend %text--sectionHeading;
+	font-weight: $font-light;
+	font-size: 2.5rem;
+	line-height: 3.875rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;	
+}
+
+h3 {
+	@extend %text--sectionHeading;
+	font-weight: $font-light;
+	font-size: 2rem;
+	line-height: 1.3;
+	margin-top: 0.25rem;
+	margin-bottom: 0.5rem;	
+}
+
+h4 {
+	@extend %text--sectionHeading;
+	font-weight: $font-light;
+	font-size: 1.5rem;
+	line-height: 1.3;
+	margin-top: 0.125rem;
+	margin-bottom: 0.25rem;	
+}
+
+p {
+	margin-top: 0.25rem;
+	margin-bottom: 0.5rem;
+}
+
+blockquote {
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: $font-sb;
+}
+
+::selection {
+	background-color: $palette-orange-bg;
+}
+
+// Media
+// $mobile: new-breakpoint(max-width 500px 4);
+// $phablet: new-breakpoint(max-width 939px, 4);
+// html {
+// 	@include media($mobile) {
+// 		font-size: 12px;
+// 			}
+// 	@include media($phablet) {
+// 		font-size: 14px;
+// 		}
+// }
+
+input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+	
+	/* Browsers have different default form fonts */
+	font-size: 1.25rem;
+	font-family: 'Source Sans Pro', Tahoma, sans-serif;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus
+{
+	outline:0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+
+/* All of our custom controls should be what we expect them to be */
+input,
+textarea
+{
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+input[type=submit]
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}

@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="people" class="iconic iconic-people iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>People</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="58" transform="translate(0 35)">
+    <path d="M34.448 40.182c.545-.624.522-.648-.166-.187-1.901 1.274-4.037 2.006-6.282 2.006-2.769 0-5.377-1.104-7.577-2.974-.631-.536-1.765-1.026-2.593-1.026h-3.829c-7.732 0-14 6.268-14 14v2.5c0 .828.672 1.5 1.5 1.5h27c.828 0 1.5-.672 1.5-1.5v-2.5c0-4.523 1.683-8.654 4.448-11.818z"
+    class="iconic-people-person iconic-people-person-body iconic-people-person-left iconic-people-person-body-left iconic-property-accent iconic-property-fill" />
+    <path d="M40 24c0 8.284-5.373 16-12 16s-12-7.716-12-16 5.373-14 12-14 12 5.716 12 14z" class="iconic-people-person iconic-people-person-head iconic-people-person-left iconic-people-person-head-left iconic-property-accent iconic-property-fill" />
+    <path d="M110.142 38c-.828 0-1.961.49-2.592 1.027-2.194 1.869-4.792 2.973-7.55 2.973-2.329 0-4.543-.788-6.497-2.159-.678-.476-.686-.469-.132.147 2.871 3.188 4.629 7.395 4.629 12.012v2.5c0 .828.672 1.5 1.5 1.5h27c.828 0 1.5-.672 1.5-1.5v-2.5c0-7.732-6.268-14-14-14h-3.858z"
+    class="iconic-people-person iconic-people-person-body iconic-people-person-right iconic-people-person-body-right iconic-property-accent iconic-property-fill" />
+    <path d="M112 23.875c0 8.284-5.373 16.125-12 16.125s-12-7.841-12-16.125 5.373-13.875 12-13.875 12 5.591 12 13.875z" class="iconic-people-person iconic-people-person-head iconic-people-person-right iconic-people-person-head-right iconic-property-accent iconic-property-fill"
+    />
+    <path d="M77.478 36c-.828 0-1.935.512-2.521 1.098-3.059 3.058-6.875 4.902-10.957 4.902s-7.898-1.845-10.957-4.902c-.586-.586-1.692-1.098-2.521-1.098h-2.522c-8.836 0-16 7.163-16 16v4.5c0 .828.672 1.5 1.5 1.5h61c.828 0 1.5-.672 1.5-1.5v-4.5c0-8.836-7.163-16-16-16h-2.522z"
+    class="iconic-people-person iconic-people-person-body iconic-people-person-center iconic-people-person-body-center iconic-property-fill" />
+    <path d="M80 19c0 11.046-7.163 21-16 21s-16-9.954-16-21 7.163-19 16-19 16 7.954 16 19z" class="iconic-people-person iconic-people-person-head iconic-people-person-center iconic-people-person-head-center iconic-property-fill" />
+  </g>
+</svg>

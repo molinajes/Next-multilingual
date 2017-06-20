@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="move" class="iconic iconic-move iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Move</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-move-axis iconic-move-axis-vertical iconic-property-stroke" fill="none" d="M64 15v97" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-move-axis iconic-move-axis-horizontal iconic-property-stroke" fill="none" d="M117 64h-105" />
+    <path d="M63.244 1.296l-12.488 21.409c-.417.716-.084 1.296.744 1.296h25c.828 0 1.162-.58.744-1.296l-12.488-21.409c-.417-.716-1.094-.716-1.512 0z" class="iconic-move-arrowhead iconic-move-arrowhead-top iconic-property-fill" />
+    <path d="M64.756 126.704l12.488-21.409c.417-.716.084-1.296-.744-1.296h-25c-.828 0-1.162.58-.744 1.296l12.488 21.409c.417.716 1.094.716 1.512 0z" class="iconic-move-arrowhead iconic-move-arrowhead-bottom iconic-property-fill" />
+    <path d="M126.704 63.244l-21.409-12.488c-.716-.417-1.296-.084-1.296.744v25c0 .828.58 1.162 1.296.744l21.409-12.488c.716-.417.716-1.094 0-1.512z" class="iconic-move-arrowhead iconic-move-arrowhead-right iconic-property-fill" />
+    <path d="M1.296 64.756l21.409 12.488c.715.417 1.296.084 1.296-.744v-25c0-.828-.58-1.162-1.296-.744l-21.409 12.488c-.716.417-.716 1.094 0 1.512z" class="iconic-move-arrowhead iconic-move-arrowhead-left iconic-property-fill" />
+  </g>
+</svg>

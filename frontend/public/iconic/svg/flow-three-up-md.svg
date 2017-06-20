@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="flow-three-up" width="32" height="32" class="iconic iconic-flow iconic-orientation-square iconic-size-md iconic-flow-three-up" viewBox="0 0 32 32">
+  <g>
+    <title>Flow Three Up</title>
+  </g>
+  <g data-width="32" data-height="32" class="iconic-container iconic-flow-three-up" transform="scale(1 1 ) translate(0 ) ">
+    <path d="M19.5 32h-7c-.276 0-.5-.224-.5-.5v-4c0-.276.224-.5.5-.5h7c.276 0 .5.224.5.5v4c0 .276-.224.5-.5.5z" class="iconic-flow-three-up-item iconic-flow-three-up-item-5 iconic-flow-three-up-column-2 iconic-property-fill"></path>
+    <path d="M7.5 32h-7c-.276 0-.5-.224-.5-.5v-10c0-.276.224-.5.5-.5h7c.276 0 .5.224.5.5v10c0 .276-.224.5-.5.5z" class="iconic-flow-three-up-item iconic-flow-three-up-item-2 iconic-flow-three-up-column-1 iconic-property-fill"></path>
+    <path d="M31.5 32h-7c-.276 0-.5-.224-.5-.5v-19c0-.276.224-.5.5-.5h7c.276 0 .5.224.5.5v19c0 .276-.224.5-.5.5z" class="iconic-flow-three-up-item iconic-flow-three-up-item-7 iconic-flow-three-up-column-3 iconic-property-fill"></path>
+    <path d="M19.5 23h-7c-.276 0-.5-.224-.5-.5v-13c0-.276.224-.5.5-.5h7c.276 0 .5.224.5.5v13c0 .276-.224.5-.5.5z" class="iconic-flow-three-up-item iconic-flow-three-up-item-4 iconic-flow-three-up-column-2 iconic-property-fill"></path>
+    <path d="M31.5 8h-7c-.276 0-.5-.224-.5-.5v-7c0-.276.224-.5.5-.5h7c.276 0 .5.224.5.5v7c0 .276-.224.5-.5.5z" class="iconic-flow-three-up-item iconic-flow-three-up-item-6 iconic-flow-three-up-column-3 iconic-property-fill"></path>
+    <path d="M19.5 5h-7c-.276 0-.5-.224-.5-.5v-4c0-.276.224-.5.5-.5h7c.276 0 .5.224.5.5v4c0 .276-.224.5-.5.5z" class="iconic-flow-three-up-item iconic-flow-three-up-item-3 iconic-flow-three-up-column-2 iconic-property-fill"></path>
+    <path d="M7.5 17h-7c-.276 0-.5-.224-.5-.5v-16c0-.276.224-.5.5-.5h7c.276 0 .5.224.5.5v16c0 .276-.224.5-.5.5z" class="iconic-flow-three-up-item iconic-flow-three-up-item-1 iconic-flow-three-up-column-1 iconic-property-fill"></path>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="firefly" class="iconic iconic-firefly iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Firefly</title>
+  </g>
+  <g class="iconic-container" data-width="15" data-height="16">
+    <path d="M9 5s1.883-1.088 4.105-1.964c1.598-.63 1.886-.116 1.895.417.063 3.609-4.969 3.578-7.032 3.547l1.032-2z" class="iconic-firefly-wing iconic-firefly-wing-right iconic-firefly-wing-front iconic-firefly-wing-front-right iconic-property-fill" />
+    <path d="M12.751 7.497c-1.369.437-2.915.509-4.14.509-.114 0-.206-.002-.311-.003 2.893 2.448 5.699 2.555 5.699.796 0-.537-.517-.963-1.249-1.303z" class="iconic-firefly-wing iconic-firefly-wing-right iconic-firefly-wing-back iconic-firefly-wing-back-right iconic-property-fill"
+    />
+    <path d="M6.001 5s-1.883-1.088-4.105-1.964c-1.598-.63-1.886-.116-1.895.417-.063 3.609 4.969 3.578 7.032 3.547l-1.032-2z" class="iconic-firefly-wing iconic-firefly-wing-left iconic-firefly-wing-front iconic-firefly-wing-front-left iconic-property-fill"
+    />
+    <path d="M6.389 8.006c-1.225 0-2.771-.072-4.14-.509-.732.34-1.249.766-1.249 1.303 0 1.758 2.807 1.652 5.699-.796-.104.001-.197.003-.311.003z" class="iconic-firefly-wing iconic-firefly-wing-left iconic-firefly-wing-back iconic-firefly-wing-back-left iconic-property-fill"
+    />
+    <path stroke="#000" stroke-linecap="round" d="M8.5 4.5s.458-4 3-4" class="iconic-firefly-antenna iconic-firefly-antenna-right iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-linecap="round" d="M6.5 4.5s-.458-4-3-4" class="iconic-firefly-antenna iconic-firefly-antenna-left iconic-property-stroke" fill="none" />
+    <path d="M9 4.5c0 .828.094 8.5-1.5 8.5-1.5 0-1.5-7.672-1.5-8.5s.672-1.5 1.5-1.5 1.5.672 1.5 1.5z" class="iconic-firefly-body iconic-property-fill" />
+    <circle cx="10.5" cy="12.5" r=".5" class="iconic-firefly-light-beam iconic-firefly-light-beam-5 iconic-property-fill" />
+    <circle cx="9.5" cy="14.5" r=".5" class="iconic-firefly-light-beam iconic-firefly-light-beam-4 iconic-property-fill" />
+    <circle cx="7.5" cy="15.5" r=".5" class="iconic-firefly-light-beam iconic-firefly-light-beam-3 iconic-property-fill" />
+    <circle cx="5.5" cy="14.5" r=".5" class="iconic-firefly-light-beam iconic-firefly-light-beam-2 iconic-property-fill" />
+    <circle cx="4.5" cy="12.5" r=".5" class="iconic-firefly-light-beam iconic-firefly-light-beam-1 iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="command" class="iconic iconic-command iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Command</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path stroke="#000" stroke-width="12" d="M26 46c-11.046 0-20-8.954-20-20s8.954-20 20-20 20 8.954 20 20v76c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20h76c11.046 0 20 8.954 20 20s-8.954 20-20 20-20-8.954-20-20v-76c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20h-76z"
+    class="iconic-property-stroke" fill="none" />
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="list-nested" class="iconic iconic-list-nested iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>List Nested</title>
+  </g>
+  <g class="iconic-container" data-width="124" data-height="88" transform="translate(2 20)">
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-4 iconic-property-stroke" fill="none" d="M36 84h72" />
+    <path d="M22.5 88h-5c-.828 0-1.5-.672-1.5-1.5v-5c0-.828.672-1.5 1.5-1.5h5c.828 0 1.5.672 1.5 1.5v5c0 .828-.672 1.5-1.5 1.5z" class="iconic-list-nested-list-dot iconic-list-nested-list-dot-4 iconic-property-accent iconic-property-fill" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-3 iconic-property-stroke" fill="none" d="M52 58h64" />
+    <path d="M38.5 62h-5c-.828 0-1.5-.672-1.5-1.5v-5c0-.828.672-1.5 1.5-1.5h5c.828 0 1.5.672 1.5 1.5v5c0 .828-.672 1.5-1.5 1.5z" class="iconic-list-nested-list-dot iconic-list-nested-list-dot-3 iconic-property-accent iconic-property-fill" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-2 iconic-property-stroke" fill="none" d="M36 30h60" />
+    <path d="M22.5 34h-5c-.828 0-1.5-.672-1.5-1.5v-5c0-.828.672-1.5 1.5-1.5h5c.828 0 1.5.672 1.5 1.5v5c0 .828-.672 1.5-1.5 1.5z" class="iconic-list-nested-list-dot iconic-list-nested-list-dot-2 iconic-property-accent iconic-property-fill" />
+    <path stroke="#000" stroke-width="8" stroke-linecap="square" class="iconic-list-nested-list-line iconic-list-nested-list-line-1 iconic-property-stroke" fill="none" d="M20 4h100" />
+    <path d="M6.5 8h-5c-.828 0-1.5-.672-1.5-1.5v-5c0-.828.672-1.5 1.5-1.5h5c.828 0 1.5.672 1.5 1.5v5c0 .828-.672 1.5-1.5 1.5z" class="iconic-list-nested-list-dot iconic-list-nested-list-dot-1 iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>

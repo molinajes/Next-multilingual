@@ -1,0 +1,208 @@
+.componentEditor__overlay {
+	@extend .modal__overlay;
+	box-shadow: inset 0 0 3rem $palette-shadow;
+	background-color: $palette-light-transparent;
+	// background-color: $palette-background-transparent;
+	overflow: scroll;
+	// @include outer-container;
+	
+}
+
+.componentEditorModal__background {
+	@extend .modal__content;
+	background-color: rgba($palette-light, $inactive);
+	bottom: auto;
+	max-width: 1200px;
+	margin-left: 5%;
+	margin-right: 5%;
+	left: 100px;
+		right: 100px;
+}
+
+.componentEditorModal__titleGroup {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-bottom: dotted 2px $palette-border;
+	margin-bottom: 1rem;
+	// padding-bottom: 1rem;
+}
+
+.componentEditorModal__title {
+	text-align: center;
+	margin: 0;
+}
+
+.componentEditor__content--iface, .componentEditor__content--rule, .componentEditor__content--object, .componentEditor__content--user {
+	.componentEditorModal__background {
+		left: 200px;
+		right: 200px;
+	}
+}
+
+.componentEditor__content--form, .componentEditor__content--overview {
+	.componentEditorModal__background {
+		left: 100px;
+		right: 100px;
+	}
+}
+
+.componentEditor__content--history {
+	.componentEditorModal__background {
+		left: 20px;
+		right: 20px;
+	}
+}
+
+.componentEditor__image {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
+
+%componentEditorModal__border {
+	// padding-left: 2.5rem;
+	// padding-right: 2.5rem;
+	@extend %portrait;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+}
+
+%componentEditorModal__section {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	min-height: 4rem;
+	border-bottom: 1px $palette-border solid;
+	margin-bottom: 1rem;
+	@extend %margin--section;
+}
+
+.componentEditorModal__section {
+	@extend %componentEditorModal__section;
+}
+
+
+%componentEditorModal__sectionTitle {
+	display: flex;
+	align-items: center;
+	@extend %text__modalSubtitle;
+	border-bottom: 1px solid $palette-border;
+}
+
+.componentEditorModal__sectionTitle--center {
+	@extend %componentEditorModal__sectionTitle;
+	justify-content: center;
+}
+
+%componentEditorModal__sectionContent {
+	background-color: $palette-background;
+	padding: 1em;
+	// padding-bottom: 0.5rem;
+
+}
+
+.componentEditorModal__sectionContent {
+	@extend %componentEditorModal__sectionContent;
+}
+
+.componentEditorModal__sectionContent--centered {
+	@extend %padding--modalContent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $palette-background;
+}
+
+.componentEditorModal__close {
+	transform: rotate(45deg);
+	position: absolute;
+	top: 0rem;
+	right: 0rem;
+}
+
+.componentEditorModal__content {
+    background: $palette-light;
+	box-shadow: $elevation-shadow-0;
+	border: 1px $palette-border solid;
+	position: relative;
+	@extend %padding--modalContent;
+}
+
+.userSettings__name {
+	@extend %componentEditorName__div;
+	@extend %existingBorder--yellow;
+	@extend %inputField__div--yellow;
+	margin-bottom: 1rem;
+}
+
+.userSettings__detail {
+	display: flex;
+	align-items: flex-start;
+}
+
+.userSettings__logout {
+	text-align: center;
+}
+
+.userSettings__logoutLabel {
+	@include text--activity($inactive);
+	@include text-sb-size($text-small);
+	width: 100%;
+}
+
+.userSettings__feedback {
+	@include margin-section($margin-section-x-large);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	@include text-sb-size($text-x-large);
+	@include text--activity($inactive);
+}
+
+.userSettings__feedbackButton {
+	@include margin-section($margin-section-large);
+	@include padding-centered-text($padding-text-x-large);
+	@include padding-box($padding-box-large);
+	@include text-sb-size($text-large);
+	@include transition-notify(box-shadow);
+	@include text--activity($active);
+	cursor: pointer;
+	border-radius: 0.375rem;
+	// color: $palette-light;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: $palette-yellow;
+	box-shadow: $elevation-shadow-2;
+		&:hover {
+			box-shadow: $elevation-shadow-3;
+		}
+}
+
+@mixin modalModifier (
+	$color: $palette-border,
+	$iconicColor: $palette-primary
+	) {
+		@extend %componentEditorModal__border;
+		@include portrait__border($color);
+		@include iconic-color($iconicColor, $inactive);
+	    background: rgba($color, $weak);
+}
+
+.componentEditorModal__border--overview, .componentEditorModal__border--iface, .componentEditorModal__border--actor {
+	@include modalModifier($palette-mango, $palette-mango );
+}
+.componentEditorModal__border--rule, .componentEditorModal__border--package, .componentEditorModal__border--requirement, .componentEditorModal__border--useCase {
+	@include modalModifier($palette-orange, $palette-orange );
+}
+.componentEditorModal__border--form, .componentEditorModal__border--user, .componentEditorModal__border--useCase {
+	@include modalModifier($palette-yellow, $palette-yellow );
+}
+.componentEditorModal__border--object {
+	@include modalModifier($palette-primary, $palette-primary );
+}

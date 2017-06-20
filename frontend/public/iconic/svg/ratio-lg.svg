@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="ratio" class="iconic iconic-ratio iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Ratio</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path d="M64 120c12 0 24-8 24-24s-13-23.54-24.267-32c-14.305-10.741-23.733-16-23.733-32s16-24 24-24c20.156 0 32.299 5.383 41.627 15.867 8.103 9.107 16.346 21.925 15.973 40.133-.344 16.806-5.186 25.552-11.306 34.411-8.689 12.577-22.294 21.589-46.294 21.589z"
+    class="iconic-ratio-positive iconic-property-fill" />
+    <circle stroke="#000" stroke-width="8" cx="64" cy="64" r="60" class="iconic-ratio-border iconic-property-accent iconic-property-stroke" fill="none" />
+  </g>
+</svg>

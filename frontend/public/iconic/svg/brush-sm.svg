@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="brush" class="iconic iconic-brush iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Brush</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-brush-clip-0">
+      <path d="M7 0v6.322c1.231.474 2.205 1.448 2.679 2.678h6.321v-9h-9z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path d="M8 10.666c0-1.473-1.197-2.666-2.67-2.666-1.473 0-2.666 1.193-2.666 2.666l.002.002c-.002 1.973-1.074 3.693-2.666 4.615l.008.01c.783.449 1.689.707 2.658.707 2.945 0 5.334-2.389 5.334-5.334z" class="iconic-brush-head iconic-property-accent iconic-property-fill"
+    />
+    <path clip-path="url(#iconic-size-sm-brush-clip-0)" d="M14.186.581l-5.372 3.838c-.449.321-1.014.982-1.261 1.476l-.106.211c-.247.494-.131 1.211.26 1.601l.586.586c.391.391 1.108.507 1.601.26l.211-.106c.494-.247 1.155-.811 1.476-1.261l3.837-5.372c.321-.449.357-1.038.081-1.314s-.864-.24-1.314.081z"
+    class="iconic-brush-stem iconic-property-fill" />
+  </g>
+</svg>

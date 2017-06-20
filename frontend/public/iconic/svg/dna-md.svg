@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="dna" class="iconic iconic-dna iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Dna</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-dna-clip-0">
+      <path d="M0 21.142v-21.142h16.511c-.316.419-.511.934-.511 1.5v3.571c0 1.931-1.031 3.743-2.692 4.729l-9.791 7.3c-1.577.968-2.754 2.353-3.517 4.042zm15.982-7.115l-9.79 7.299c-1.812 1.075-2.192 3.165-2.192 4.728v3.446c0 .566-.195 1.081-.511 1.5h16.511v-21.519c-.861 1.85-2.235 3.454-4.018 4.545z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="20" data-height="31" transform="translate(6)">
+    <path clip-path="url(#iconic-size-md-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-bottom iconic-dna-base-bottom-3 iconic-property-stroke" fill="none" d="M3.5 27.5h14" />
+    <path clip-path="url(#iconic-size-md-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-bottom iconic-dna-base-bottom-2 iconic-property-stroke" fill="none" d="M1.5 24.5h17" />
+    <path clip-path="url(#iconic-size-md-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-bottom iconic-dna-base-bottom-1 iconic-property-stroke" fill="none" d="M1.5 21.5h17" />
+    <path clip-path="url(#iconic-size-md-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-top iconic-dna-base-top-3 iconic-property-stroke" fill="none" d="M3.5 9.5h14" />
+    <path clip-path="url(#iconic-size-md-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-top iconic-dna-base-top-2 iconic-property-stroke" fill="none" d="M1.5 6.5h17" />
+    <path clip-path="url(#iconic-size-md-dna-clip-0)" stroke="#000" class="iconic-dna-base iconic-dna-base-top iconic-dna-base-top-1 iconic-property-stroke" fill="none" d="M1.5 3.5h17" />
+    <path clip-path="url(#iconic-size-md-dna-clip-0)" stroke="#000" stroke-width="3" stroke-linecap="round" d="M1.5 1.5v3.571c0 2.823.988 5.438 3.416 6.879l5.084 3.613M10 15.563l4.584 3.613c2.428 1.441 3.916 4.056 3.916 6.879v3.446" class="iconic-dna-backbone iconic-dna-backbone-left iconic-property-stroke"
+    fill="none" />
+    <path stroke="#000" stroke-width="3" stroke-linecap="round" d="M18.5 1.5v3.571c0 2.823-1.488 5.438-3.916 6.879l-9.669 7.225c-2.428 1.441-3.416 4.056-3.416 6.879v3.446" class="iconic-dna-backbone iconic-dna-backbone-right iconic-property-stroke" fill="none"
+    />
+  </g>
+</svg>

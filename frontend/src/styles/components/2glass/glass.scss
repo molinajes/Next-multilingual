@@ -1,0 +1,123 @@
+%glass {
+	display: flex;
+	border-bottom: 1px solid transparent;
+	border-left: 1.5px solid transparent;
+	box-shadow: -0.5px 0.5px 0.5px 0.5px $palette-shadow;
+	// padding: 0.25rem; // TODO: Phase this out | AjH
+}
+
+%glassBorder {
+	border-bottom: 1px solid transparent;
+	border-left: 1.5px solid transparent;
+}
+
+@mixin glass__border($border-colour: $palette-primary) {
+	border-image: linear-gradient(to bottom left, rgba($border-colour, 0) 40%, rgba($border-colour, $inactive) 90%, rgba($border-colour, 1) 97%);
+	border-image-slice: 1;
+}
+
+@mixin glass--backgroundColour($backgroundColour: $palette-light, $opacity: 1) {
+	background-color: rgba($backgroundColour, $opacity);
+} 
+
+%glass__tile {
+	@extend %glass;
+	@extend %margin--glassTile;
+	@extend %text__subheading;
+	align-self: center;
+	padding: 0; // TODO: remove this when parent class has padding removed | AjH
+}
+
+%glass__title {
+	display: flex;
+	background-color: $palette-light;
+	align-items: center;
+	flex-basis: 100%;
+}
+
+%glass--hover--shadow {
+	transition: box-shadow ($transition-duration * 2) $transition-ease;
+	@include activityElevationShadow($elevation-shadow: $elevation-shadow-0, $shadow-hover: $elevation-shadow-1, $shadow-active: $elevation-shadow-0);
+}
+
+%glass__pageBanner {
+	@extend %glass;
+	@extend %text--bannerTitle;
+	@extend %padding--bannerText;
+	@extend %height--bannerText;
+	align-items: center;
+}
+
+%glass__banner--yellow {
+	@extend %glass__pageBanner;
+	@include glass--backgroundColour($palette-yellow-bg);
+	@include glass__border($palette-yellow);
+}
+%glass__banner--orange {
+	@extend %glass__pageBanner;
+	@include glass--backgroundColour($palette-orange-bg);
+	@include glass__border($palette-orange);
+}
+%glass__banner--mango {
+	@extend %glass__pageBanner;
+	@include glass--backgroundColour($palette-mango-bg);
+	@include glass__border($palette-mango);
+}
+%glass__banner--black {
+	@extend %glass__pageBanner;
+	@include glass--backgroundColour($palette-primary-bg);
+	@include glass__border();
+}
+%glass__banner--white {
+	@extend %glass__pageBanner;
+	@include glass--backgroundColour($grey-100);
+	@include glass__border();
+}
+%glass__banner--default {
+	@extend %glass__pageBanner;
+	// background-color: rgba( $faint);
+	@include glass__border();
+}
+
+%portrait {
+	display: flex;
+	border-bottom: 2px solid transparent;
+	border-left: 2.5px solid transparent;
+	box-shadow: -0.5px 0.5px 0.5px 0.5px $palette-shadow;
+}
+
+%portrait__tile {
+	@extend %margin--tileList;
+	display: flex;
+	border-radius: 1px;
+	border-bottom: 2px solid transparent;
+	border-left: 2.5px solid transparent;
+	box-shadow: $elevation-shadow-1;
+}
+
+%portrait__title {
+	@extend %text--subheading;
+}
+
+%portrait--hover--shadow {
+	transition: box-shadow ($transition-duration * 2) $transition-ease;
+		&:hover {
+			box-shadow: $elevation-shadow-2;
+		}
+}
+
+@mixin portrait--backgroundColor ($backgroundColor: $palette-light, $alpha: 1) {
+	background-color: rgba($backgroundColor, $alpha)
+}
+
+%portrait--activityElevationShadow {
+	@extend %portrait;
+	transition: transform ($transition-duration * 2) $transition-ease,
+	            box-shadow ($transition-duration * 2) $transition-ease;
+	@include activityElevationShadow($elevation-shadow: $elevation-shadow-1, $shadow-hover: $elevation-shadow-2, $shadow-active: $elevation-shadow-1);	
+}
+
+@mixin portrait__border($border-colour: $black-500) {
+	border-image: linear-gradient(to bottom left, rgba($border-colour, 0) 40%, rgba($border-colour, $weak) 90%, rgba($border-colour, $inactive) 97%);
+	border-image-slice: 1;
+}

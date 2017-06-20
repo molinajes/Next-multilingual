@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="radiation" class="iconic iconic-radiation iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Radiation</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="15">
+    <circle cx="8" cy="7" r="2" class="iconic-radiation-center iconic-property-accent iconic-property-fill" />
+    <path d="M0 7c0-2.961 1.609-5.546 4-6.929l2 3.465c-1.196.692-2 1.984-2 3.465h-4z" class="iconic-radiation-trefoil iconic-radiation-trefoil-3 iconic-property-fill" />
+    <path d="M5.998 10.464c.589.341 1.272.536 2.002.536.729 0 1.412-.195 2-.535l2 3.465c-1.177.681-2.543 1.07-4 1.07-1.458 0-2.826-.39-4.003-1.072l2.002-3.464z" class="iconic-radiation-trefoil iconic-radiation-trefoil-2 iconic-property-fill" />
+    <path d="M12 7c0-1.48-.804-2.772-1.998-3.464l2.002-3.464c2.389 1.384 3.997 3.968 3.997 6.928h-4z" class="iconic-radiation-trefoil iconic-radiation-trefoil-1 iconic-property-fill" />
+  </g>
+</svg>

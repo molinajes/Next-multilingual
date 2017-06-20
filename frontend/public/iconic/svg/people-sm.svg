@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="people" class="iconic iconic-people iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>People</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="10" transform="translate(0 3)">
+    <path d="M3 8c0-.782.308-1.489.8-2.023-.729-.058-1.389-.409-1.884-.968-1.065.045-1.916.916-1.916 1.992v2h3v-1z" class="iconic-people-person iconic-people-person-body iconic-people-person-left iconic-people-person-body-left iconic-property-accent iconic-property-fill"
+    />
+    <path d="M5 3.5c0-.861.278-1.641.722-2.251-.347-.743-.984-1.249-1.722-1.249-1.105 0-2 1.119-2 2.5s.895 2.5 2 2.5c.429 0 .825-.172 1.151-.46-.089-.331-.151-.675-.151-1.04z" class="iconic-people-person iconic-people-person-head iconic-people-person-left iconic-people-person-head-left iconic-property-accent iconic-property-fill"
+    />
+    <path d="M14.084 5.008c-.495.559-1.155.91-1.884.968.492.535.8 1.241.8 2.023v1h3v-2c0-1.076-.851-1.946-1.916-1.992z" class="iconic-people-person iconic-people-person-body iconic-people-person-right iconic-people-person-body-right iconic-property-accent iconic-property-fill"
+    />
+    <path d="M12 0c-.738 0-1.375.505-1.722 1.249.444.61.722 1.39.722 2.251 0 .364-.061.709-.15 1.04.326.288.721.46 1.15.46 1.105 0 2-1.119 2-2.5s-.895-2.5-2-2.5z" class="iconic-people-person iconic-people-person-head iconic-people-person-right iconic-people-person-head-right iconic-property-accent iconic-property-fill"
+    />
+    <path d="M10.084 6.008c-.54.611-1.274.992-2.084.992s-1.544-.38-2.084-.992c-1.065.045-1.916.916-1.916 1.992v2h8v-2c0-1.076-.851-1.946-1.916-1.992z" class="iconic-people-person iconic-people-person-body iconic-people-person-center iconic-people-person-body-center iconic-property-fill"
+    />
+    <ellipse cx="8" cy="3.5" rx="2" ry="2.5" class="iconic-people-person iconic-people-person-head iconic-people-person-center iconic-people-person-head-center iconic-property-fill" />
+  </g>
+</svg>

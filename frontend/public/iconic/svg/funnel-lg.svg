@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="funnel" class="iconic iconic-funnel iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Funnel</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-funnel-clip-0">
+      <path d="M0 2h120.013v6h-120.013z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="120" data-height="130" transform="translate(4 -1)">
+    <path d="M3.061 19.061l47.879 47.879c.586.586 1.061 1.732 1.061 2.561v59c0 .828.601 1.2 1.342.829l13.317-6.658c.741-.37 1.342-1.342 1.342-2.171v-51c0-.828.475-1.975 1.061-2.561l47.879-47.879c.586-.586 1.061-1.732 1.061-2.561v-13c0-.828-.672-1.5-1.5-1.5h-113c-.828 0-1.5.672-1.5 1.5v13c0 .828.475 1.975 1.061 2.561z"
+    class="iconic-funnel-body iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-funnel-clip-0)" d="M1.329 6.658l-.658-1.317c-.37-.741-.671-2.013-.671-2.842v-1c0-.828.672-1.5 1.5-1.5h117c.828 0 1.5.672 1.5 1.5v1c0 .828-.3 2.101-.671 2.842l-.658 1.317c-.371.741-1.342 1.342-2.171 1.342h-113c-.828 0-1.8-.601-2.171-1.342z"
+    class="iconic-funnel-rim iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="share-boxed" class="iconic iconic-share-boxed iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Share Boxed</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="14" transform="translate(0 1)">
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" d="M13 11v1.5c0 .276-.224.5-.5.5h-11c-.276 0-.5-.224-.5-.5v-11c0-.276.224-.5.5-.5h3.5" class="iconic-share-boxed-box iconic-property-accent iconic-property-stroke" fill="none" />
+    <path d="M16 4l-4-4v2c-4.418 0-8 3.582-8 8 0-2.209 3-4 5-4 1.201 0 2.304 0 3 0v2l4-4z" class="iconic-share-boxed-arrow iconic-property-fill" />
+  </g>
+</svg>

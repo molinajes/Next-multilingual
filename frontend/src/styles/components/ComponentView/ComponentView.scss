@@ -1,0 +1,112 @@
+.componentView__container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	max-width: $page-width;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.componentView__group {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.componentView__components {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	flex-basis: 100%;
+	height: 90vh;
+	// margin-bottom: 3rem;
+	overflow: scroll;
+}
+
+.componentView__container {	
+	:first-child {
+		.componentView__components {
+			@extend %gridPadding--left;
+			@include grid-border-right($palette-mango);
+		}
+	}
+	:nth-child(2) {
+		.componentView__components {
+			@extend %gridPadding;
+			@include grid-border-left($palette-orange);	
+			@include grid-border-right($palette-orange);
+		}
+	}
+	:nth-child(3) {
+		.componentView__components {
+			@extend %gridPadding;
+			@include grid-border-left($palette-yellow);	
+			@include grid-border-right($palette-yellow);
+		}
+	}  
+	:last-child {
+		.componentView__components {
+			@extend %gridPadding--right;
+			@include grid-border-left($palette-border);
+		}
+	}		
+}
+
+%componentView__componentTile {
+	@extend %portrait--activityElevationShadow;
+	background-color: rgba($grey-100, $strong);
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 1rem;
+	flex-wrap: nowrap;
+}
+
+.componentView__componentInformation {
+	background-color: $grey-150;
+	display: flex;
+	padding: 0.5rem;
+	flex-basis: 100%;
+	max-height: 3rem;
+	flex-direction: row;
+
+		.componentView__componentName {
+			@extend %text__subheading;
+			line-height: 1rem;
+			margin: 0;
+		}
+}
+
+.componentView__bannerIcons { // TODO: remove this class and its usage | AjH
+	@extend %iconCenter--compact;
+	@extend %iconCenter--size--32x32;
+}
+
+%componentView__search {
+	@extend %inputField__div;
+	@extend %inputField__singleLine;
+	@extend %margin--tileList;
+	background-color: $palette-light-transparent;
+}
+
+.componentView__search--iface {
+	@extend %componentView__search;
+	@extend %existingBorder--mango;
+	@extend %editableLabel--mango;
+}
+.componentView__search--rule {
+	@extend %componentView__search;
+	@extend %existingBorder--orange;
+	@extend %editableLabel--orange;
+}
+.componentView__search--form {
+	@extend %componentView__search;
+	@extend %existingBorder--yellow;
+	@extend %editableLabel--yellow;
+}
+.componentView__search--object {
+	@extend %componentView__search;
+	@extend %existingBorder--primary;
+	@extend %editableLabel--primary;
+}

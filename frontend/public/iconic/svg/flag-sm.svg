@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="flag" class="iconic iconic-flag iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Flag</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" class="iconic-flag-mast iconic-property-stroke" fill="none" d="M1 1v14" />
+    <path d="M7 1.75c0-.138.08-.33.177-.427l.646-.646c.097-.097.177-.289.177-.427s-.112-.25-.25-.25h-4.75v8h4v-6.25z" class="iconic-flag-back iconic-property-accent iconic-property-fill" />
+    <path d="M16 2h-7.934c-.038.084-.066.174-.066.25v7.75h8l-4-3.938 4-4.062z" class="iconic-flag-front iconic-property-fill" />
+  </g>
+</svg>

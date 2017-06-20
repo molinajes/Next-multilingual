@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="lightning" class="iconic iconic-lightning iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Lightning</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-lightning-clip-0">
+      <path d="M0 0v22h5.685l4.286-6h10.436l-3.5 4h4.266l-2.2 2h13.027v-22z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="32" data-height="32">
+    <path class="iconic-lightning-lightning-bolt iconic-property-accent iconic-property-fill" d="M11 18l-5 7h3.5l-4.5 7 11-10h-3.5l3.5-4z" />
+    <path d="M27 12c-.401-1.976-2.065-3.524-4.046-3.909-.457-4.537-4.298-8.091-8.954-8.091-4.721 0-8.634 3.371-9 8-2.906.852-5 3.822-5 7 0 3.527 2.603 6.521 6 7 4.323 0 20.923 0 21 0 2.76 0 5-2.24 5-5s-2.24-5-5-5z" clip-path="url(#iconic-size-md-lightning-clip-0)"
+    class="iconic-lightning-cloud iconic-property-fill" />
+  </g>
+</svg>

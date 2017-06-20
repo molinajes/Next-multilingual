@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="tools" class="iconic iconic-tools iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Tools</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-tools-clip-0">
+      <path d="M0 0v16h16v-16h-16zm10 9l-2 2-6-6 2-2 1-1 6 6-1 1z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path class="iconic-tools-screwdriver iconic-tools-screwdriver-head iconic-property-accent iconic-property-fill" d="M4 5l6 6 1-1-6-6v-2l-4-2-1 1 2 4z" />
+    <path d="M15.586 13.584c-.03-.03-5.082-5.08-5.082-5.08l-2.016 2s5.066 5.051 5.096 5.082c.553.553 1.448.553 2.001 0 .553-.553.553-1.449 0-2.001z" class="iconic-tools-screwdriver iconic-tools-screwdriver-handle iconic-property-accent iconic-property-fill"
+    />
+    <path d="M14 2c-2-2-3-2-6-2 2.96 1.002 3 2.948 2.04 3.96l-4.04 4.04 1 1 4-4c.001.001.001.001.002.002 1-1 .999-1.002 2-.001.515.515 0 0 .5.5s.5.5.5.5l1.999-1.999s-1-1.001-2-2.001z" clip-path="url(#iconic-size-sm-tools-clip-0)" class="iconic-tools-hammer iconic-tools-hammer-head iconic-property-fill"
+    />
+    <path d="M7.177 6.823c-.097.097-.289.177-.427.177h-.5c-.138 0-.33.08-.427.177l-5.646 5.646c-.097.097-.114.27-.038.385l1.723 2.584c.076.114.189.107.251-.015l.783-1.561c.062-.123.192-.303.289-.4l4.639-4.639c.097-.097.175-.289.173-.427l-.008-.484c-.002-.137.076-.329.173-.427l.662-.662c.097-.097.097-.256 0-.354l-.646-.646c-.097-.097-.256-.097-.354 0l-.646.646z"
+    clip-path="url(#iconic-size-sm-tools-clip-0)" class="iconic-tools-hammer iconic-tools-hammer-handle iconic-property-fill" />
+  </g>
+</svg>

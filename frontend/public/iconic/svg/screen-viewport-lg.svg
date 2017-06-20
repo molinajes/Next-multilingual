@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="screen-viewport" class="iconic iconic-screen-viewport iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Screen Viewport</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="98" transform="translate(0 15)">
+    <path stroke="#000" stroke-width="4" class="iconic-screen-viewport-viewport iconic-property-stroke" fill="none" d="M2 2h124v94h-124z" />
+    <path stroke="#000" stroke-width="2" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-top iconic-screen-viewport-bound-left iconic-screen-viewport-bound-top-left iconic-property-accent iconic-property-stroke" fill="none" d="M7 16v-9h9"
+    />
+    <path stroke="#000" stroke-width="2" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-top iconic-screen-viewport-bound-right iconic-screen-viewport-bound-top-right iconic-property-accent iconic-property-stroke" fill="none" d="M112 7h9v9"
+    />
+    <path stroke="#000" stroke-width="2" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-bottom iconic-screen-viewport-bound-right iconic-screen-viewport-bound-bottom-right iconic-property-accent iconic-property-stroke" fill="none" d="M121 82v9h-9"
+    />
+    <path stroke="#000" stroke-width="2" class="iconic-screen-viewport-bound iconic-screen-viewport-bound-bottom iconic-screen-viewport-bound-left iconic-screen-viewport-bound-bottom-left iconic-property-accent iconic-property-stroke" fill="none" d="M16 91h-9v-9"
+    />
+  </g>
+</svg>

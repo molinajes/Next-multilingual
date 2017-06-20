@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="pill" class="iconic iconic-pill iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Pill</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="32">
+    <path d="M11.789 11.726l8.485 8.485-8.031 8.031c-1.133 1.133-2.64 1.757-4.243 1.757s-3.109-.624-4.243-1.757c-2.339-2.339-2.339-6.146 0-8.485l8.031-8.031m0-2.828l-9.445 9.445c-3.124 3.124-3.124 8.19 0 11.314 1.562 1.562 3.609 2.343 5.657 2.343 2.047 0 4.095-.781 5.657-2.343l9.445-9.445-11.314-11.314z"
+    class="iconic-pill-cap-hollow iconic-property-fill" />
+    <path d="M18.343 2.343c3.124-3.124 8.19-3.124 11.314 0s3.124 8.19 0 11.314l-7.969 7.969-11.314-11.314 7.969-7.969z" class="iconic-pill-cap-solid iconic-property-fill" />
+  </g>
+</svg>

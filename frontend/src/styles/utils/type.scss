@@ -1,0 +1,254 @@
+$font: 'Source Sans Pro', Tahoma, sans-serif;
+// $font-sb: 'SourceSansPro-Semibold', Tahoma, sans-serif;
+// $font-reg: 'SourceSansPro-Regular', Tahoma, sans-serif;
+// $font-light: 'SourceSansPro-Light', Tahoma, sans-serif;
+// $font-bold: 'SourceSansPro-Bold', Tahoma, sans-serif;
+
+$fontWeight-light: 300;
+$fontWeight-reg: 400;
+$fontWeight-sb: 600;
+$fontWeight-bold: 700;
+
+@mixin text--activity($alpha) {
+  color: rgba($black-700, $alpha);
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Efficient includable  type classes // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+$text-x-small: -0.25; // Labels 
+$text-small: -0.125; // Small content text
+$text-medium: 0; // Default 
+$text-large: 0.125; // Section titles
+$text-x-large: 0.5; // Model and project titles
+$text-xx-large: 1; // Model and project titles
+$text-xxx-large: 1.5; // Model and project titles
+
+// text-{weight}-size is to be used for all type classes
+
+@mixin text-bold-size($addOnBase: 0, $spacing: -0.1) {
+  
+  font-weight: $fontWeight-bold;
+  font-size: $addOnBase+0.875rem;
+  letter-spacing: ($spacing)+px;
+}
+
+@mixin text-sb-size($addOnBase: 0, $spacing: -0.2) {
+  font-weight: $fontWeight-sb;
+  font-size: $addOnBase+0.875rem;
+  letter-spacing: ($spacing)+px;
+}
+
+@mixin text-reg-size($addOnBase: 0, $spacing: -0.2) {
+  font-weight: $fontWeight-reg;
+  font-size: $addOnBase+0.875rem;
+  letter-spacing: ($spacing)+px;
+}
+
+@mixin text-light-size($addOnBase: 0, $spacing: -0.1) {
+  font-weight: $fontWeight-light;
+  font-size: $addOnBase+0.875rem;
+  letter-spacing: ($spacing)+px;
+}
+
+// text-line-size is to be used for cases different than the default line-height at <body> level
+
+$text-line-small: 1.125; // Small content text
+$text-line-medium: 1.5; // Default 
+$text-line-large: 1.75; // Section titles
+$text-line-x-large: 2; // Section titles
+
+@mixin text-line-size($line-size: $text-line-medium) {
+  line-height: $line-size;
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Release type classes // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+
+%text--externalTitle {  // title in external release nav
+  font-weight: $fontWeight-sb;
+  color: $palette-text-weak;
+  font-size: 2rem;
+  letter-spacing: -0.7px;
+  line-height: 2.8rem;
+  word-spacing: 2.5px;
+}
+
+%text--title { // H1 in releaseContent
+  @include text-light-size($text-xxx-large);
+  // font-weight: $fontWeight-light;
+  word-spacing: 2.5px;
+}
+
+%text--titleSecond { // H2 in releaseContent
+  @include text-sb-size($text-xx-large);
+  @include text-line-size($text-line-medium);
+  // font-weight: normal;
+  // font-size: 1.5rem;
+  // line-height: 2.25rem;
+}
+
+%text--titleThird { // H3 in releaseContent
+  @include text-sb-size($text-x-large);
+  @include text-line-size($text-line-medium);
+  // font-weight: normal;
+  // font-size: 1.25rem;
+  // letter-spacing: -0.2px;
+  // line-height: 1.825rem;
+}
+
+%text--titleFourth { // H4 in releaseContent
+  @include text-sb-size($text-large);
+  font-weight: normal;
+  @include text-line-size($text-line-medium);
+}
+
+%text--titleLabel {
+  @include text-sb-size($text-medium, -0.4);
+}
+
+%text--paragraph {
+  @include text-reg-size($text-medium);
+  @include text-line-size($text-line-medium);
+}
+
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+ // Legacy type classes // 
+// // // // // // //  // // // // // // //  // // // // // // //  // // // // // // // 
+
+%text {
+  font-size: 0.875rem;
+  @include text--activity($active);
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+%text--bannerTitle {
+  font-weight: $fontWeight-sb;
+  font-size: 1rem;
+  letter-spacing: -0.2px;
+}
+
+%text--colour--yellow {
+  color: $palette-yellow;
+}
+%text--colour--orange {
+  color: $palette-orange;
+}
+%text--colour--mango {
+  color: $palette-mango;
+}
+
+%text--content {
+  font-weight: $fontWeight-reg;
+  font-size: 0.75rem;
+  letter-spacing: -0.4px;
+}
+
+%text--label {
+  font-weight: $fontWeight-sb;
+  font-size: 0.6875rem;
+  // @include text--activity($strong);
+  letter-spacing: -0.2px;
+  line-height: 0.875rem;
+}
+
+%text--subtitle {
+  font-weight: $fontWeight-sb;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.2px;
+  word-spacing: 1.5px;
+}
+
+%text--subheading {
+  font-weight: $fontWeight-sb;
+  letter-spacing: -0.2px;
+}
+
+%text--rowContent {
+  @extend %text--subheading;
+  font-size: 0.75rem;
+}
+
+%text__heading {
+  font-weight: $fontWeight-sb;
+  letter-spacing: -0.2px;
+}
+
+%text__modalTitle {
+  @extend %text__heading;
+  font-size: 1.5rem;
+}
+
+%text__modalSubtitle {
+  @extend %text__heading;
+  font-size: 1.25rem;
+}
+
+.text__heading {
+  @extend %text__heading;
+  font-size: 0.875rem;
+}
+
+%text__subheading {
+  font-weight: $fontWeight-sb;
+}
+
+%text__bold {
+  font-weight: $fontWeight-sb;
+}
+
+%text__heading--bold {
+  @extend %text__bold;
+  color: $palette-text-strong;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.2px;
+}
+
+%text--size--medium {
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+%text__nav {
+  font-weight: $fontWeight-sb;
+  text-transform: uppercase;
+}
+
+%text__pageNavTitle {
+  font-weight: $fontWeight-bold;
+  color: rgba($palette-primary, $strong);
+  // text-transform: uppercase;
+  font-size: 1.125rem;
+  line-height: 1;
+  letter-spacing: -0.4px;
+}
+
+%text__pageNavContent {
+  @extend %text--size--medium;
+  letter-spacing: 0.2px;
+  font-weight: $fontWeight-sb;
+
+  color: rgba($palette-primary, $strong);
+}
+
+%text__projectTitle {
+  font-size: 2.75rem;
+  letter-spacing: 1px;
+  font-weight: $fontWeight-sb;
+  line-height: 1;
+  word-spacing: 2.5px;
+}
+
+%text__helpText {
+  font-weight: $fontWeight-light;
+  font-size: 1.5rem;
+  letter-spacing: -0.7px;
+  line-height: 2.1rem;
+  word-spacing: 2.5px;
+  color: rgba($palette-primary, $weak);
+}

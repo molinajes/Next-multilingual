@@ -1,0 +1,19 @@
+.gather__requirementView {
+	display: flex;
+	flex-direction: row;
+}
+
+.gather__requirementView__modules {
+	@extend %grid--requirements;
+	@extend %gridPadding;
+	position: relative;
+	display: inline-block;
+	@include grid-border-left($palette-orange);
+	min-height: 100vh;
+}
+
+.gather__content {
+	max-width: $page-width;
+	margin-right: auto;
+	margin-left: auto;
+}

@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="cart" class="iconic iconic-cart iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Cart</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-cart-clip-0">
+      <path d="M0 0v106h22.695c-2.835-1.992-4.695-5.28-4.695-9 0-6.065 4.935-11 11-11s11 4.935 11 11c0 3.72-1.861 7.008-4.695 9h61.391c-2.835-1.992-4.695-5.28-4.695-9 0-6.065 4.935-11 11-11s11 4.935 11 11c0 3.72-1.861 7.008-4.695 9h18.695v-106h-128z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="128" data-height="106" transform="translate(0 11)">
+    <path d="M31.176 65.115l-14.352-50.231c-.455-1.593.519-2.885 2.176-2.885h106c1.657 0 2.719 1.313 2.371 2.933l-10.743 50.133c-.347 1.62-1.972 2.933-3.629 2.933h-78c-1.657 0-3.369-1.291-3.824-2.885z" class="iconic-cart-basket iconic-property-fill" />
+    <circle cx="29" cy="97" r="9" class="iconic-cart-wheel iconic-cart-wheel-back iconic-property-fill" />
+    <circle cx="103" cy="97" r="9" class="iconic-cart-wheel iconic-cart-wheel-front iconic-property-fill" />
+    <path clip-path="url(#iconic-size-lg-cart-clip-0)" stroke="#000" stroke-width="4" d="M106 92h-81.25c-.414 0-.621-.31-.462-.692l9.423-22.615c.159-.382.196-1.015.081-1.413l-18.585-64.559c-.115-.398-.543-.721-.957-.721h-11.25" class="iconic-cart-body iconic-property-stroke"
+    fill="none" />
+    <circle cx="3" cy="3" r="3" class="iconic-cart-handle iconic-property-fill" />
+  </g>
+</svg>

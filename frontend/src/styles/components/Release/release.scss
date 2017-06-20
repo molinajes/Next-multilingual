@@ -1,0 +1,57 @@
+.release__container {
+	display: flex;
+	// padding-top: 56px; //for fixed nav
+	// flex-wrap: wrap;
+	max-width: $page-width;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 100vh;
+}
+
+.release__container--external {
+	display: flex;
+	// padding-top: 56px; //for fixed nav
+	// flex-wrap: wrap;
+	max-width: $page-width;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.release__modelContainer {
+	@extend %grid--releaseSettings;
+	@extend %gridPadding;
+	@include grid-border-left($palette-orange);	
+	display: flex;
+	flex: 0 0 auto;
+	max-width: calc( 100% - 21.75rem );
+	flex-direction: column;
+}
+
+.release__modelContainer--external {
+	// width: 100%;
+	max-width: calc( 100vw - 21.75rem );
+	display: flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	min-height: 100vh;
+	// padding-left: 20rem;
+}
+
+@media print {
+	.release__modelContainer--external {
+		max-width: 100vw;
+	}
+}
+
+.release__editContainer {
+	// @extend %grid--edit;
+	// @extend %gridPadding;
+	// @include grid-border-left($palette-yellow);	
+}
+
+.release__settings {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+}

@@ -1,0 +1,30 @@
+{
+	"featured": {
+		"name": "Featured",
+		"icon": "star"
+	},
+	"tutorial": {
+		"name": "Tutorial",
+		"icon": "book"
+	},
+	"social": {
+		"name": "Social",
+		"icon": "people"
+	},
+	"web": {
+		"name": "Web",
+		"icon": "browser"
+	},
+	"mobile": {
+		"name": "Mobile",
+		"icon": "iphone"
+	},
+	"app": {
+		"name": "App",
+		"icon": "tablet"
+	},
+	"ecommerce": {
+		"name": "eCommerce",
+		"icon": "cart"
+	}
+}

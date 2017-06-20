@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="aperture" class="iconic iconic-aperture iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Aperture</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="32">
+    <path d="M11.959 21l-8.563-14.832c-2.12 2.714-3.395 6.121-3.395 9.832 0 1.748.29 3.426.808 5h11.151z" class="iconic-aperture-blade iconic-aperture-blade-6 iconic-property-fill" />
+    <path d="M18.309 22h-17.136c1.978 4.883 6.289 8.569 11.556 9.663l5.579-9.663z" class="iconic-aperture-blade iconic-aperture-blade-5 iconic-property-fill" />
+    <path d="M22.351 17l-8.562 14.829c.725.1 1.459.17 2.211.17 4.743 0 8.99-2.075 11.92-5.354l-5.569-9.646z" class="iconic-aperture-blade iconic-aperture-blade-4 iconic-property-fill" />
+    <path d="M20.041 11l8.563 14.832c2.12-2.714 3.395-6.121 3.395-9.832 0-1.748-.29-3.426-.808-5h-11.151z" class="iconic-aperture-blade iconic-aperture-blade-3 iconic-property-fill" />
+    <path d="M13.691 10h17.135c-1.978-4.883-6.289-8.569-11.556-9.663l-5.579 9.663z" class="iconic-aperture-blade iconic-aperture-blade-2 iconic-property-fill" />
+    <path d="M9.649 15l8.562-14.829c-.725-.1-1.459-.17-2.211-.17-4.743 0-8.99 2.075-11.92 5.354l5.569 9.646z" class="iconic-aperture-blade iconic-aperture-blade-1 iconic-property-fill" />
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="group" class="iconic iconic-group iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Group</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-group-clip-0">
+      <path d="M21 12v9.031h-9v3.969h13v-13z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="32" data-height="32">
+    <path stroke="#000" class="iconic-group-container iconic-property-accent iconic-property-stroke" fill="none" d="M.5.5h31v31h-31z" />
+    <path d="M19.5 20h-12c-.276 0-.5-.224-.5-.5v-12c0-.276.224-.5.5-.5h12c.276 0 .5.224.5.5v12c0 .276-.224.5-.5.5z" class="iconic-group-item iconic-group-item-1 iconic-property-fill" />
+    <path d="M24.5 25h-12c-.276 0-.5-.224-.5-.5v-12c0-.276.224-.5.5-.5h12c.276 0 .5.224.5.5v12c0 .276-.224.5-.5.5z" clip-path="url(#iconic-size-md-group-clip-0)" class="iconic-group-item iconic-group-item-2 iconic-property-fill" />
+  </g>
+</svg>

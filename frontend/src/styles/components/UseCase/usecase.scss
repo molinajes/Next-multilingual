@@ -1,0 +1,146 @@
+.useCase {
+	display: flex;
+    margin-bottom: 1em;
+    width: 100%;
+    flex-direction: column;
+}
+
+.useCase__pill {
+	@extend %glass__tile;
+	@include glass__border($palette-orange);
+	@extend %glass--hover--shadow;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.useCase__nameInput {
+	@extend %inputField__div;
+	@extend %inputField__textActivity--strong;
+	@extend %editableBorder--orange;
+}
+
+.useCase__actors {
+	display: flex;
+	width: 3rem;
+}
+
+
+.useCase__expandIcon {
+	position: absolute;
+	bottom: 1px;
+	right: -8px;
+	margin-left: auto;
+	transform: rotate(90deg);
+}
+
+.useCase__titleInformation {
+	display: flex;
+	background-color: $palette-light;
+	align-items: center;
+	height: 100%;
+	border-right: 1px solid rgba($palette-border, $inactive);
+	width: 30rem;
+}
+
+.useCase__number {
+	@include text-sb-size($text-small, -0.5);
+	@include padding-centered-text($padding-text-small);
+}
+
+.useCase__descriptionButtons {
+	display: flex;
+	flex: 1;
+}
+
+.useCase__description {
+	@extend %glass__title;
+
+	background-color: rgba($palette-light, $inactive);
+	justify-content: flex-end;
+	padding-right: 1rem;
+	position: relative;
+	cursor: pointer;
+}
+
+.useCase__descriptionDiv {
+	@extend %inputField__div;
+	@extend %inputField__multiLine;
+	@extend %editable__label--orange;
+	height: 2.5rem;
+}
+
+.useCase__buttons {
+	@include grid-cellBorder-left($palette-yellow);
+	@extend %grid--steps;
+	color: $palette-text-inactive;
+	padding-left: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	// flex-direction: column;
+}
+
+.useCase__flow {
+	margin-top: 0.5rem;
+}
+
+.useCase__flowName {
+	@include text-sb-size($text-small);
+	margin-left: 3rem;
+}
+
+.stepPreview__container {
+	@extend %glass__tile;
+	// @include glass__border($palette-orange);
+	@extend %glass--hover--shadow;
+	border-radius: 4px;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    width: calc(100% - 3rem - 8rem);
+	background-color: $palette-light;
+	margin-left: 3rem;
+	margin-bottom: 0.25rem;
+}
+
+
+
+.stepPreview__action, .stepPreview__response {
+	// @extend %padding--subjectList;
+	// line-height: 20px;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	@include text-reg-size($text-medium);
+}
+
+.stepPreview__content {
+	width: 100%;
+	padding-right: 1rem;
+}
+
+.stepPreview__icon {
+	display: flex;
+	align-items: center;
+}
+
+.stepPreview__action {
+	padding-top: 0.5rem;
+	padding-bottom: 0.25rem;
+	border-bottom: solid 1px #c5c5c5;
+}
+
+.stepPreview__response {
+	padding-top: 0.25rem;
+	padding-bottom: 0.5rem;
+}
+
+
+
+

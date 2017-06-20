@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="audio" class="iconic iconic-audio iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Audio</title>
+  </g>
+  <g class="iconic-container" data-width="32" data-height="22" transform="translate(0 5)">
+    <circle cx="16" cy="11.314" r="3" class="iconic-audio-center iconic-property-accent iconic-property-fill" />
+    <path stroke="#000" stroke-width="2" d="M22.364 4.95c1.629 1.629 2.636 3.879 2.636 6.364s-1.007 4.735-2.636 6.364" class="iconic-audio-wave iconic-audio-wave-inner iconic-audio-wave-right iconic-audio-wave-inner-right iconic-property-stroke" fill="none"
+    />
+    <path stroke="#000" stroke-width="2" d="M26.607.707c2.715 2.715 4.393 6.465 4.393 10.607s-1.679 7.892-4.393 10.607" class="iconic-audio-wave iconic-audio-wave-outer iconic-audio-wave-right iconic-audio-wave-outer-right iconic-property-stroke" fill="none"
+    />
+    <path stroke="#000" stroke-width="2" d="M9.636 17.678c-1.629-1.629-2.636-3.879-2.636-6.364s1.007-4.735 2.636-6.364" class="iconic-audio-wave iconic-audio-wave-inner iconic-audio-wave-left iconic-audio-wave-inner-left iconic-property-stroke" fill="none"
+    />
+    <path stroke="#000" stroke-width="2" d="M5.393 21.92c-2.714-2.715-4.393-6.465-4.393-10.607s1.679-7.892 4.393-10.607" class="iconic-audio-wave iconic-audio-wave-outer iconic-audio-wave-left iconic-audio-wave-outer-left iconic-property-stroke" fill="none"
+    />
+  </g>
+</svg>

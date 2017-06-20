@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="funnel" class="iconic iconic-funnel iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Funnel</title>
+  </g>
+  <g class="iconic-container" data-width="14" data-height="16" transform="translate(1)">
+    <path class="iconic-property-fill" d="M0 2l5 5v9l4-4v-5l5-5v-2h-14z" />
+  </g>
+</svg>

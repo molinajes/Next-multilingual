@@ -1,0 +1,68 @@
+.group__container {
+	@include margin-section($margin-section-large);
+	display: block;
+	border-radius: 4px;
+}
+
+.group__banner {
+	@include text-sb-size($text-large);
+	@include padding-centered-text($padding-text-small);
+	border-bottom: 2px solid $palette-border;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+		// form {
+		// 	flex: 1;
+		// 	border: none;
+		// }
+		// input {
+		// 	// border: none;
+		// 	border-bottom: solid 1px rgba($black-500, $weak);
+		// 	color: rgba($black-500, $strong);
+		// 	// background-color: transparent;
+		// 	@extend %help;
+		// 	// font-size: 1rem;
+		// 	// line-height: 1rem;
+		// 	// margin-bottom: 3px;
+		// 	// padding: 0.25rem;
+		// 	padding-left: 0.25rem;
+		// 	padding-right: 0.5rem;
+		// 	width: 16rem;
+		// }
+}
+
+.group__icon {
+	cursor: nw-resize;
+	cursor: nwse-resize;
+}
+
+.group__banner--create {
+	border-bottom-style: dotted;
+}
+
+.group__nameInput {
+	@extend %inputField__div;
+	@extend %editableBorder--orange;
+}
+
+.group__title { 
+	// // @extend %padding--bannerText;
+	// 	&:hover {
+	// 		text-decoration: underline;
+	// 	}
+}
+
+.group_title--input {
+	// @extend .group__title;
+}
+
+
+.group__content {
+	@include padding-box($padding-box-medium);
+}
+
+.group__content--hidden {
+	opacity: 0.5;
+	padding-top: 0.5rem;
+	padding-left: 3rem;
+}

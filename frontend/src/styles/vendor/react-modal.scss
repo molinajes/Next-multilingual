@@ -1,0 +1,7 @@
+.ReactModal__Body--open {
+    overflow: hidden;
+}
+
+.ReactModal__Overlay {
+	z-index: $zIndex-9--modal;
+}

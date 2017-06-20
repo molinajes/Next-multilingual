@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="delete" class="iconic iconic-delete iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Delete</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-delete-clip-0">
+      <path d="M0 0v18h32v-18h-32zm23.621 12l-2.121 2.121-3-3-3 3-2.121-2.121 3-3-3-3 2.121-2.121 3 3 3-3 2.121 2.121-3 3 3 3z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="32" data-height="18" transform="translate(0 7)">
+    <path d="M5.723.416l-5.445 8.168c-.153.23-.153.602 0 .832l5.445 8.168c.153.23.501.416.777.416h25c.276 0 .5-.224.5-.5v-17c0-.276-.224-.5-.5-.5h-25c-.276 0-.624.186-.777.416z" clip-path="url(#iconic-size-md-delete-clip-0)" class="iconic-delete-body iconic-property-fill"
+    />
+  </g>
+</svg>

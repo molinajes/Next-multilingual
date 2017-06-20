@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="wifi" class="iconic iconic-wifi iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Wifi</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="88" transform="translate(0 20)">
+    <path d="M52.686 76.686c2.895-2.895 6.895-4.686 11.314-4.686s8.418 1.791 11.314 4.686l-11.314 11.314-11.314-11.314z" class="iconic-wifi-center iconic-property-accent iconic-property-fill" />
+    <path stroke="#000" stroke-width="8" d="M38.544 62.544c6.515-6.515 15.515-10.544 25.456-10.544s18.941 4.029 25.456 10.544" class="iconic-wifi-wave iconic-wifi-wave-inner iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-width="8" d="M21.574 45.574c10.858-10.858 25.858-17.574 42.426-17.574s31.569 6.716 42.426 17.574" class="iconic-wifi-wave iconic-wifi-wave-middle iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-width="8" d="M4.603 28.603c15.201-15.201 36.201-24.603 59.397-24.603s44.196 9.402 59.397 24.603" class="iconic-wifi-wave iconic-wifi-wave-outer iconic-property-stroke" fill="none" />
+  </g>
+</svg>

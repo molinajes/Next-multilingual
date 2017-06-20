@@ -1,0 +1,38 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" data-icon="shape-hexagon" width="128" height="128" class="iconic iconic-shape iconic-size-lg iconic-shape-hexagon" viewBox="0 0 128 128">
+  <g>
+    <title>Shape Hexagon</title>
+  </g>
+  <defs>
+    <mask id="iconic-shape-knockout-lg">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="32" dx="32" y="78" font-size="36" text-anchor="middle" class="iconic-shape-knockout-text"></text>
+    </mask>
+    <mask id="iconic-shape-knockout-md" transform="translate(4)">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="8" dx="8" dy="20" font-size="12" text-anchor="middle" class="iconic-shape-knockout-text"></text>
+    </mask>
+    <mask id="iconic-shape-knockout-sm" transform="translate(8)">
+      <rect width="100%" height="100%" fill="#fff"></rect>
+      <text x="4" dx="4" dy="10" font-size="7" text-anchor="middle" font-weight="bold" class="iconic-shape-knockout-text"></text>
+    </mask>
+  </defs>
+  <!-- Square -->
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <g data-width="112" data-height="128" class="iconic-container iconic-shape-hexagon" transform="translate(0 ) scale(1 1 ) ">
+    <path d="M1.302 31.256l53.395-30.512c.719-.411 1.885-.411 2.605 0l53.395 30.512c.719.411 1.302 1.416 1.302 2.244v61c0 .828-.583 1.833-1.302 2.244l-53.395 30.512c-.719.411-1.885.411-2.605 0l-53.395-30.512c-.719-.411-1.302-1.416-1.302-2.244v-61c0-.828.583-1.833 1.302-2.244z"
+    class="iconic-shape-hexagon-background iconic-property-fill" transform="translate(8)"></path>
+  </g>
+  <!-- Octagon -->
+  <!-- Circle -->
+  <!-- Square -->
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+  <!-- Square -->
+  <!-- Square Rounded -->
+  <!-- Hexagon -->
+  <!-- Octagon -->
+  <!-- Circle -->
+</svg>

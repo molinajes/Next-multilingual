@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="copyright" class="iconic iconic-copyright iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Copyright</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <circle stroke="#000" stroke-width="12" cx="64" cy="64" r="58" class="iconic-copyright-container iconic-property-stroke" fill="none" />
+    <path fill="#fff" stroke="#000" stroke-width="12" d="M86.627 86.627c-5.791 5.791-13.791 9.373-22.627 9.373s-16.837-3.582-22.627-9.373-9.373-13.791-9.373-22.627 3.582-16.837 9.373-22.627 13.791-9.373 22.627-9.373 16.837 3.582 22.627 9.373" class="iconic-copyright-c iconic-property-stroke"
+    />
+  </g>
+</svg>

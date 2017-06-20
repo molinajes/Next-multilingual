@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="game-controller" class="iconic iconic-game-controller iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Game Controller</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="11" transform="translate(0 2)">
+    <circle cx="5" cy="7" r="1" class="iconic-game-controller-analog-stick iconic-game-controller-analog-stick-left iconic-property-accent iconic-property-fill" />
+    <circle cx="11" cy="7" r="1" class="iconic-game-controller-analog-stick iconic-game-controller-analog-stick-right iconic-property-accent iconic-property-fill" />
+    <path d="M14.277.416c-.152-.229-.502-.416-.777-.416h-11c-.275 0-.625.187-.777.416 0 0-1.723 2.584-1.723 5.584 0 1.094 0 5 1.938 5 1.268 0 1.756-1.323 1.943-2.342-.531-.36-.881-.968-.881-1.658 0-1.105.895-2 2-2s2 .895 2 2h2c0-1.105.895-2 2-2s2 .895 2 2c0 .69-.349 1.298-.881 1.658.188 1.019.675 2.342 1.944 2.342 1.938 0 1.938-3.906 1.938-5 0-3-1.723-5.584-1.723-5.584zm-8.277 2.584h-1v1h-1v-1h-1v-1h1v-1h1v1h1v1zm5.5-2c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5zm-1 2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5zm1 1c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5zm1-1c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5z"
+    class="iconic-game-controller-body iconic-property-fill" />
+  </g>
+</svg>

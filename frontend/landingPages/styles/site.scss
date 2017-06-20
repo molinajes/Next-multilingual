@@ -1,0 +1,133 @@
+@import './base.scss';
+@import './typeScale.scss';
+
+$mobile: new-breakpoint(max-width 600px 4);
+$phablet: new-breakpoint(min-width 601px max-width 939px 4);
+
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+// Nav 
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+
+.nav__fullBackground {
+  box-shadow: 0 2px 0px $palette-shadow;
+  background-color: rgba($palette-light, $weak);
+  position: absolute;
+  top: 0;
+  z-index: 500;
+  width: 100%; 
+}
+
+.nav__container {
+	@include outer-container;
+}
+
+.nav__logo {
+	@include span-columns(2);
+	max-height: 45px;
+	img {
+	  padding-left: 5%;
+	  width: 100%;
+	  height: 100%;
+	  max-height: 45px;
+	  min-height: 30px;
+	  max-width: 400px;
+	  min-width: 130px; 
+	}
+}
+
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+// Full background 
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+
+.fullBackground--wrapper {
+	position: absolute;
+	width: 100%;
+	// height: 100%;
+	min-height: 70vh;
+	// box-shadow: $elevation-shadow-2;
+	box-shadow:  0 8px 16px rgba($black-700, $faint),
+	                      0 36px 80px 12px rgba($black-700, $faint);
+}
+
+.fullBackground--icons {
+	// position: fixed;
+	// top: 0;
+	// background-color: #ffffff;
+	background-size: repeat;
+  background-position: bottom;
+	min-height: 70vh; 
+}
+
+.fullBackground--gradient {
+  background-size: cover;
+  background-position: bottom;
+  min-height: 70vh; 
+}
+
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+// Page structure 
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+
+.page__container {
+	@include span-columns(12);
+}
+
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+// Legacy classes 
+// // // // // // // // // // // // // // // // // // // // // // // //
+// // // // // // // // // // // // // // // // // // // // // // // //
+
+
+.header__container {
+	@include outer-container;
+	width: 100%;
+}
+
+
+
+header {
+	@include outer-container;
+	@include span-columns(12);
+
+	display: flex;
+	align-items: center;
+	margin-bottom: 2px;
+	img {
+		padding-left: 5%;
+		width: 100%;
+		height: 100%;
+		max-height: 45px;
+		min-height: 30px;
+		max-width: 400px;
+		min-width: 130px;
+		@include span-columns(2);
+		
+	}
+	.header__signUp {
+		@include span-columns(10);
+		text-align: right;
+		padding-right: 5%;
+		margin-top: 0.75rem;
+		word-spacing: 1px;
+		margin-left: auto;
+		@include media($mobile) {
+			display: none;
+		}
+		a {
+			color: $palette-mango;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+
+

@@ -1,0 +1,130 @@
+.overviewEditor__container {
+	@extend %componentEditorModal__section;
+}
+
+.overviewEditor__title {
+	@extend %componentEditorModal__sectionTitle;
+}
+
+.overviewEditor__content {
+	@extend %componentEditorModal__sectionContent;
+	// TODO: add fixed height and scroll to overflow | AjH
+}
+
+.overviewEditor__item {
+	@extend %subject__list;
+}
+
+.overviewEditor__itemName {
+	@extend %margin--textBlock;
+}
+
+.projectReleaseOverview__row, .collaborators__row {
+		.overviewEditor__cell {
+			@extend %output__tableCell;
+		}
+} 
+
+
+.overviewEditor__container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+}
+
+.overviewEditor__options {
+	display: flex;
+}
+
+.overviewEditor__delete, .overviewEditor__iconSelector {
+	flex: 1 1 auto;
+}
+
+.overviewEditor__activityContainer {
+	display: flex;
+	flex-direction: row;
+}
+.overviewEditor__activity {
+	width: 75%;
+	padding: 2rem;
+	// padding-top: 0;
+}
+
+.objectEditorRow__inputDiv {
+	@extend %inputField__cellDiv;
+	@extend %cellBorder--primary;
+}
+
+.overviewEditor__table {
+	@extend %editTable;
+	padding-bottom: 3rem;
+}
+
+.projectReleaseOverview__table {
+	width: 25%;
+	
+}
+
+.overviewEditor__tableHead {
+	@extend %editTable__tableHead;
+}
+
+.overviewEditor__row {
+	@extend %editTable__row;
+	@extend %editTable__row--primaryHover;
+}
+
+.overviewEditor__cell {
+	@extend %editTable__cell;
+}
+
+.overviewEditor__cell--text {
+	@extend %editTable__cell--text;
+}
+
+.overviewEditor__addRowCell {
+	@extend %editTable__addRowCell;
+}
+
+
+
+.projectReleaseOverview__tableHead, .projectReleaseOverview__row {
+		.overviewEditor__cell:first-child {
+			width: 30%;
+			text-align: center;
+		}
+		.overviewEditor__cell:nth-child(2) {
+			width: 70%;
+		}
+}
+
+.collaborators__tableHead, .collaborators__row {
+		.overviewEditor__cell:first-child {
+			width: 5%;
+			text-align: center;
+		}
+		.overviewEditor__cell:nth-child(2) {
+			width: 35%;
+		}
+		.overviewEditor__cell:nth-child(3) {
+			width: 10%;
+		}
+		
+		.overviewEditor__cell:nth-child(4) {
+			width: 35%;
+		}
+		.overviewEditor__cell:nth-child(5) {
+			width: 15%;
+		}
+}
+
+.createCollaborators__row {
+	.overviewEditor__cell {
+		display: flex;
+		width: 100%;
+	}
+}

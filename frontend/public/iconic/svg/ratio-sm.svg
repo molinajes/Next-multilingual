@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="ratio" class="iconic iconic-ratio iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Ratio</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path d="M8 14c1.482 0 2.5-.786 2.5-2.5s-1.241-2.5-2.503-3.5c-1.502-1.19-2.497-1.786-2.497-3.5s1.64-2.5 2.497-2.5c4.036 0 6.086 1.804 6 6-.089 4.357-1.826 6-5.997 6z" class="iconic-ratio-positive iconic-property-fill" />
+    <circle stroke="#000" stroke-width="2" cx="8" cy="8" r="7" class="iconic-ratio-border iconic-property-accent iconic-property-stroke" fill="none" />
+  </g>
+</svg>

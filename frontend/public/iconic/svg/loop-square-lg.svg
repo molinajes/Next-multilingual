@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="loop-square" class="iconic iconic-loop-square iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Loop Square</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="96" transform="translate(0 16)">
+    <path stroke="#000" stroke-width="8" d="M114 60v27.5c0 2.485-2.015 4.5-4.5 4.5h-91c-2.485 0-4.5-2.015-4.5-4.5v-27.5" class="iconic-loop-square-line iconic-loop-square-line-bottom iconic-property-stroke" fill="none" />
+    <path d="M13.244 43.296l-12.488 21.409c-.417.716-.084 1.296.744 1.296h25c.828 0 1.162-.58.744-1.296l-12.488-21.409c-.417-.716-1.094-.716-1.512 0z" class="iconic-loop-square-arrowhead iconic-loop-square-arrowhead-bottom iconic-property-fill" />
+    <path stroke="#000" stroke-width="8" d="M14 36v-27.5c0-2.485 2.015-4.5 4.5-4.5h91c2.485 0 4.5 2.015 4.5 4.5v27.5" class="iconic-loop-square-line iconic-loop-square-line-top iconic-property-stroke" fill="none" />
+    <path d="M114.756 52.704l12.488-21.409c.417-.716.084-1.296-.744-1.296h-25c-.828 0-1.162.58-.744 1.296l12.488 21.409c.417.715 1.094.715 1.512 0z" class="iconic-loop-square-arrowhead iconic-loop-square-arrowhead-top iconic-property-fill" />
+  </g>
+</svg>

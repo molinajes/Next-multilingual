@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="firefly" class="iconic iconic-firefly iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Firefly</title>
+  </g>
+  <g class="iconic-container" data-width="125" data-height="128" transform="translate(1)">
+    <path d="M71.999 38.5s19.959-9.798 38.332-17.037c13.21-5.205 15.587-.962 15.664 3.449.516 29.837-33.873 29.089-55.998 29.089l2.002-15.5z" class="iconic-firefly-wing iconic-firefly-wing-right iconic-firefly-wing-front iconic-firefly-wing-front-right iconic-property-fill"
+    />
+    <path d="M98.207 54.602c-8.664 1.398-17.733 1.4-24.963 1.4l-1.663-.001-15.311-2.545c26.054 26.054 53.727 28.494 53.727 12.619 0-4.805-4.925-8.564-11.789-11.473z" class="iconic-firefly-wing iconic-firefly-wing-right iconic-firefly-wing-back iconic-firefly-wing-back-right iconic-property-fill"
+    />
+    <path d="M54.001 37.699s-19.959-8.997-38.332-16.236c-13.21-5.205-15.587-.962-15.664 3.449-.517 29.837 33.993 29.089 55.993 29.089l-1.998-16.301z" class="iconic-firefly-wing iconic-firefly-wing-left iconic-firefly-wing-front iconic-firefly-wing-front-left iconic-property-fill"
+    />
+    <path d="M54.423 56.001l-1.656.001c-7.232 0-16.304-.001-24.971-1.404-6.869 2.909-11.8 6.67-11.8 11.477 0 15.875 27.672 13.435 53.727-12.619l-15.3 2.545z" class="iconic-firefly-wing iconic-firefly-wing-left iconic-firefly-wing-back iconic-firefly-wing-back-left iconic-property-fill"
+    />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" d="M66.262 34.065s-1.273-33.065 19.737-33.065" class="iconic-firefly-antenna iconic-firefly-antenna-right iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" d="M59.73 34.065s1.28-33.065-19.73-33.065" class="iconic-firefly-antenna iconic-firefly-antenna-left iconic-property-stroke" fill="none" />
+    <path d="M72 33c0 4.971 0 79-9 79s-9-74.029-9-79 4.029-9 9-9 9 4.029 9 9z" class="iconic-firefly-body iconic-property-fill" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-firefly-light-beam iconic-firefly-light-beam-5 iconic-property-stroke" fill="none" d="M81 109h-6" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-firefly-light-beam iconic-firefly-light-beam-4 iconic-property-stroke" fill="none" d="M75 121l-4-4" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-firefly-light-beam iconic-firefly-light-beam-3 iconic-property-stroke" fill="none" d="M63 121v6" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-firefly-light-beam iconic-firefly-light-beam-2 iconic-property-stroke" fill="none" d="M51 121l4-4" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-firefly-light-beam iconic-firefly-light-beam-1 iconic-property-stroke" fill="none" d="M51 109h-6" />
+  </g>
+</svg>

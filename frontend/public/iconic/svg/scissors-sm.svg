@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="scissors" class="iconic iconic-scissors iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Scissors</title>
+  </g>
+  <g class="iconic-container" data-width="16" data-height="14" transform="translate(0 1)">
+    <path d="M5.456 3.441c-.207 1.16-1.21 2.042-2.427 2.056l-.029.503c1.312 0 1.747-.683 3.091.254 2.662 1.768 5.962 3.961 6.909 4.59 1.661 1.103 3-.344 3-.344l-10.544-7.059z" class="iconic-scissors-blade iconic-scissors-blade-top iconic-property-fill"
+    />
+    <path d="M5.456 10.559l10.544-7.059s-1.375-1.219-3.296-.178c-.483.262-3.934 2.575-6.703 4.443-.739.498-2 .236-3 .236l.005.5c1.227.003 2.241.891 2.45 2.059z" class="iconic-scissors-blade iconic-scissors-blade-bottom iconic-property-fill" />
+    <path d="M3 1c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2m0-1c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z" class="iconic-scissors-handle iconic-scissors-handle-top iconic-property-accent iconic-property-fill" />
+    <path d="M3 9c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2m0-1c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z" class="iconic-scissors-handle iconic-scissors-handle-bottom iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>

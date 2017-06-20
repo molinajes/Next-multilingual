@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="thermometer" class="iconic iconic-thermometer iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Thermometer</title>
+  </g>
+  <g class="iconic-container" data-width="44" data-height="128" transform="translate(42)">
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-thermometer-tick iconic-thermometer-tick-6 iconic-property-stroke" fill="none" d="M28 75h2" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-thermometer-tick iconic-thermometer-tick-5 iconic-property-stroke" fill="none" d="M28 63h2" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-thermometer-tick iconic-thermometer-tick-4 iconic-property-stroke" fill="none" d="M28 51h2" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-thermometer-tick iconic-thermometer-tick-3 iconic-property-stroke" fill="none" d="M28 39h2" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-thermometer-tick iconic-thermometer-tick-2 iconic-property-stroke" fill="none" d="M28 27h2" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" class="iconic-thermometer-tick iconic-thermometer-tick-1 iconic-property-stroke" fill="none" d="M28 15h2" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="round" d="M13.999 86.578c-7.629 3.146-12.999 10.657-12.999 19.422 0 11.598 9.402 21 21 21s21-9.402 21-21c0-8.766-5.372-16.278-13.003-19.424l.003-77.576c0-4.418-3.582-8-8-8s-8 3.582-8 8l-.001 77.578z"
+    class="iconic-thermometer-body iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-width="6" stroke-linecap="round" class="iconic-thermometer-shaft iconic-property-stroke" fill="none" d="M22 9v101" />
+    <circle cx="22" cy="106" r="16" class="iconic-thermometer-well iconic-property-fill" />
+  </g>
+</svg>

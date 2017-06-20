@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="timer" class="iconic iconic-timer iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Timer</title>
+  </g>
+  <g class="iconic-container" data-width="116" data-height="128" transform="translate(6)">
+    <path d="M52.343 64.343c-3.124 3.124-3.124 8.19 0 11.314 3.124 3.124 8.19 3.124 11.314 0 3.124-3.124 26.343-35.657 26.343-35.657s-34.533 21.219-37.657 24.343zm5.657 9.657c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z" class="iconic-timer-needle iconic-property-fill"
+    />
+    <path class="iconic-timer-stop-button iconic-timer-stop-button-base iconic-property-fill" d="M52 4h12v12.147h-12z" />
+    <path class="iconic-timer-stop-button iconic-timer-stop-button-top iconic-property-fill" d="M48 0h20v2h-20z" />
+    <circle stroke="#000" stroke-width="8" cx="58" cy="70" r="54" class="iconic-timer-body iconic-property-stroke" fill="none" />
+  </g>
+</svg>

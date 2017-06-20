@@ -1,0 +1,579 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>reqfire</title>
+    <meta name="description" content="App for modelling websites and apps with requirements and use cases. Reqfire is free during beta so sign up and turn your requirements into an app.">
+    <meta name="keywords" content="requirements, uml diagram, software requirements, business analyst, requirements analysis, use case scenario, requirement gathering tools, requirements document, beta ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/pages/assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Oregano" rel="stylesheet">
+
+
+    
+
+    <!-- <link rel="stylesheet" href="/pages/landing/styles/beta/main.css"> -->
+
+    <link rel="stylesheet" href="/frontend-dev/landingPages/output/styles/beta/main.css">
+
+    <!-- <link rel="amphtml" href="https://mercury.postlight.com/amp?url=http://www.reqfire.com"> -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-9104836-19', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+<!-- Intercom -->
+  <script>
+    window.intercomSettings = {
+      app_id: "zobiqt5i"
+    };
+  </script>
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/zobiqt5i';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+    <!--  MouseStats:Begin  -->
+    <script type="text/javascript">var MouseStats_Commands=MouseStats_Commands?MouseStats_Commands:[]; (function(){function b(){if(void 0==document.getElementById("__mstrkscpt")){var a=document.createElement("script");a.type="text/javascript";a.id="__mstrkscpt";a.src=("https:"==document.location.protocol?"https://ssl":"http://www2")+".mousestats.com/js/4/8/4891203355593064149.js?"+Math.floor((new Date).getTime()/6E5);a.async=!0;a.defer=!0;(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}}window.attachEvent?window.attachEvent("onload",b):window.addEventListener("load", b,!1);"complete"===document.readyState&&b()})(); </script>
+    <!--  MouseStats:End  -->
+
+	</head>
+	<body>
+		<div class="entry">
+	<div class="body">
+
+		<div class="main__fullBackground">
+			<div class="header__container">
+				<header>
+					<img src="/pages/landing/beta/assets/logo-underlined.svg" alt="">
+					<p class="header__signUp">
+						<a style="color: rgba(35,35,35, 0.64)" href="/app/site/login" class="header__login">
+							<strong>Login&nbsp;&nbsp;</strong>
+						</a>
+						<strong>
+							<span>
+								<a href='/app/user/join'>Sign Up & Features</a>
+							</span>
+						</strong>
+					</p>
+				</header>
+			</div>
+		</div>
+
+		<div class="main__heroBackground">
+			<div class="main__container" id="main__container">
+
+				<div class="main__content">
+					<!-- Headings -->
+
+					<h1 class="main__headline">Bridge the gap between tech and non-tech</h1>
+					<p class="main__tagline">Teams use reqfire to <span class='underline--yellow'>gather requirements & generate models</span>, communicate&nbsp;to&nbsp;<span class='underline--orange'>developers&nbsp;&&nbsp;clients</span>,<br /> and build <span class='underline--mango'>better apps & websites</span>.</p>
+
+					<!-- Sign Up Form -->
+					<div class="cta__container">
+						<h3 class="cta__heading">Early access is now available</h3>
+						<div class="invite__container invite__container--orange">
+							<!-- <form action="https://reqfire.us13.list-manage.com/subscribe/post?u=c2e35a23f5bcaefe3f2657dfc&amp;id=f2a0e8e4c0&amp;LANDPAGE=BETALANDING" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
+								<div class="invite__cta">
+									
+									<input type="text" placeholder="Enter an email address" id="mce-EMAIL" name="EMAIL">
+									 
+									   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c2e35a23f5bcaefe3f2657dfc_f2a0e8e4c0" tabindex="-1" value=""></div>
+
+								</div>
+								<div class="invite__button">
+									<input type="submit" value="Sign up now" name="subscribe" id="mc-embedded-subscribe" />
+								</div>
+							</form> -->
+							<a href="/app/user/join" class="invite__link">
+								<div class="invite__button">
+									<div class="invite__text">
+										Sign up now										
+									</div>
+								</div>
+							</a>
+						</div>	
+						<!-- /Sign Up Form -->			
+					</div>
+				</div>
+				<div class="screens__row">
+					<div class="screens__image">
+						<img src="/frontend-dev/landingPages/output/beta/assets/gather_screenshot_750.png" />
+						<h3 class="screens__heading--yellow">gather requirements...</h3>
+					</div>
+					<div class="screens__image">
+						<img src="/frontend-dev/landingPages/output/beta/assets/model_screenshot_750.png" />
+						<h3 class="screens__heading--orange">model how it works</h3>
+					</div>
+					<div class="screens__image">
+						<img src="/frontend-dev/landingPages/output/beta/assets/release_screenshot_750.png" />
+						<h3 class="screens__heading--mango">and get it built!</h3>
+					</div>
+				</div>
+			</div>
+			<!-- /Main Container -->
+		</div>
+		<!-- /Main heroBackground -->
+
+		<div class="feature__wrapper">
+			
+			<div class="feature__container">
+				<h2 class="feature__heading">
+					Test and build ideas faster
+				</h2>
+				<div class="feature__content">
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--yellow">
+							<img class="iconic" data-src="/app/assets/icons/svg/dashboard-md.svg">
+						</div>
+						<p class="feature__description">
+							Built for rapid requirements analysis
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--yellow">
+							<img class="iconic" data-src="/app/assets/icons/svg/fire-md.svg">
+						</div>
+						<p class="feature__description">
+							Prototype faster with Use&nbsp;Cases
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--yellow">
+							<img class="iconic" data-src="/app/assets/icons/svg/document-md.svg">
+						</div>
+						<p class="feature__description">
+							Automatically generate specification documents
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="feature__gap feature__gap--yellow"></div>
+
+		<div class="feature__wrapper">
+			<div class="feature__container">
+				<h2 class="feature__heading">
+					Create better websites and apps
+				</h2>
+				<div class="feature__content">
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--orange">
+							<img class="iconic" data-src="/app/assets/icons/svg/cogs-md.svg">
+						</div>
+						<p class="feature__description">
+							Bring process to your project with the Use&nbsp;Case Methodology
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--orange">
+							<img class="iconic" data-src="/app/assets/icons/svg/eye-open-md.svg">
+						</div>
+						<p class="feature__description">
+							Unambiguous specifications lets you develop without doubts
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--orange">
+							<img class="iconic" data-src="/app/assets/icons/svg/project-md.svg">
+						</div>
+						<p class="feature__description">
+							Visualise your project to better prioritise or drop features
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="feature__gap feature__gap--orange"></div>
+
+		<div class="feature__wrapper">			
+			<div class="feature__container">
+				<h2 class="feature__heading">
+					Communicate using a common language
+				</h2>
+				<div class="feature__content">
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--mango">
+							<img class="iconic" data-src="/app/assets/icons/svg/briefcase-md.svg">
+						</div>
+						<p class="feature__description">
+							Communicate with a language that business can understand
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--mango">
+							<img class="iconic" data-src="/app/assets/icons/svg/people-md.svg">
+						</div>
+						<p class="feature__description">
+							Bridge the gap between tech and non-tech teams
+						</p>
+					</div>
+					<div class="feature__item">
+						<div class="feature__icon feature__icon--mango">
+							<img class="iconic" data-src="/app/assets/icons/svg/easel-md.svg">
+						</div>
+						<p class="feature__description">
+							Get approval & showcase your work in a client-ready format
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="feature__gap feature__gap--mango"></div>
+
+		<div class="cta__wrapper">
+			<div class="cta__container">
+				<h2 class="testimonial__quote">
+					<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-left-md.svg">reqfire saved us from making a false start<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-right-md.svg"> - <span class="testimonial__company">DPos</span>
+				</h2>
+				<!-- Sign Up Form -->
+				<div class="invite__container invite__container--mango">
+					<!-- <form action="https://reqfire.us13.list-manage.com/subscribe/post?u=c2e35a23f5bcaefe3f2657dfc&amp;id=f2a0e8e4c0&amp;LANDPAGE=BETALANDING" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
+						<div class="invite__cta">
+							
+							<input type="text" placeholder="Sign up for better requirements" id="mce-EMAIL2" name="EMAIL">
+							 real people should not fill this in and expect good things - do not remove this or risk form bot signups
+							   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c2e35a23f5bcaefe3f2657dfc_f2a0e8e4c0" tabindex="-1" value=""></div>
+
+						</div>
+						<div class="invite__button">
+							<input type="submit" value="Sign up now" name="subscribe" id="mc-embedded-subscribe" />
+						</div>
+					</form> -->
+					<a href="/app/user/join" class="invite__link">
+						<div class="invite__button">
+							<div class="invite__text">
+								Sign up now										
+							</div>
+						</div>
+					</a>
+				</div>	
+				<!-- /Sign Up Form -->				
+			</div>
+		</div>
+		<div class="callOut__container">
+			<div class="callOut__banner">
+				<h1 class="callOut__title">How to model apps in 5 steps</h1>
+				<div class="callOut__icons">
+					<div class="callOut__icon">
+						<img src="/app/assets/icons/svg/person-genderless-md.svg">
+					</div>
+					<div class="callOut__icon">
+						<img src="/app/assets/icons/svg/chat-md.svg">
+					</div>
+					<div class="callOut__icon">
+						<img src="/app/assets/icons/svg/terminal-md.svg">
+					</div>
+				</div>
+				<p class="callOut__subtitle">Reqfire is easy-to-use and fast. In this example we will model a chat-bot in five steps. <br />See how you could save time and produce better sites and apps.</p>
+			</div>
+		</div>
+
+		<!-- //////////////////////////////////////////////////// -->
+			<!-- START CONTENT  -->
+		<!-- //////////////////////////////////////////////////// -->
+
+
+
+		<div class="content__container">
+	
+			<!-- <h3 class="content__howto">
+				How to 
+				<span class="underline--yellow">model</span>
+				 a <span class="underline--orange">social chat bot</span> 
+				 in <span class="underline--mango">5&nbsp;steps</span></h3> -->
+			
+
+			
+			<div class="step__container step__textContent--color-0">
+				<div class="step__mainTitle">
+					<div class="step__number">
+						1
+					</div>
+					<h2 class="step__title">
+						Start with a template
+					</h2>
+				</div>
+				<div class="step__textImgRow">
+					<div class="step__textContent step__textContent--color-0">
+						<p class="step__subpoint1">Get a headstart on your project. Use our templates to add common use cases, interfaces and forms for social apps.</p>
+						<!-- <h4 class="step__features">Featuring:</h4>
+						<ul class="step__feature">
+							
+								<li>Template library for common apps</li>
+							
+								<li>Save time with reusable documentation</li>
+							
+								<li>Boilerplate models make it easier to start</li>
+							
+						</ul> -->
+						<div class="step__img">
+							<!-- <img src="/pages/landing/beta/assets/MKT_WEB_index.webm" alt="Start with a template"> -->						
+							<video autoplay muted loop>
+							  <source src="/pages/landing/beta/assets/MKT_WEB_index.webm" type="video/webm">
+							Your browser does not support the video tag.
+							</video>
+							
+						</div>
+						<p class="step__subpoint2">
+							Now you're ready to customise your model.
+							<!-- <span class="step__spanUnderline"></span> -->
+						</p>
+					</div>
+				</div>
+				<div class="step__bottomBorder"></div>
+			</div>
+			
+			<div class="step__container step__textContent--color-1">
+				<div class="step__mainTitle">
+					<div class="step__number">
+						2
+					</div>
+					<h2 class="step__title">
+						Get your requirements
+					</h2>
+				</div>
+				<div class="step__textImgRow">
+					<div class="step__textContent step__textContent--color-1">
+						<p class="step__subpoint1">Collect requirements straight into the app and then link them to the other parts of your model.</p>
+						<!-- <h4 class="step__features">Featuring:</h4>
+						<ul class="step__feature">
+							
+								<li>Requirements management</li>
+							
+								<li>Prioritise requirements and features</li>
+							
+								<li>Client and team approval</li>
+							
+								<li>Trace requirements to components <br>(e.g. “Home page is mobile-first” links to “Home-page Mobile” interface)</li>
+							
+								<li>External form for approval (coming soon)</li>
+							
+						</ul> -->
+						<div class="step__img">
+							<!-- <img src="/pages/landing/beta/assets/MKT_WEB_gather.webm" alt="Get your requirements"> -->						
+							<video autoplay muted loop>
+							  <source src="/pages/landing/beta/assets/MKT_WEB_gather.webm" type="video/webm">
+							Your browser does not support the video tag.
+							</video>
+							
+						</div>
+						<p class="step__subpoint2">
+							With your project approved it’s time to add in what your app requires.
+							<!-- <span class="step__spanUnderline"></span> -->
+						</p>
+					</div>
+				</div>
+				<div class="step__bottomBorder"></div>
+			</div>
+			
+			<div class="step__container step__textContent--color-2">
+				<div class="step__mainTitle">
+					<div class="step__number">
+						3
+					</div>
+					<h2 class="step__title">
+						Design the look and feel
+					</h2>
+				</div>
+				<div class="step__textImgRow">
+					<div class="step__textContent step__textContent--color-2">
+						<p class="step__subpoint1">Upload your app interfaces, detail forms, define business rules and include objects.</p>
+						<!-- <h4 class="step__features">Featuring:</h4>
+						<ul class="step__feature">
+							
+								<li>Linked components</li>
+							
+								<li>Interface upload </li>
+							
+								<li>Form editor </li>
+							
+								<li>Business Rules  </li>
+							
+								<li>Objects (e.g. User records, credit cards, wifi routers) </li>
+							
+								<li>Library items for all components (coming soon)</li>
+							
+						</ul> -->
+						<div class="step__img">
+							<!-- <img src="/pages/landing/beta/assets/MKT_WEB_components.webm" alt="Design the look and feel"> -->						
+							<video autoplay muted loop>
+							  <source src="/pages/landing/beta/assets/MKT_WEB_components.webm" type="video/webm">
+							Your browser does not support the video tag.
+							</video>
+							
+						</div>
+						<p class="step__subpoint2">
+							With the app model taking shape you’re ready to connect it all together.
+							<!-- <span class="step__spanUnderline"></span> -->
+						</p>
+					</div>
+				</div>
+				<div class="step__bottomBorder"></div>
+			</div>
+			
+			<div class="step__container step__textContent--color-3">
+				<div class="step__mainTitle">
+					<div class="step__number">
+						4
+					</div>
+					<h2 class="step__title">
+						Define your app's behaviour
+					</h2>
+				</div>
+				<div class="step__textImgRow">
+					<div class="step__textContent step__textContent--color-3">
+						<p class="step__subpoint1">The use case editor connects your app in every way. Link to requirements, add users and actors, their activity and what they use.</p>
+						<!-- <h4 class="step__features">Featuring:</h4>
+						<ul class="step__feature">
+							
+								<li>Generates Use Case diagrams</li>
+							
+								<li>Use case editor</li>
+							
+								<li>Add user flows (including alternate flows)</li>
+							
+								<li>Activity steps</li>
+							
+								<li>Link requirements to use cases </li>
+							
+								<li>Use case impact to project (coming soon)</li>
+							
+						</ul> -->
+						<div class="step__img">
+							<!-- <img src="/pages/landing/beta/assets/MKT_WEB_model.webm" alt="Define your app's behaviour"> -->						
+							<video autoplay muted loop>
+							  <source src="/pages/landing/beta/assets/MKT_WEB_model.webm" type="video/webm">
+							Your browser does not support the video tag.
+							</video>
+							
+						</div>
+						<p class="step__subpoint2">
+							With the app defined it’s time to share your work.
+							<!-- <span class="step__spanUnderline"></span> -->
+						</p>
+					</div>
+				</div>
+				<div class="step__bottomBorder"></div>
+			</div>
+			
+			<div class="step__container step__textContent--color-4">
+				<div class="step__mainTitle">
+					<div class="step__number">
+						5
+					</div>
+					<h2 class="step__title">
+						Share your model & get it built
+					</h2>
+				</div>
+				<div class="step__textImgRow">
+					<div class="step__textContent step__textContent--color-4">
+						<p class="step__subpoint1">Generate your model automatically then show off your work to the client and give your development team a spec to build off.</p>
+						<!-- <h4 class="step__features">Featuring:</h4>
+						<ul class="step__feature">
+							
+								<li>Generate complete requirements models</li>
+							
+								<li>Release history</li>
+							
+								<li>Version history</li>
+							
+								<li>External View via shareable link</li>
+							
+						</ul> -->
+						<div class="step__img">
+							<!-- <img src="/pages/landing/beta/assets/MKT_WEB_release.webm" alt="Share your model & get it built"> -->						
+							<video autoplay muted loop>
+							  <source src="/pages/landing/beta/assets/MKT_WEB_release.webm" type="video/webm">
+							Your browser does not support the video tag.
+							</video>
+							
+						</div>
+						<p class="step__subpoint2">
+							In five steps you’ve completed a requirements model for your app.
+							<!-- <span class="step__spanUnderline"></span> -->
+						</p>
+					</div>
+				</div>
+				<div class="step__bottomBorder"></div>
+			</div>
+			
+		</div>
+
+		<div class="cta__wrapper">
+			<div class="cta__container">
+				<h2 class="testimonial__quote">
+					<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-left-md.svg">reqfire is a key part of our outsourced technology development<img class="iconic testimonial__quoteMark" data-src="/app/assets/icons/svg/double-quote-serif-right-md.svg"> - <span class="testimonial__company">Wine Genius</span>
+				</h2>
+				<!-- Sign Up Form -->
+				<div class="invite__container invite__container--yellow">
+					<!-- <form action="https://reqfire.us13.list-manage.com/subscribe/post?u=c2e35a23f5bcaefe3f2657dfc&amp;id=f2a0e8e4c0&amp;LANDPAGE=BETALANDING" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
+						<div class="invite__cta">
+							
+							<input type="text" placeholder="Enter an email address" id="mce-EMAIL3" name="EMAIL">
+							 real people should not fill this in and expect good things - do not remove this or risk form bot signups
+							   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c2e35a23f5bcaefe3f2657dfc_f2a0e8e4c0" tabindex="-1" value=""></div>
+
+						</div>
+						<div class="invite__button">
+							<input type="submit" value="Join the beta" name="subscribe" id="mc-embedded-subscribe" />
+						</div>
+					</form> -->
+					<a href="/app/user/join" class="invite__link">
+						<div class="invite__button">
+							<div class="invite__text">
+								Sign up now										
+							</div>
+						</div>
+					</a>
+				</div>	
+				<!-- /Sign Up Form -->				
+			</div>
+		</div>
+
+		<div class="footer__fullBackground">
+			<footer>
+				<div class="footer__logo">
+					<img src="/pages/landing/beta/assets/logo_footer_light.svg" alt="">
+				</div>
+				<div class="footer__social">
+					<a href="https://www.facebook.com/reqfire">
+						<img class="iconic social__icon" data-src="/app/assets/icons/svg/social-facebook-md.svg">
+					</a>
+					<a href="https://www.twitter.com/reqfire">
+						<img class="iconic social__icon" data-src="/app/assets/icons/svg/social-twitter-md.svg">
+					</a>
+					<a href="https://www.linkedin.com/company/reqfire">
+						<img class="iconic social__icon" data-src="/app/assets/icons/svg/social-linkedin-md.svg">
+					</a>
+				</div>
+				<ul class="footer__listSignup">
+					<li><a href="/app/user/join">Sign&nbsp;Up</a></li>					
+					<li><a target="_blank" href="terms">Terms</a></li>
+					<li><a href="mailto:hello@reqfire.com">Contact: hello@reqfire.com</a></li>
+				</ul>
+			</footer>
+		</div>
+		<div class="drag__background"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="/app/themes/react/js/react/iconic.min.js"></script>
+
+		<script type="text/javascript">
+		  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+		  heap.load("2817448972");
+		</script>
+	</body>
+</html>

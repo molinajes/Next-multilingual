@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="medal" class="iconic iconic-medal iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Medal</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-lg-medal-clip-0">
+      <path d="M19.429 6l-3.429-6h92l-3.429 6h-85.143zm31.587 72.247c3.374-1.445 7.087-2.247 10.984-2.247s7.61.802 10.984 2.247l44.713-78.247h-7.697l-24 42h-2l18.286-32h-80.571l18.286 32h-2l-24-42h-7.697l44.713 78.247zm68.984-78.247l1.736.992-45.194 79.089c1.821 1.111 3.497 2.434 5.015 3.918h42.442v-84h-4zm-72.542 80.082l-45.194-79.089 1.736-.992h-4v84h42.443c1.518-1.484 3.194-2.807 5.015-3.918z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="124" data-height="128" transform="translate(2)">
+    <path clip-path="url(#iconic-size-lg-medal-clip-0)" d="M108.5 0h-93c-.828 0-2.046.39-2.721.872l-11.559 8.256c-.674.481-.887 1.455-.476 2.174l46.512 81.395c.411.719 1.291.912 1.965.43l11.559-8.256c.674-.481.887-1.455.476-2.174l-37.369-65.395c-.411-.719-.073-1.302.756-1.302h74.714c.828 0 1.167.583.756 1.302l-37.369 65.395c-.411.719-.198 1.693.476 2.174l11.559 8.256c.674.481 1.554.289 1.965-.43l46.512-81.395c.411-.719.198-1.693-.476-2.174l-11.559-8.256c-.674-.481-1.892-.872-2.721-.872z"
+    class="iconic-medal-band iconic-property-fill" />
+    <circle cx="62" cy="104" r="24" class="iconic-medal-medal iconic-property-fill" />
+  </g>
+</svg>

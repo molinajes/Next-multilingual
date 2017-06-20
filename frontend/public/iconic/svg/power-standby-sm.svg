@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="power-standby" class="iconic iconic-power-standby iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Power Standby</title>
+  </g>
+  <g class="iconic-container" data-width="14" data-height="15" transform="translate(1)">
+    <path stroke="#000" stroke-width="2" d="M10.704 3.28c1.398 1.098 2.296 2.805 2.296 4.72 0 3.314-2.686 6-6 6s-6-2.686-6-6c0-1.912.894-3.615 2.287-4.713" class="iconic-power-standby-circle iconic-property-stroke" fill="none" />
+    <path stroke="#000" stroke-width="2" stroke-linecap="square" class="iconic-power-standby-line iconic-property-accent iconic-property-stroke" fill="none" d="M7 1v5" />
+  </g>
+</svg>

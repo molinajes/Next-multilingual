@@ -1,0 +1,23 @@
+// To style dropzone define define component with style={{}}
+.interfaceEditor__dropzone {
+	display: flex;
+	flex-direction: column;
+	background-color: $palette-light;
+	padding: 1.5rem;
+	justify-content: center;
+	align-items: center;
+	margin-right: 0;
+	min-width: 16rem;
+	border-radius: 1rem;
+	border: 0.25rem dashed $palette-mango;
+	box-shadow: $elevation-shadow-2;
+	cursor: pointer;
+		.interfaceEditor__dropzoneTitle {
+			@extend %padding--tileContent;
+			@extend %text__modalTitle;
+			color: rgba($palette-mango, $active);
+			line-height: 1.75rem;
+			margin: 0.75rem;
+			text-align: center;
+		}
+}

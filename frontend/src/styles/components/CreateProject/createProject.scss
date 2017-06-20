@@ -1,0 +1,155 @@
+.inputField__div--mango .createProject__input {
+	font-size: 3em;
+}
+
+//temp..
+.inputField__div--mango .createProject__title {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+.createProject__create {
+	font-size: 3em;
+	border-bottom: solid 1px black;
+}
+
+
+.createProject__wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.createProject__category {
+	margin-bottom: 4em;
+}
+
+.category__heading {
+	@extend %text--title;
+	width: 100%;
+	margin: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+.category__subheading {
+	@extend %text--subtitle;
+	color: $palette-text-active;
+	width: 100%;
+	margin: 0.25rem;
+	margin-right: 0.6rem;
+	margin-left: 0.6rem;
+}
+
+.category__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+
+.category__thumb {
+	width: 100%;
+}
+
+.category__preview {
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+// .projectDetail__bannerImage {
+// 	width: 100%;
+// 	height: 25em;
+// 	background-size: cover;
+// 	background-position: center;
+// 	background-repeat: no-repeat;
+// 	position: relative;
+// }
+
+.projectDetail__titles {
+	// display: flex;
+	// flex-direction: column;
+	flex: 1;
+}
+
+.projectDetail__header {
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+.projectDetail__projectTitle {
+	@include index-spacing(1);
+	@extend %text__projectTitle;
+	@include text-light-size(2);
+	// font-size: $text-xxx-large;
+}
+
+.projectDetail__subheader {
+	@include index-spacing(1);
+	// @extend %text--titleSecond;
+	@extend %text--title;
+	// font-size: 2em;
+}
+
+.projectDetail__description {
+	@include index-spacing(1);
+	@extend %text--titleThird;
+	@include text-light-size(0.625);
+}
+
+.projectDetail__tags {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.projectDetail__create {
+	@include index-padding(2); 
+	display: flex;
+	justify-content: center;
+	width: 12rem;
+	cursor: pointer;
+	background-color: $palette-light;
+	border: solid 2px $palette-orange;
+	box-shadow: $elevation-shadow-2;
+	border-radius: 0.2rem;
+	@extend %text--subtitle;
+	@extend %text--colour--orange;
+	@include transition-highlight(box-shadow);
+	&:hover {
+		box-shadow: $elevation-shadow-3;
+		// border: solid 1px rgba(0,0,0,0.54);
+	}
+}
+
+.projectDetail__overview {
+	@include index-spacing(6);
+	display: flex;
+	flex-direction: row;
+}
+.projectDetail__categories {
+	width: 50%;
+}
+
+.projectDetail__projectSuggestions {
+	width: 50%;
+	@extend %text__helpText;
+}
+
+.projectDetail__projectCategory {
+	@include index-spacing(2);
+}
+
+.projectDetails__categoryTitle {
+	@extend %text__pageNavTitle;
+
+}
+
+//temp 
+.addComponentsItem__name span {
+	line-height: 2.9em;
+}
+
+

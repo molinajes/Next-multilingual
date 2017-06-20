@@ -1,0 +1,152 @@
+.nav__wrapper {
+	// background-color: $palette-background;
+	background-color: $palette-light;
+	// background-image: linear-gradient(-90deg, rgba($yellow-200, 0.18) 0%, rgba($yellow-200, 0.18) 24%, rgba($orange-200, 0.18) 38%, rgba($orange-200, 0.18) 62%, rgba($mango-200, 0.18) 76%);
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: $palette-primary;
+	// border-image: linear-gradient(to left, $palette-yellow 0%, $palette-yellow 24%, $palette-orange 38%, $palette-orange 62%, $palette-mango 76%);
+	border-image-slice: 1;
+	box-shadow: $elevation-shadow-2;
+	// box-shadow: 0 1px 4px 0 $palette-shadow;
+	z-index: $zIndex-7--nav;
+	position: relative;
+	// margin-bottom: 3.6px;
+}
+
+.nav__fixed {
+	position: fixed;
+	width: 100%;
+}
+
+.nav__container {
+	display: flex;
+	flex-wrap: nowrap;
+	height: 42px;
+	width: 100%;
+	// max-width: 1680px;
+	max-width: $page-width;
+	margin-left: auto;
+	margin-right: auto;
+	// padding-left: 2rem;
+	z-index: $zIndex-7--nav;
+}
+
+.nav__tab {
+	@include grid-width(2);
+	@include transition-change();
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-width: 10rem;
+}
+
+.nav__tabTitle {
+	@include transition-highlight();
+	padding-top: 2px; // Padding is for the border-bottom
+	padding-bottom: 2px;
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: rgba($palette-primary, 0)
+}
+
+.nav__logoHomeTab {
+	@include grid-width(4);
+	padding-left: 1.5rem;
+	padding-right: 0.75rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nav__tab--home {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-left: auto;
+	@extend %text__nav;
+	color: rgba($palette-primary, $strong);
+	cursor: pointer;
+	// min-width: 5rem;
+}
+
+.nav__logo {
+	cursor: pointer;
+	svg {
+		.rf-dash {
+			@include transition-highlight(width);
+			width: 8px;
+		}
+		&:hover {
+			.rf-dash:not(:last-child) {
+				width: 10px;
+			}
+			.nav__logoIdot {
+				opacity: 0;
+			}
+		}
+	}
+	.nav__logoIdot {
+		@include transition-change();
+		fill: $palette-orange;
+		opacity: 1;
+	}
+}
+
+.nav__tab {
+	@extend %text__nav;
+
+	color: rgba($palette-primary, $inactive);
+
+	&:hover:not(.nav__tab--active) {
+		cursor: pointer;
+		.nav__tabTitle {
+			border-bottom-color: rgba($palette-primary, $inactive);
+		}
+	}
+}
+
+.nav__tab--active {
+	background-color: $palette-border-transparent;
+	color: rgba($palette-primary, $strong);
+	cursor: pointer;
+		.nav__tabTitle {
+			border-bottom-color: rgba($palette-primary, $strong);
+		}
+}
+
+.pageNav__header {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.pageNav__name {
+		h4 {
+			display: inline;
+			margin-right: auto;
+			@extend %text__heading;
+			color: $palette-text-weak;
+		}
+}
+
+.pageNav__tooltip {
+	@extend %text--content;
+	margin-left: auto;
+	min-width: 330px;
+	text-align: right;
+}
+
+.pageNav__banners {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	position: relative;
+}

@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="easel" class="iconic iconic-easel iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Easel</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-easel-clip-0">
+      <path d="M0 10h16v6h-16z" />
+    </clipPath>
+    <clipPath id="iconic-size-sm-easel-clip-1">
+      <path d="M11 1v2h-6v-2h-4v8h14v-8z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="16">
+    <path clip-path="url(#iconic-size-sm-easel-clip-0)" class="iconic-easel-legs iconic-easel-legs-front iconic-property-fill" d="M9 0l5 16h-2l-4-14-4 14h-2l5-16z" />
+    <path class="iconic-easel-legs iconic-easel-legs-back iconic-property-fill" d="M7 11h2v5h-2z" />
+    <path d="M14.75 9h-13.5c-.138 0-.25-.112-.25-.25v-7.5c0-.138.112-.25.25-.25h13.5c.138 0 .25.112.25.25v7.5c0 .138-.112.25-.25.25z" clip-path="url(#iconic-size-sm-easel-clip-1)" class="iconic-easel-canvas iconic-property-accent iconic-property-fill"
+    />
+    <path class="iconic-easel-base iconic-property-fill" d="M0 10h16v1h-16z" />
+    <path class="iconic-easel-clamp iconic-easel-clamp-main iconic-property-fill" d="M6 0h4v2h-4z" />
+  </g>
+</svg>

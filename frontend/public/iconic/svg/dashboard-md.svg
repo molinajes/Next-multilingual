@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="dashboard" class="iconic iconic-dashboard iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Dashboard</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-dashboard-clip-0">
+      <path d="M0 0v30h32v-30h-32zm19.626 19.626c-.885.885-2.061 1.372-3.313 1.372-1.251 0-2.428-.487-3.313-1.372-1.091-1.091-5.745-8.451-7.696-11.565-.495-.79-.378-1.818.281-2.477.386-.386.898-.585 1.414-.585.366 0 .735.101 1.063.306 3.126 1.963 10.51 6.642 11.563 7.695 1.796 1.796 1.796 4.83 0 6.625z"
+      />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="32" data-height="30" transform="translate(0 1)">
+    <path stroke="#000" stroke-width="3" d="M9.001 28.5c-4.472-2.448-7.501-7.03-7.501-12.5 0-8.008 6.492-14.5 14.5-14.5s14.5 6.492 14.5 14.5c0 5.469-3.028 10.052-7.499 12.5h-14z" class="iconic-dashboard-body iconic-property-stroke" fill="none" />
+    <path d="M14.415 18.212c1.048 1.048 2.748 1.048 3.797 0s1.007-2.79 0-3.797c-1.007-1.007-11.212-7.415-11.212-7.415s6.367 10.164 7.415 11.212z" class="iconic-dashboard-needle iconic-property-fill" />
+    <path clip-path="url(#iconic-size-md-dashboard-clip-0)" stroke="#000" stroke-linecap="round" d="M9.283 22.718c-1.719-1.719-2.783-4.094-2.783-6.718s1.063-4.998 2.783-6.718 4.094-2.782 6.717-2.782 4.998 1.063 6.718 2.783 2.782 4.094 2.782 6.717-1.063 4.998-2.783 6.718"
+    class="iconic-dashboard-values iconic-property-accent iconic-property-stroke" fill="none" />
+  </g>
+</svg>

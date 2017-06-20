@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="bullhorn" class="iconic iconic-bullhorn iconic-size-sm" viewBox="0 0 16 16">
+  <g class="iconic-metadata">
+    <title>Bullhorn</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-sm-bullhorn-clip-0">
+      <path d="M0 0h13v11h-13z" />
+    </clipPath>
+    <clipPath id="iconic-size-sm-bullhorn-clip-1">
+      <path d="M14 0h2v11h-2z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="16" data-height="15">
+    <path d="M6.898 13.386l-1.909-4.42c-.112-.336.228-.883.748-.716l.263-1.25h-4v1l2.816 6.328c.26.575.937.83 1.512.57s.83-.937.57-1.512z" class="iconic-bullhorn-handle iconic-property-fill" />
+    <path clip-path="url(#iconic-size-sm-bullhorn-clip-0)" class="iconic-bullhorn-body iconic-property-fill" d="M0 8v-5h5l8.714-3h2.286v11h-2.286l-8.714-3z" />
+    <path d="M13.25 0h2.5c.138 0 .25.112.25.25v10.5c0 .138-.112.25-.25.25h-2.5c-.138 0-.25-.112-.25-.25v-10.5c0-.138.112-.25.25-.25z" clip-path="url(#iconic-size-sm-bullhorn-clip-1)" class="iconic-bullhorn-body iconic-bullhorn-body-front-lip iconic-property-fill"
+    />
+  </g>
+</svg>

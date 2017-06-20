@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="128" height="128" data-icon="loupe" class="iconic iconic-loupe iconic-size-lg" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Loupe</title>
+  </g>
+  <g class="iconic-container" data-width="128" data-height="128">
+    <path d="M106.337 104l-14.219 9.06-28.118 14.939h59c2.761 0 5-2.239 5-5v-59l-21.663 40zm9.663 16c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z" class="iconic-loupe-tab iconic-property-fill" />
+    <circle stroke="#000" stroke-width="8" cx="64" cy="64" r="60" class="iconic-loupe-ring iconic-property-stroke" fill="none" />
+  </g>
+</svg>

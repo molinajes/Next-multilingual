@@ -1,0 +1,18 @@
+.package__package {
+	@include margin-section($margin-section-medium);
+}
+
+.package__header {
+	@include text-sb-size($text-large);
+	@include padding-centered-text($padding-text-small);
+	border-bottom: 2px solid $palette-border;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.package__useCaseList {
+	@include padding-box($padding-box-small);
+	display: flex;
+	flex-direction: column;
+}

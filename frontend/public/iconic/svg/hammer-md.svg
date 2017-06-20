@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" data-icon="hammer" class="iconic iconic-hammer iconic-size-md" viewBox="0 0 32 32">
+  <g class="iconic-metadata">
+    <title>Hammer</title>
+  </g>
+  <defs>
+    <clipPath id="iconic-size-md-hammer-clip-0">
+      <path d="M0 11v21h19v-17l-4-4z" />
+    </clipPath>
+  </defs>
+  <g class="iconic-container" data-width="32" data-height="32">
+    <path d="M31 7c-1-1-1 0-2-1s0-1-1-2-1-1-1-1c-3-3-4-3-10-3 7 3.031 4.984 6.016 4 7l-9 9 2 2 9-9c.984-.984 1.969-1.031 3 0s0 1 1 2 1 1 1 1l4-4s0 0-1-1z" class="iconic-hammer-head iconic-property-fill" />
+    <path clip-path="url(#iconic-size-md-hammer-clip-0)" d="M14.526 13.158l-2.051.684c-.262.087-.633.316-.828.512l-11.293 11.293c-.195.195-.253.554-.13.801l2.553 5.106c.123.247.348.261.501.032l1.46-2.184c.153-.23.436-.574.631-.769l10.277-10.277c.195-.195.423-.566.509-.829l.658-2.018c.086-.263.313-.634.509-.829l1.324-1.324c.195-.195.195-.512 0-.707l-1.293-1.293c-.195-.195-.512-.195-.707 0l-1.293 1.293c-.195.195-.566.424-.828.512z"
+    class="iconic-hammer-handle iconic-property-accent iconic-property-fill" />
+  </g>
+</svg>
